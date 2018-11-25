@@ -1,0 +1,19 @@
+
+<p-treeTable *ngIf="files1" [value]="files1">
+    <ng-template pTemplate="header">
+        <tr>
+            <th *ngFor="let col of cols">
+                {{col.header}}
+            </th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowNode let-rowData="rowData">
+        <tr>
+            <td *ngFor="let col of cols; let i = index">
+                <p-treeTableToggler [rowNode]="rowNode" *ngIf="i == 0" ></p-treeTableToggler>
+                <span>{{rowData[col.field]}}</span>    
+            </td>
+
+        </tr>
+    </ng-template>
+</p-treeTable>

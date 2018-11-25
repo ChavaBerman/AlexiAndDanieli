@@ -1,0 +1,49 @@
+<div class="form-wrapper">
+  <h1>Add Worker</h1>
+  <form [formGroup]="formGroup" (ngSubmit)="submitNewWorker()">
+    <div class="form-item">
+      <label for="userName"></label>
+      <input type="text" formControlName="userName" placeholder="User Name" />
+    </div>
+    <div *ngIf="formGroup.controls['userName'].errors">
+      <p *ngFor="let err of obj.values(formGroup.controls['userName'].errors)">{{err}}</p>
+    </div>
+    <div class="form-item">
+      <label for="password"></label>
+      <input type="password" formControlName="password" placeholder="Password" />
+    </div>
+    <div *ngIf="formGroup.controls['password'].errors">
+      <p *ngFor="let err of obj.values(formGroup.controls['password'].errors)">{{err}}</p>
+    </div>
+    <div class="form-item">
+      <label for="confirmPassword"></label>
+      <input type="password" formControlName="confirmPassword" placeholder="Confirm Password" />
+      <div *ngIf="formGroup.controls['confirmPassword'].errors">
+        <p *ngFor="let err of obj.values(formGroup.controls['confirmPassword'].errors)">{{err}}</p>
+      </div>
+    </div>
+    <div class="form-item">
+      <label for="statusId">Department</label>
+      <select formControlName="statusId" (change)="changeManager($event)">
+        <option *ngFor="let status of statusArray" [ngValue]="status.id">{{status.statusName}}</option>
+      </select>
+    </div>
+    <div class="form-item">
+      <label for="email"></label>
+      <input type="email" formControlName="email" placeholder="email" />
+      <div *ngIf="formGroup.controls['email'].errors">
+        <p *ngFor="let err of obj.values(formGroup.controls['email'].errors)">{{err}}</p>
+      </div>
+    </div>
+    <div class="form-item">
+        <label for="managerId"></label>
+        <select formControlName="managerId">
+          <option *ngFor="let manager of managersArray" [ngValue]="manager.userId">{{manager.userName}}</option>
+        </select>
+      </div>
+
+    <div class="button-panel">
+      <input type="submit" class="button" title="Sign In" value="Add" [disabled]="formGroup.invalid" />
+    </div>
+  </form>
+</div>

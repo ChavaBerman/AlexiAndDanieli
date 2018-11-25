@@ -1,0 +1,53 @@
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\DAL\bin\Debug\DAL.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\DAL\bin\Debug\DAL.pdb
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\DAL\bin\Debug\Google.Protobuf.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\DAL\bin\Debug\MySql.Data.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\DAL\bin\Debug\Google.Protobuf.xml
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\DAL\bin\Debug\MySql.Data.xml
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\DAL\obj\Debug\DAL.csproj.CopyComplete
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\DAL\obj\Debug\DAL.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\DAL\obj\Debug\DAL.pdb
+S:\חני ולדר\manageTasks\webAPI-tasks\DAL\bin\Debug\DAL.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\DAL\bin\Debug\DAL.pdb
+S:\חני ולדר\manageTasks\webAPI-tasks\DAL\bin\Debug\Google.Protobuf.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\DAL\bin\Debug\MySql.Data.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\DAL\bin\Debug\Google.Protobuf.xml
+S:\חני ולדר\manageTasks\webAPI-tasks\DAL\bin\Debug\MySql.Data.xml
+S:\חני ולדר\manageTasks\webAPI-tasks\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+S:\חני ולדר\manageTasks\webAPI-tasks\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+S:\חני ולדר\manageTasks\webAPI-tasks\DAL\obj\Debug\DAL.csproj.CopyComplete
+S:\חני ולדר\manageTasks\webAPI-tasks\DAL\obj\Debug\DAL.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\DAL\obj\Debug\DAL.pdb
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\DAL\bin\Debug\DAL.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\DAL\bin\Debug\DAL.pdb
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\DAL\bin\Debug\Google.Protobuf.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\DAL\bin\Debug\MySql.Data.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\DAL\bin\Debug\Google.Protobuf.xml
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\DAL\bin\Debug\MySql.Data.xml
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\DAL\obj\Debug\DAL.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\DAL\obj\Debug\DAL.pdb
+S:\ChavyBerman\webAPI-tasks\DAL\bin\Debug\DAL.dll
+S:\ChavyBerman\webAPI-tasks\DAL\bin\Debug\DAL.pdb
+S:\ChavyBerman\webAPI-tasks\DAL\bin\Debug\Google.Protobuf.dll
+S:\ChavyBerman\webAPI-tasks\DAL\bin\Debug\MySql.Data.dll
+S:\ChavyBerman\webAPI-tasks\DAL\bin\Debug\Google.Protobuf.xml
+S:\ChavyBerman\webAPI-tasks\DAL\bin\Debug\MySql.Data.xml
+S:\ChavyBerman\webAPI-tasks\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+S:\ChavyBerman\webAPI-tasks\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+S:\ChavyBerman\webAPI-tasks\DAL\obj\Debug\DAL.csproj.CopyComplete
+S:\ChavyBerman\webAPI-tasks\DAL\obj\Debug\DAL.dll
+S:\ChavyBerman\webAPI-tasks\DAL\obj\Debug\DAL.pdb
+S:\ChavyBerman\ffffff\webAPI-tasks\DAL\bin\Debug\DAL.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\DAL\bin\Debug\DAL.pdb
+S:\ChavyBerman\ffffff\webAPI-tasks\DAL\bin\Debug\Google.Protobuf.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\DAL\bin\Debug\MySql.Data.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\DAL\bin\Debug\Google.Protobuf.xml
+S:\ChavyBerman\ffffff\webAPI-tasks\DAL\bin\Debug\MySql.Data.xml
+S:\ChavyBerman\ffffff\webAPI-tasks\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+S:\ChavyBerman\ffffff\webAPI-tasks\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+S:\ChavyBerman\ffffff\webAPI-tasks\DAL\obj\Debug\DAL.csproj.CopyComplete
+S:\ChavyBerman\ffffff\webAPI-tasks\DAL\obj\Debug\DAL.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\DAL\obj\Debug\DAL.pdb

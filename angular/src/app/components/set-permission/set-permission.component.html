@@ -1,0 +1,30 @@
+<div class="form-wrapper">
+  <h1>Set Permission</h1>
+
+  <form [formGroup]="formGroup" (ngSubmit)="saveTask()">
+    <div class="form-item">
+      <label>Choose worker</label>
+      <select formControlName="idUser">
+        <option *ngFor="let worker of workers" [ngValue]="worker.userId">{{worker.userName}}</option>
+      </select>
+    </div>
+
+    <div class="form-item">
+      <label>Choose project</label>
+      <select formControlName="idProject">
+        <option *ngFor="let project of projects" [ngValue]="project.projectId">{{project.projectName}}</option>
+      </select>
+    </div>
+
+
+    <div class="form-item">
+      <label>Given houres</label>
+      <input type="number" min="1" value="1" formControlName="givenHours"/>
+    </div>
+
+    <div class="button-panel">
+      <input type="submit" class="button" value="Save" />
+    </div>
+ 
+  </form>
+</div>

@@ -1,0 +1,25 @@
+<div class="form-wrapper">
+  <h1>Manage Team</h1>
+
+  <form [formGroup]="formGroup" (ngSubmit)="saveTeamHead()">
+    <div class="form-item">
+      <label>Choose worker</label>
+      <select formControlName="idWorker" (change)="changeWorker($event)">
+        <option *ngFor="let worker of workers" [ngValue]="worker.userId">{{worker.userName}}</option>
+      </select>
+    </div>
+
+    <div class="form-item">
+      <label>His Team Head:</label>
+      <select formControlName="idTeamHead">
+        <option *ngFor="let teamHead of teamHeads" [ngValue]="teamHead.userId">{{teamHead.userName}}</option>
+      </select>
+    </div>
+
+
+    <div class="button-panel">
+      <input type="submit" class="button" value="Save" />
+    </div>
+ 
+  </form>
+</div>

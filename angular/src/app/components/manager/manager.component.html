@@ -1,0 +1,17 @@
+
+<ul>
+  <li><a class="link" [routerLink]="['/taskManagement/manager/add-project']"  *ngIf="!currentuser">Add Project</a></li>
+  <a class="link" (click)="logOut()" >Log-out</a>
+  <li><a class="link" [routerLink]="['/taskManagement/manager/manage-reports']" *ngIf="!currentuser">Manage Reports</a></li>
+  <li>
+     <a class="link"> Manage Users</a>
+    <ul>
+      <li><a class="link" [routerLink]="['/taskManagement/manager/manage-users/add-worker']" *ngIf="!currentuser">Add Worker</a></li>
+      <li><a class="link" [routerLink]="['/taskManagement/manager/manage-users/set-permission']" *ngIf="!currentuser">Set Permission</a></li>
+      <li><a class="link" [routerLink]="['/taskManagement/manager/manage-users/edit-worker']" *ngIf="!currentuser">Edit Worker</a></li>
+    </ul>
+  </li>
+  <li><a class="link" [routerLink]="['/taskManagement/manager/manage-team']" *ngIf="!currentuser">Manage Team</a></li>
+ 
+</ul>
+<router-outlet></router-outlet>

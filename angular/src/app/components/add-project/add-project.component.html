@@ -1,0 +1,87 @@
+<div class="form-wrapper">
+  <h1>Add Worker</h1>
+
+  <form [formGroup]="formGroup" (ngSubmit)="submitNewProject()">
+
+    <div class="form-item">
+      <label for="projectName"></label>
+      <input type="text" formControlName="projectName" placeholder="Project Name" />
+    </div>
+    <div *ngIf="formGroup.controls['projectName'].errors">
+      <p *ngFor="let err of obj.values(formGroup.controls['projectName'].errors)">{{err}}</p>
+    </div>
+
+    <div class="form-item">
+      <label for="customerName"></label>
+      <input type="customerName" formControlName="customerName" placeholder="Customer Name" />
+    </div>
+    <div *ngIf="formGroup.controls['customerName'].errors">
+      <p *ngFor="let err of obj.values(formGroup.controls['customerName'].errors)">{{err}}</p>
+    </div>
+
+    <div class="form-item">
+      <label for="dateBegin"></label>
+      <input type="date" formControlName="dateBegin" />
+      <div *ngIf="formGroup.controls['dateBegin'].errors">
+        <p *ngFor="let err of obj.values(formGroup.controls['dateBegin'].errors)">{{err}}</p>
+      </div>
+    </div>
+
+    <div class="form-item">
+      <label for="dateEnd"></label>
+      <input type="date" formControlName="dateEnd" />
+      <div *ngIf="formGroup.controls['dateEnd'].errors">
+        <p *ngFor="let err of obj.values(formGroup.controls['dateEnd'].errors)">{{err}}</p>
+      </div>
+    </div>
+
+    <div class="form-item">
+      <label for="idManager">Team Head</label><br>
+      <select formControlName="idManager" (change)="changeTeamHead($event)">
+        <option *ngFor="let teamHead of teamHeadsArray" [ngValue]="teamHead.userId">{{teamHead.userName}}</option>
+      </select>
+    </div>
+
+    <div class="form-item">
+      <label for="idManager">Choose workers</label><br>
+      <select formControlName="idManager" (change)="changeWorker($event)">
+        <option *ngFor="let worker of allowedWorkers" [ngValue]="worker.userId">{{worker.userName}}</option>
+      </select>
+    </div>
+    <div class="form-item">
+        <label for="idManager">Your chosen workers</label><br>
+        <select formControlName="idManager" (change)="removeWorker($event)">
+          <option *ngFor="let worker of choosenWorkers" [ngValue]="worker.userId">{{worker.userName}}</option>
+        </select>
+      </div>
+    <div class="form-item">
+      <label for="DevHours">DevHours</label>
+      <input type="number" formControlName="DevHours" min="0"/>
+      <div *ngIf="formGroup.controls['DevHours'].errors">
+        <p *ngFor="let err of obj.values(formGroup.controls['DevHours'].errors)">{{err}}</p>
+      </div>
+    </div>
+
+
+    <div class="form-item">
+      <label for="QAHours">QAHours</label>
+      <input type="number" formControlName="QAHours" min="0"/>
+      <div *ngIf="formGroup.controls['QAHours'].errors">
+        <p *ngFor="let err of obj.values(formGroup.controls['QAHours'].errors)">{{err}}</p>
+      </div>
+    </div>
+
+
+    <div class="form-item">
+      <label for="UIUXHours">UIUXHours</label>
+      <input type="number" formControlName="UIUXHours" min="0"/>
+      <div *ngIf="formGroup.controls['UIUXHours'].errors">
+        <p *ngFor="let err of obj.values(formGroup.controls['UIUXHours'].errors)">{{err}}</p>
+      </div>
+    </div>
+
+    <div class="button-panel">
+      <input type="submit" class="button" title="Sign In" value="Add" [disabled]="formGroup.invalid" />
+    </div>
+  </form>
+</div>

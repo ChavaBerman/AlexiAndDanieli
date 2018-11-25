@@ -1,0 +1,22 @@
+<div class="form-wrapper">
+  <h1>Apply To Manager</h1>
+
+  <form [formGroup]="formGroup" (ngSubmit)="sendEmail()">
+    <div class="form-item">
+      <label>Subject: </label>
+      <input type="text" formControlName="subject">
+    </div>
+
+    <div class="form-item">
+      <label>Message: </label>
+      <textarea formControlName="message"></textarea>
+    </div>
+
+
+    <div class="button-panel">
+      <input type="submit" class="button" value="Send" />
+    </div>
+
+
+  </form>
+</div>

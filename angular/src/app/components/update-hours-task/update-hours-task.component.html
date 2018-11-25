@@ -1,0 +1,20 @@
+
+<div class="form-wrapper">
+
+  <form [formGroup]="formGroup" (ngSubmit)="updateHour()">
+    <div class="form-item">
+      <b><label>Projec name: </label></b>
+     <label>{{task.projectName}}</label>
+    </div>
+
+    <div class="form-item">
+      <b><label>Given hours</label></b>
+      <input formControlName="givenHours" type="number" [value]="task.givenHours">
+    </div>
+
+    <div class="button-panel">
+      <input type="submit" class="button" value="Save" />
+    </div>
+ 
+  </form>
+</div>

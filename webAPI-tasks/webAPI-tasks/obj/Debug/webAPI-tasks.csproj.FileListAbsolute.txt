@@ -1,0 +1,1029 @@
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csprojAssemblyReference.cache
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CoreCompileInputs.cache
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll.config
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.pdb
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe.config
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.rsp
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe.config
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.rsp
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CSharp.Core.targets
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.VisualBasic.Core.targets
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Win32.Primitives.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.AppContext.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Collections.Immutable.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Console.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.Process.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.StackTrace.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Compression.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.Primitives.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Pipes.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Reflection.Metadata.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.AccessControl.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Claims.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Encoding.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Primitives.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Principal.Windows.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Text.Encoding.CodePages.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Threading.Thread.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.ValueTuple.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.ReaderWriter.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XmlDocument.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.XDocument.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe.config
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.rsp
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe.config
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\BLL.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\BOL.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\MySql.Data.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\DAL.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\BLL.pdb
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\BOL.pdb
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.xml
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\MySql.Data.xml
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.xml
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.xml
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.xml
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.xml
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\bin\DAL.pdb
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CopyComplete
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.pdb
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll.config
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.pdb
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe.config
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.rsp
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe.config
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.rsp
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CSharp.Core.targets
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.VisualBasic.Core.targets
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Win32.Primitives.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.AppContext.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Collections.Immutable.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Console.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.Process.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.StackTrace.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Compression.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.Primitives.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Pipes.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Reflection.Metadata.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.AccessControl.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Claims.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Encoding.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Primitives.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Principal.Windows.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Text.Encoding.CodePages.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Threading.Thread.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.ValueTuple.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.ReaderWriter.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XmlDocument.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.XDocument.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe.config
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.rsp
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe.config
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\BLL.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\BOL.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\MySql.Data.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\DAL.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\BLL.pdb
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\BOL.pdb
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.xml
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\MySql.Data.xml
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.xml
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.xml
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.xml
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.xml
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\bin\DAL.pdb
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csprojAssemblyReference.cache
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CoreCompileInputs.cache
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CopyComplete
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.pdb
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll.config
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.pdb
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe.config
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.rsp
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe.config
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.rsp
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.AppContext.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Collections.Immutable.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Console.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.Process.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Compression.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Pipes.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Reflection.Metadata.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.AccessControl.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Claims.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Principal.Windows.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Threading.Thread.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.ValueTuple.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XmlDocument.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe.config
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.rsp
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe.config
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\BLL.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\BOL.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\MySql.Data.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\DAL.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\BLL.pdb
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\BOL.pdb
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.xml
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\MySql.Data.xml
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.xml
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.xml
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.xml
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.xml
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\bin\DAL.pdb
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csprojResolveAssemblyReference.cache
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CoreCompileInputs.cache
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.pdb
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll.config
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.pdb
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe.config
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.rsp
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe.config
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.rsp
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CSharp.Core.targets
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.VisualBasic.Core.targets
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Win32.Primitives.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.AppContext.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Collections.Immutable.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Console.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.Process.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.StackTrace.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Compression.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.Primitives.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Pipes.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Reflection.Metadata.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.AccessControl.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Claims.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Encoding.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Primitives.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Principal.Windows.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Text.Encoding.CodePages.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Threading.Thread.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.ValueTuple.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.ReaderWriter.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XmlDocument.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.XDocument.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe.config
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.rsp
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe.config
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\BLL.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\BOL.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\MySql.Data.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\DAL.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\BLL.pdb
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\BOL.pdb
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.xml
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\MySql.Data.xml
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.xml
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.xml
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.xml
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.xml
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\DAL.pdb
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csprojAssemblyReference.cache
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CoreCompileInputs.cache
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CopyComplete
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.pdb
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x64\msvcr120.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x86\msvcr120.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.Common.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.DataVisualization.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.Design.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.WinForms.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.SqlServer.Types.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\EnvDTE.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\stdole.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.OLE.Interop.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.MSXML.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\System.Web.Cors.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.Cors.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.Cors.xml
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.VSHelp.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Debugger.InteropA.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\EnvDTE80.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Tasks.Core.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Data.Services.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\VSLangProj.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Data.Core.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\VSLangProj80.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\System.Threading.Tasks.Dataflow.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.GraphModel.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Utilities.Core.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Framework.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\VSLangProj2.dll
+S:\ChavyBerman\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll.config
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.pdb
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe.config
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.rsp
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe.config
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.rsp
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.AppContext.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Console.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Compression.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Pipes.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Claims.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Threading.Thread.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.ValueTuple.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe.config
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.rsp
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\BLL.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\BOL.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.SqlServer.Types.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\MySql.Data.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\System.Web.Cors.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.Cors.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\DAL.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\EnvDTE.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\stdole.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\EnvDTE80.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Tasks.Core.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\VSLangProj.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\VSLangProj80.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\System.Threading.Tasks.Dataflow.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.MSXML.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Utilities.Core.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Framework.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\VSLangProj2.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\BLL.pdb
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\BOL.pdb
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.xml
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\MySql.Data.xml
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.xml
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.xml
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.Cors.xml
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.xml
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.xml
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\DAL.pdb
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csprojAssemblyReference.cache
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CoreCompileInputs.cache
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CopyComplete
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.pdb
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x64\msvcr120.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x86\msvcr120.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.pdb
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe.config
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.rsp
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe.config
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.rsp
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CSharp.Core.targets
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.VisualBasic.Core.targets
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Win32.Primitives.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.AppContext.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Collections.Immutable.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Console.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.Process.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.StackTrace.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Compression.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.Primitives.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Pipes.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Reflection.Metadata.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.AccessControl.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Claims.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Encoding.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Primitives.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Principal.Windows.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Text.Encoding.CodePages.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Threading.Thread.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.ValueTuple.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.ReaderWriter.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XmlDocument.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.XDocument.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe.config
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.rsp
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe.config
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\BLL.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\BOL.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.Common.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.DataVisualization.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.Design.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.WinForms.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.SqlServer.Types.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\MySql.Data.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\System.Web.Cors.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.Cors.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\DAL.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\EnvDTE.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\stdole.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.OLE.Interop.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.VSHelp.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Debugger.InteropA.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\EnvDTE80.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Tasks.Core.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Data.Services.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\VSLangProj.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Data.Core.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\VSLangProj80.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\System.Threading.Tasks.Dataflow.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.GraphModel.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.MSXML.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Utilities.Core.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Framework.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\VSLangProj2.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\BLL.pdb
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\BOL.pdb
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.xml
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\MySql.Data.xml
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.xml
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.xml
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.Cors.xml
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.xml
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.xml
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\DAL.pdb
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csprojAssemblyReference.cache
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CoreCompileInputs.cache
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CopyComplete
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.pdb
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll.config
+S:\ChavyBerman\ffffff\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll.config
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.pdb
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe.config
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.rsp
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe.config
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.rsp
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.AppContext.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Console.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Compression.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Pipes.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Claims.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Threading.Thread.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.ValueTuple.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe.config
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.rsp
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\BLL.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\BOL.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.SqlServer.Types.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\MySql.Data.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\System.Web.Cors.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.Cors.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\DAL.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\EnvDTE.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\stdole.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\EnvDTE80.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Tasks.Core.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\VSLangProj.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\VSLangProj80.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\System.Threading.Tasks.Dataflow.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.MSXML.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Utilities.Core.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Framework.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\VSLangProj2.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\BLL.pdb
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\BOL.pdb
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.xml
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\MySql.Data.xml
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.xml
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.xml
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.Cors.xml
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.xml
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.xml
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\DAL.pdb
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csprojAssemblyReference.cache
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CoreCompileInputs.cache
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CopyComplete
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.pdb
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x64\msvcr120.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x86\msvcr120.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll.config
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\webAPI-tasks.pdb
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.exe.config
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\csc.rsp
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.exe.config
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\csi.rsp
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.CSharp.Core.targets
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.VisualBasic.Core.targets
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\Microsoft.Win32.Primitives.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.AppContext.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Collections.Immutable.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Console.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.Process.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Diagnostics.StackTrace.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Compression.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.FileSystem.Primitives.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.IO.Pipes.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Reflection.Metadata.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.AccessControl.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Claims.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Encoding.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.Primitives.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Security.Principal.Windows.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Text.Encoding.CodePages.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Threading.Thread.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.ValueTuple.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.ReaderWriter.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XmlDocument.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\System.Xml.XPath.XDocument.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.exe.config
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\vbc.rsp
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\roslyn\VBCSCompiler.exe.config
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\BLL.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\BOL.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.Common.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.DataVisualization.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.Design.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.ReportViewer.WinForms.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.SqlServer.Types.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\MySql.Data.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\System.Web.Cors.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.Cors.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\DAL.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\EnvDTE.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\stdole.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.OLE.Interop.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.VSHelp.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Debugger.InteropA.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\EnvDTE80.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Tasks.Core.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Data.Services.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\VSLangProj.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Data.Core.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\VSLangProj80.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.WCFReference.Interop.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\System.Threading.Tasks.Dataflow.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.GraphModel.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.MSXML.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Utilities.Core.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.Build.Framework.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\VSLangProj2.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\BLL.pdb
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\BOL.pdb
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Google.Protobuf.xml
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\MySql.Data.xml
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\System.Net.Http.Formatting.xml
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.xml
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.Cors.xml
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Newtonsoft.Json.xml
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\System.Web.Http.WebHost.xml
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\DAL.pdb
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csprojAssemblyReference.cache
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CoreCompileInputs.cache
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CopyComplete
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.dll
+S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.pdb

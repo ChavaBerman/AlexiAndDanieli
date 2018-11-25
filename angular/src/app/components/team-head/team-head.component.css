@@ -1,0 +1,68 @@
+
+  
+  ul {
+    text-align: left;
+    display: inline;
+    margin: 0;
+    padding: 15px 4px 17px 0;
+    list-style: none;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  ul li {
+    font:  12px/18px Raleway;
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+    padding: 15px;
+    background: #fff;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  ul li:hover {
+    background: #f16272;
+    color: #fff;
+  }
+  ul li ul {
+    padding: 0;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 150px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    
+  }
+  ul li ul li { 
+    /* background: #f16272;  */
+    display: block;
+    color: #f16272;
+    text-shadow: 0 -1px 0 #000;
+  }
+  ul li ul li:hover { background: #f16272; }
+  ul li:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+  .link {
+    transition: 0.6s;
+    color: #f16272;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 30px 8px 0 10px;
+    margin: 0 10px;
+  }
+  .link:hover {
+      color:white;
+    padding-bottom: 24px;
+  }

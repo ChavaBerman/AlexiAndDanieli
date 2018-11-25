@@ -1,0 +1,8 @@
+<ul>
+  <a class="link" (click)="logOut()">Log-out</a>
+  <li><a class="link" [routerLink]="['/taskManagement/teamHead/hours-chart']" *ngIf="!currentuser">Hours Chart</a></li>
+  <li><a class="link" [routerLink]="['/taskManagement/teamHead/projects-state']" *ngIf="!currentuser">Projects State</a></li>
+  <li><a class="link" [routerLink]="['/taskManagement/teamHead/update-hours']" *ngIf="!currentuser">Update Hours</a></li>
+
+</ul>
+<router-outlet></router-outlet>

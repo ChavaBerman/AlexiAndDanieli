@@ -1,0 +1,9 @@
+<app-begin-end-task></app-begin-end-task>
+<ul>
+    <a class="link" (click)="logOut()">Log-out</a>
+    <li><a class="link" [routerLink]="['/taskManagement/worker/apply-to-manager']" *ngIf="!currentuser">Apply To Manager</a></li>
+    <li><a class="link" [routerLink]="['/taskManagement/worker/my-tasks']" *ngIf="!currentuser">My Tasks</a></li>
+    <li><a class="link" [routerLink]="['/taskManagement/worker/my-hours']" *ngIf="!currentuser">My Hours</a></li>
+  
+  </ul>
+  <router-outlet></router-outlet>

@@ -1,0 +1,17 @@
+<div class="form-wrapper">
+  <h1>Update Hours</h1>
+
+  <form (ngSubmit)="saveTask()">
+    <div class="form-item">
+      <label>Choose worker</label>
+      <select (change)="changeWorker($event)">
+        <option *ngFor="let worker of myWorkers" [ngValue]="worker.userId">{{worker.userName}}</option>
+      </select>
+    </div>
+    <div *ngIf="currentWorkerTasks">
+      <div *ngFor="let task of currentWorkerTasks">
+        <app-update-hours-task [task]="task"></app-update-hours-task>
+      </div>
+    </div>
+  </form>
+</div>

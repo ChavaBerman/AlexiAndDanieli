@@ -1,0 +1,193 @@
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\bin\Debug\BLL.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\bin\Debug\BLL.pdb
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\bin\Debug\BOL.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\bin\Debug\DAL.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\bin\Debug\MySql.Data.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\bin\Debug\BOL.pdb
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\bin\Debug\DAL.pdb
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.xml
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\bin\Debug\MySql.Data.xml
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CopyComplete
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\obj\Debug\BLL.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BLL\obj\Debug\BLL.pdb
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\bin\Debug\BLL.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\bin\Debug\BLL.pdb
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\bin\Debug\BOL.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\bin\Debug\DAL.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\bin\Debug\MySql.Data.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\bin\Debug\BOL.pdb
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\bin\Debug\DAL.pdb
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.xml
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\bin\Debug\MySql.Data.xml
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CopyComplete
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\obj\Debug\BLL.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\BLL\obj\Debug\BLL.pdb
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\BLL\obj\Debug\BLL.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\BLL\obj\Debug\BLL.pdb
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\BLL\bin\Debug\BLL.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\BLL\bin\Debug\BLL.pdb
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\BLL\bin\Debug\BOL.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\BLL\bin\Debug\DAL.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\BLL\bin\Debug\MySql.Data.dll
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\BLL\bin\Debug\BOL.pdb
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\BLL\bin\Debug\DAL.pdb
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.xml
+F:\!לחיה בהנאה\manageTasks\webAPI-tasks\BLL\bin\Debug\MySql.Data.xml
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\BLL.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\BLL.pdb
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\BOL.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\DAL.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\MySql.Data.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\BOL.pdb
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\DAL.pdb
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.xml
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\MySql.Data.xml
+S:\ChavyBerman\webAPI-tasks\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+S:\ChavyBerman\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+S:\ChavyBerman\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CopyComplete
+S:\ChavyBerman\webAPI-tasks\BLL\obj\Debug\BLL.dll
+S:\ChavyBerman\webAPI-tasks\BLL\obj\Debug\BLL.pdb
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\stdole.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportSource.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.Shared.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\BLL.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\BLL.pdb
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\BOL.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\DAL.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\MySql.Data.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\stdole.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\BOL.pdb
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\DAL.pdb
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.xml
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\bin\Debug\MySql.Data.xml
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\obj\Debug\BLL.dll
+C:\Users\seldat\Documents\GitHub\fffffff\12-11-18\webAPI-tasks\BLL\obj\Debug\BLL.pdb
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\BLL.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\BLL.pdb
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\BOL.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\DAL.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\MySql.Data.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\stdole.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\BOL.pdb
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\DAL.pdb
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.xml
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\bin\Debug\MySql.Data.xml
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CopyComplete
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\obj\Debug\BLL.dll
+S:\ChavyBerman\ffffff\webAPI-tasks\BLL\obj\Debug\BLL.pdb
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\BLL.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\BLL.pdb
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\BOL.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\DAL.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\MySql.Data.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\stdole.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\BOL.pdb
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\DAL.pdb
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.xml
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\bin\Debug\MySql.Data.xml
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\obj\Debug\BLL.dll
+C:\Users\seldat\Documents\GitHub\fffff2\webAPI-tasks\BLL\obj\Debug\BLL.pdb
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\BLL.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\BLL.pdb
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\BOL.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\DAL.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\MySql.Data.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\stdole.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\BOL.pdb
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\DAL.pdb
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\Google.Protobuf.xml
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\MySql.Data.xml
+S:\ChavyBerman\dd\webAPI-tasks\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+S:\ChavyBerman\dd\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+S:\ChavyBerman\dd\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CopyComplete
+S:\ChavyBerman\dd\webAPI-tasks\BLL\obj\Debug\BLL.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\obj\Debug\BLL.pdb

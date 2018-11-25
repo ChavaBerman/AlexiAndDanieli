@@ -1,0 +1,24 @@
+<div class="form-wrapper">
+  <h1>Begin/End task</h1>
+
+  <form>
+    <div class="form-item">
+      <label>Choose project</label>
+      <select (change)="projectChange($event)"  [disabled]="selectProjectEnable" >
+        <option *ngFor="let project of myProjects" [ngValue]="project.projectId">{{project.projectName}}</option>
+      </select>
+    </div>
+
+
+    <div class="form-item">
+      <button  (click)="start()" [disabled]="statBtnEnable">Start</button>
+    </div>
+    <div class="form-item">
+      <button  (click)="stop()" [disabled]="endBtnEnable">Stop</button>
+    </div>
+
+    <h1>
+      {{hoursDisplay ? hoursDisplay : '00'}} : {{(minutesDisplay) && (minutesDisplay <= 59) ? minutesDisplay : '00'}} : {{(secondsDisplay) && (secondsDisplay <= 59) ? secondsDisplay : '00'}} <br/>
+    </h1>
+  </form>
+</div>
