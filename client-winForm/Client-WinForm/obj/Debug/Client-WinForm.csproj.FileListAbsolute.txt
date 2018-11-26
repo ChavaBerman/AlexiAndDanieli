@@ -443,7 +443,6 @@ S:\ChavyBerman\dd\client-winForm\Client-WinForm\bin\Debug\Microsoft.VisualStudio
 S:\ChavyBerman\dd\client-winForm\Client-WinForm\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
 S:\ChavyBerman\dd\client-winForm\Client-WinForm\bin\Debug\VSLangProj80.dll
 S:\ChavyBerman\dd\client-winForm\Client-WinForm\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
-S:\ChavyBerman\dd\client-winForm\Client-WinForm\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
 S:\ChavyBerman\dd\client-winForm\Client-WinForm\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
 S:\ChavyBerman\dd\client-winForm\Client-WinForm\bin\Debug\System.Threading.Tasks.Dataflow.dll
 S:\ChavyBerman\dd\client-winForm\Client-WinForm\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
@@ -533,5 +532,7 @@ S:\ChavyBerman\dd\client-winForm\Client-WinForm\obj\Debug\Client-WinForm.csproj.
 S:\ChavyBerman\dd\client-winForm\Client-WinForm\obj\Debug\Client-WinForm.csproj.CopyComplete
 S:\ChavyBerman\dd\client-winForm\Client-WinForm\obj\Debug\Client-WinForm.exe
 S:\ChavyBerman\dd\client-winForm\Client-WinForm\obj\Debug\Client-WinForm.pdb
-S:\ChavyBerman\dd\client-winForm\Client-WinForm\obj\Debug\Client_WinForm.Manager.ProjectReport.resources
-S:\ChavyBerman\dd\client-winForm\Client-WinForm\obj\Debug\Client_WinForm.Manager.WorkerReport.resources
+S:\ChavyBerman\dd\client-winForm\Client-WinForm\obj\Debug\Client_WinForm.Manager.Report.resources
+S:\ChavyBerman\dd\client-winForm\Client-WinForm\bin\Debug\GemBox.Spreadsheet.dll
+S:\ChavyBerman\dd\client-winForm\Client-WinForm\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+S:\ChavyBerman\dd\client-winForm\Client-WinForm\bin\Debug\GemBox.Spreadsheet.xml

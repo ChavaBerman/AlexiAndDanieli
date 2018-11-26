@@ -68,26 +68,12 @@ namespace Client_WinForm.Manager
             editWorkerProfile.Show();
         }
 
-
-        private void projectReportToolStripMenuItem_Click(object sender, EventArgs e)
+        private void manageReportsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ProjectReport projectReport = new ProjectReport();
-            projectReport.MdiParent = this;
-            projectReport.Show();
-        }
+            Report report = new Report();
+            report.MdiParent = this;
+            report.Show();
 
-        private void workerReportToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            WorkerReport workerReport = new WorkerReport();
-            workerReport.MdiParent = this;
-            workerReport.Show();
-        }
-
-        private void monthReportToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MonthReport monthReport = new MonthReport();
-            monthReport.MdiParent = this;
-            monthReport.Show();
         }
     }
 }

@@ -39,9 +39,6 @@
             this.manageTeamToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.logout_link = new System.Windows.Forms.LinkLabel();
-            this.projectReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.workerReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.monthReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,13 +64,10 @@
             // 
             // manageReportsToolStripMenuItem
             // 
-            this.manageReportsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.projectReportToolStripMenuItem,
-            this.workerReportToolStripMenuItem,
-            this.monthReportToolStripMenuItem});
             this.manageReportsToolStripMenuItem.Name = "manageReportsToolStripMenuItem";
             this.manageReportsToolStripMenuItem.Size = new System.Drawing.Size(105, 20);
             this.manageReportsToolStripMenuItem.Text = "Manage Reports";
+            this.manageReportsToolStripMenuItem.Click += new System.EventHandler(this.manageReportsToolStripMenuItem_Click);
             // 
             // manageUsersToolStripMenuItem
             // 
@@ -129,27 +123,6 @@
             this.logout_link.Text = "Log Out";
             this.logout_link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.logout_link_LinkClicked);
             // 
-            // projectReportToolStripMenuItem
-            // 
-            this.projectReportToolStripMenuItem.Name = "projectReportToolStripMenuItem";
-            this.projectReportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.projectReportToolStripMenuItem.Text = "Project Report";
-            this.projectReportToolStripMenuItem.Click += new System.EventHandler(this.projectReportToolStripMenuItem_Click);
-            // 
-            // workerReportToolStripMenuItem
-            // 
-            this.workerReportToolStripMenuItem.Name = "workerReportToolStripMenuItem";
-            this.workerReportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.workerReportToolStripMenuItem.Text = "Worker Report";
-            this.workerReportToolStripMenuItem.Click += new System.EventHandler(this.workerReportToolStripMenuItem_Click);
-            // 
-            // monthReportToolStripMenuItem
-            // 
-            this.monthReportToolStripMenuItem.Name = "monthReportToolStripMenuItem";
-            this.monthReportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.monthReportToolStripMenuItem.Text = "Month Report";
-            this.monthReportToolStripMenuItem.Click += new System.EventHandler(this.monthReportToolStripMenuItem_Click);
-            // 
             // ManagerMainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -179,8 +152,5 @@
         private System.Windows.Forms.ToolStripMenuItem addUserToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem setPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editWorkerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem projectReportToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem workerReportToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem monthReportToolStripMenuItem;
     }
 }

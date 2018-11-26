@@ -1,4 +1,5 @@
 ﻿using Client_WinForm.Manager;
+using Client_WinForm.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -12,41 +13,41 @@ namespace Client_WinForm.Requests
 {
     class ReportsRequests
     {
-        public static List<ProjectReport> CreateProjectReport()
+        public static List<ReportData> CreateReport()
         {
-            List<ProjectReport> projectsReport = new List<ProjectReport>();
+            List<ReportData> ReportDataList = new List<ReportData>();
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(@"http://localhost:61309/api/Reports/");
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            HttpResponseMessage response = client.GetAsync("GetProjectReportData").Result;
+            HttpResponseMessage response = client.GetAsync("GetReportData").Result;
             if (response.IsSuccessStatusCode)
             {
-                var projectReportJson = response.Content.ReadAsStringAsync().Result;
-                projectsReport = JsonConvert.DeserializeObject<List<ProjectReport>>(projectReportJson);
+                var reportJson = response.Content.ReadAsStringAsync().Result;
+                ReportDataList = JsonConvert.DeserializeObject<List<ReportData>>(reportJson);
             }
             else
             {
                 Console.WriteLine("{0} ({1})", (int)response.StatusCode, response.ReasonPhrase);
             }
-            return projectsReport;
+            return ReportDataList;
         }
-        public static List<WorkerReport> CreateWorkerReport()
+        public static List<ReportData> FilterReport(int requiredMonth, string projectName, string teamHeadName, string workerName)
         {
-            List<WorkerReport> workersReport = new List<WorkerReport>();
+            List<ReportData> ReportDataList = new List<ReportData>();
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(@"http://localhost:61309/api/Reports/");
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            HttpResponseMessage response = client.GetAsync("GetWorkerReportData").Result;
+            HttpResponseMessage response = client.GetAsync($"FilterReport/{requiredMonth}/{projectName}/{teamHeadName}/{workerName}").Result;
             if (response.IsSuccessStatusCode)
             {
-                var workerReportJson = response.Content.ReadAsStringAsync().Result;
-               workersReport = JsonConvert.DeserializeObject<List<WorkerReport>>(workerReportJson);
+                var reportJson = response.Content.ReadAsStringAsync().Result;
+                ReportDataList = JsonConvert.DeserializeObject<List<ReportData>>(reportJson);
             }
             else
             {
                 Console.WriteLine("{0} ({1})", (int)response.StatusCode, response.ReasonPhrase);
             }
-            return workersReport;
+            return ReportDataList;
         }
     }
 }

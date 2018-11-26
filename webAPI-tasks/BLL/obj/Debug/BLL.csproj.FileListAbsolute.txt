@@ -191,3 +191,6 @@ S:\ChavyBerman\dd\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 S:\ChavyBerman\dd\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CopyComplete
 S:\ChavyBerman\dd\webAPI-tasks\BLL\obj\Debug\BLL.dll
 S:\ChavyBerman\dd\webAPI-tasks\BLL\obj\Debug\BLL.pdb
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportSource.dll
+S:\ChavyBerman\dd\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.Shared.dll

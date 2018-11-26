@@ -15,7 +15,7 @@ namespace webAPI_tasks
         public static void Register(HttpConfiguration config)
         {
             var cors = new EnableCorsAttribute("*", "*", "*");
-            config.EnableCors();
+            config.EnableCors(cors);
 
             GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings
             .ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;

@@ -961,7 +961,6 @@ S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Data.Core
 S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
 S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\VSLangProj80.dll
 S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
-S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.WCFReference.Interop.dll
 S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
 S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\System.Threading.Tasks.Dataflow.dll
 S:\ChavyBerman\dd\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.GraphModel.dll

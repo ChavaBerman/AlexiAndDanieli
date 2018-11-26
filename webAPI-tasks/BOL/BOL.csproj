@@ -74,9 +74,12 @@
     <Compile Include="Convertors\ConvertorUser.cs" />
     <Compile Include="HelpModel\ComputerLogin.cs" />
     <Compile Include="HelpModel\EmailParams.cs" />
+    <Compile Include="HelpModel\FilterReport.cs" />
     <Compile Include="HelpModel\Hours.cs" />
     <Compile Include="HelpModel\LoginUser.cs" />
+    <Compile Include="Models\MonthReport.cs" />
     <Compile Include="Models\ProjectReport.cs" />
+    <Compile Include="Models\Report.cs" />
     <Compile Include="Models\Status.cs" />
     <Compile Include="Models\PresentDay.cs" />
     <Compile Include="Models\Project.cs" />
