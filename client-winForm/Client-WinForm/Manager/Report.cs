@@ -6,15 +6,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Telerik.WinControls.Data;
-using Telerik.WinControls.Export;
-using Telerik.WinControls.UI;
-
-using NsExcel = Microsoft.Office.Interop.Excel;
+using ClosedXML.Excel;
+using Telerik.Windows.Documents.Spreadsheet.Model;
 
 namespace Client_WinForm.Manager
 {
@@ -44,17 +43,19 @@ namespace Client_WinForm.Manager
 
         private void cmb_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (isStarted) { 
-            int requiredMonth = cmb_month.SelectedIndex + 1;
-            string projectName = cmb_projects.SelectedIndex > -1 ? (cmb_projects.SelectedItem as Project).ProjectName : "ok";
-            string workerName = cmb_workers.SelectedIndex > -1 ? (cmb_workers.SelectedItem as User).UserName : "ok";
-            string teamHeadName = cmb_teamHeads.SelectedIndex > -1 ?( cmb_teamHeads.SelectedItem as User).UserName : "ok";
-            reportDataList = Requests.ReportsRequests.FilterReport(requiredMonth, projectName, teamHeadName, workerName);
-            grid_data_report.DataSource = reportDataList;
-            grid_data_report.Columns["Id"].IsVisible = false;
-            grid_data_report.Columns["ParentId"].IsVisible = false;}
+            if (isStarted)
+            {
+                int requiredMonth = cmb_month.SelectedIndex + 1;
+                string projectName = cmb_projects.SelectedIndex > -1 ? (cmb_projects.SelectedItem as Project).ProjectName : "ok";
+                string workerName = cmb_workers.SelectedIndex > -1 ? (cmb_workers.SelectedItem as User).UserName : "ok";
+                string teamHeadName = cmb_teamHeads.SelectedIndex > -1 ? (cmb_teamHeads.SelectedItem as User).UserName : "ok";
+                reportDataList = Requests.ReportsRequests.FilterReport(requiredMonth, projectName, teamHeadName, workerName);
+                grid_data_report.DataSource = reportDataList;
+                grid_data_report.Columns["Id"].IsVisible = false;
+                grid_data_report.Columns["ParentId"].IsVisible = false;
+            }
 
-          
+
         }
 
         private void btn_refresh_Click(object sender, EventArgs e)
@@ -65,26 +66,55 @@ namespace Client_WinForm.Manager
             cmb_month.SelectedIndex = -1;
         }
 
-        private void btn_exportToExcel_Click(object sender, EventArgs e)
+
+        private void RunExportToExcelML(string folderPath, bool openExportFile)
         {
-            
-                PropertyDescriptorCollection properties = TypeDescriptor.GetProperties(typeof(ReportData));
-            SpreadsheetInfo.SetLicense("FREE-LIMITED-KEY");
-                ExcelFile file = new ExcelFile();
-                ExcelWorksheet sheet = file.Worksheets.Add("Exported List");
 
-                for (int i = 0; i < properties.Count; i++)
-                    sheet.Cells[0, i].Value = properties[i].Name;
+            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+                folderPath = folderBrowserDialog1.SelectedPath;
+            //Creating DataTable
+            System.Data.DataTable dt = new System.Data.DataTable();
+  dt.Columns.Add("Project/Worker", typeof(string));
+            //Adding the Columns
+            foreach (var column in grid_data_report.Columns)
+            {
+              
+                if (column.HeaderText != "ParentId" && column.HeaderText != "Id")
+                    dt.Columns.Add(column.HeaderText, typeof(string));
+            }
 
-                for (int i = 0; i < reportDataList.Count; i++)
-                    for (int j = 0; j < properties.Count; j++)
-                        sheet.Cells[i + 1, j].Value = properties[j].GetValue(reportDataList[i]);
+            //Adding the Rows
+            foreach (var row in grid_data_report.Rows)
+            {
+                dt.Rows.Add();
+                dt.Rows[dt.Rows.Count - 1][0] = row.Cells[1].Value.ToString() =="0"?  "Project": "Worker";
+                for (int i = 2; i < row.Cells.Count; i++)
+                {
+                    dt.Rows[dt.Rows.Count - 1][i-1] = row.Cells[i].Value != null ? row.Cells[i].Value.ToString() : "";
+                }
+            }
 
-                file.Save(@"S:\תמי פרישמן\סתם", SaveOptions.XlsxDefault);
+            //Exporting to Excel
+            if (!Directory.Exists(folderPath))
+            {
+                Directory.CreateDirectory(folderPath);
+            }
+            using (XLWorkbook wb = new XLWorkbook())
+            {
+                wb.Worksheets.Add(dt, "data");
+                wb.SaveAs(folderPath + @"\ReportData.xlsx");
+            }
+        }
 
-
-
+        private void grid_data_report_Click(object sender, EventArgs e)
+        {
 
         }
+
+        private void btn_exportToExcel_Click(object sender, EventArgs e)
+        {
+            RunExportToExcelML("C:\\Excel\\", true);
+        }
     }
+
 }

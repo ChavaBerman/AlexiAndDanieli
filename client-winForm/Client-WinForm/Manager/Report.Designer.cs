@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.Data.GroupDescriptor groupDescriptor1 = new Telerik.WinControls.Data.GroupDescriptor();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.Data.GroupDescriptor groupDescriptor2 = new Telerik.WinControls.Data.GroupDescriptor();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition2 = new Telerik.WinControls.UI.TableViewDefinition();
             this.grid_data_report = new Telerik.WinControls.UI.RadGridView();
             this.cmb_month = new System.Windows.Forms.ComboBox();
             this.cmb_teamHeads = new System.Windows.Forms.ComboBox();
@@ -41,6 +41,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btn_refresh = new System.Windows.Forms.Button();
             this.btn_exportToExcel = new System.Windows.Forms.Button();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             ((System.ComponentModel.ISupportInitialize)(this.grid_data_report)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid_data_report.MasterTemplate)).BeginInit();
             this.SuspendLayout();
@@ -53,11 +54,12 @@
             // 
             this.grid_data_report.MasterTemplate.AllowColumnReorder = false;
             this.grid_data_report.MasterTemplate.GroupDescriptors.AddRange(new Telerik.WinControls.Data.GroupDescriptor[] {
-            groupDescriptor1});
-            this.grid_data_report.MasterTemplate.ViewDefinition = tableViewDefinition1;
+            groupDescriptor2});
+            this.grid_data_report.MasterTemplate.ViewDefinition = tableViewDefinition2;
             this.grid_data_report.Name = "grid_data_report";
             this.grid_data_report.Size = new System.Drawing.Size(1022, 453);
             this.grid_data_report.TabIndex = 0;
+            this.grid_data_report.Click += new System.EventHandler(this.grid_data_report_Click);
             // 
             // cmb_month
             // 
@@ -202,5 +204,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btn_refresh;
         private System.Windows.Forms.Button btn_exportToExcel;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
     }
 }

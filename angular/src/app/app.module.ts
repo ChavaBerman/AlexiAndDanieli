@@ -43,10 +43,9 @@ import {
   PresentDayService,
   TaskDetailsForWorkerComponent,
   ClockComponent,
-  ProjectReportComponent,
-  ProjectWorkersReportComponent,
-  WorkersReportComponent
+  ReportComponent
 } from './shared/imports';
+
 
 
 
@@ -82,9 +81,7 @@ import {
     BeginEndTaskComponent,
     TaskDetailsForWorkerComponent,
     ClockComponent,
-    ProjectReportComponent,
-    ProjectWorkersReportComponent,
-    WorkersReportComponent,
+    ReportComponent,
     
 
 

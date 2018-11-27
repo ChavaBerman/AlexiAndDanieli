@@ -82,3 +82,17 @@ S:\ChavyBerman\dd\webAPI-tasks\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
 S:\ChavyBerman\dd\webAPI-tasks\BOL\obj\Debug\BOL.csproj.CopyComplete
 S:\ChavyBerman\dd\webAPI-tasks\BOL\obj\Debug\BOL.dll
 S:\ChavyBerman\dd\webAPI-tasks\BOL\obj\Debug\BOL.pdb
+S:\ChavyBerman\try105\webAPI-tasks\BOL\bin\Debug\BOL.dll
+S:\ChavyBerman\try105\webAPI-tasks\BOL\bin\Debug\BOL.pdb
+S:\ChavyBerman\try105\webAPI-tasks\BOL\bin\Debug\Telerik.WinControls.dll
+S:\ChavyBerman\try105\webAPI-tasks\BOL\bin\Debug\Telerik.WinControls.UI.dll
+S:\ChavyBerman\try105\webAPI-tasks\BOL\bin\Debug\TelerikCommon.dll
+S:\ChavyBerman\try105\webAPI-tasks\BOL\bin\Debug\Google.Protobuf.xml
+S:\ChavyBerman\try105\webAPI-tasks\BOL\bin\Debug\MySql.Data.xml
+S:\ChavyBerman\try105\webAPI-tasks\BOL\bin\Debug\Telerik.WinControls.xml
+S:\ChavyBerman\try105\webAPI-tasks\BOL\bin\Debug\Telerik.WinControls.UI.xml
+S:\ChavyBerman\try105\webAPI-tasks\BOL\obj\Debug\BOL.csprojAssemblyReference.cache
+S:\ChavyBerman\try105\webAPI-tasks\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
+S:\ChavyBerman\try105\webAPI-tasks\BOL\obj\Debug\BOL.csproj.CopyComplete
+S:\ChavyBerman\try105\webAPI-tasks\BOL\obj\Debug\BOL.dll
+S:\ChavyBerman\try105\webAPI-tasks\BOL\obj\Debug\BOL.pdb
