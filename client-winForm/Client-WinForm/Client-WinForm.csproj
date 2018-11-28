@@ -271,10 +271,6 @@
     <Compile Include="TeamHead\UpdateHours.Designer.cs">
       <DependentUpon>UpdateHours.cs</DependentUpon>
     </Compile>
-    <Compile Include="Validations\UniqueEmailAttribute.cs" />
-    <Compile Include="Validations\UniquePasswordAttribute.cs" />
-    <Compile Include="Validations\UniqueProjectNameAttribute.cs" />
-    <Compile Include="Validations\UniqueUserComputerAttribute.cs" />
     <Compile Include="Validations\ValidDateTimeBeginAttribute.cs" />
     <Compile Include="Validations\ValidDateTimeEndAttribute.cs" />
     <Compile Include="Welcome.cs">

@@ -29,7 +29,7 @@ namespace Client_WinForm
         private void btn_enter_Click(object sender, EventArgs e)
         {
 
-            LoginUser loginUser = new LoginUser { UserName = txt_userName.Text, Password = LoginUser.sha256_hash(txt_password.Text) };
+            LoginUser loginUser = new LoginUser { UserName = txt_userName.Text, Password = LoginUser.sha256_hash(txt_password.Text).ToUpper() };
             var validationContext = new ValidationContext(loginUser, null, null);
             var results = new List<ValidationResult>();
             User user = new User();
@@ -68,13 +68,17 @@ namespace Client_WinForm
 
                     }
                 }
-                else MessageBox.Show("can not login with these details");
+                
             }
             else MessageBox.Show(string.Join(",\n", results.Select(p => p.ErrorMessage)));
 
 
         }
 
+        private void btn_forgot_password_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 

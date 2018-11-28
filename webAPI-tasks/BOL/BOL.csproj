@@ -92,6 +92,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validations\RequiredIfAttribute.cs" />
     <Compile Include="Validations\UniqueEmailAttribute.cs" />
+    <Compile Include="Validations\UniqueNameAttribute.cs" />
     <Compile Include="Validations\UniquePasswordAttribute.cs" />
     <Compile Include="Validations\UniqueProjectNameAttribute.cs" />
     <Compile Include="Validations\UniqueUserComputerAttribute.cs" />

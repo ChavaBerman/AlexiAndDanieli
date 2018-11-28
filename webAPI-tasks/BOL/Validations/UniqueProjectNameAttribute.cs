@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -15,14 +16,14 @@ namespace BOL.Validations
             ValidationResult validationResult = ValidationResult.Success;
             try
             {
-                //Take userId and email of the user parameter
+                //Take userId and projectName of the user parameter
                 int projectId = (validationContext.ObjectInstance as Project).ProjectId;
                 string projectName = value.ToString();
 
                 //Invoke method 'getAllUsers' from 'UserService' in 'BLL project' by reflection (not by adding reference!)
 
                 //1. Load 'BLL' project
-                Assembly assembly = Assembly.LoadFrom(@"S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\BLL.dll");
+                Assembly assembly = Assembly.LoadFrom(Directory.GetParent(AppContext.BaseDirectory).Parent.FullName + @"\BLL\bin\Debug\BLL.dll");
 
                 //2. Get 'UserService' type
                 Type userServiceType = assembly.GetTypes().First(t => t.Name.Equals("LogicProjects"));
@@ -39,7 +40,7 @@ namespace BOL.Validations
                 bool isUnique = projects.Any(project => project.ProjectName.Equals(projectName) && project.ProjectId != projectId) == false;
                 if (isUnique == false)
                 {
-                    ErrorMessage = "project name must be unique";
+                    ErrorMessage = "Project name already exists.";
                     validationResult = new ValidationResult(ErrorMessageString);
                 }
             }

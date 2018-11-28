@@ -29,6 +29,7 @@ namespace Client_WinForm.Manager
             statuses = Requests.StatusRequests.GetAllStatuses();
             cmb_department.DataSource = statuses;
             cmb_department.DisplayMember = "StatusName";
+            txt_password.PasswordChar = '*';
         }
 
         private void cmb_department_SelectedIndexChanged(object sender, EventArgs e)
@@ -54,7 +55,7 @@ namespace Client_WinForm.Manager
             User newUser = new User {
                 UserName = txt_userName.Text,
                 IsNewWorker=true,
-                Password = LoginUser.sha256_hash(txt_password.Text),
+                Password = LoginUser.sha256_hash(txt_password.Text).ToUpper(),
                 ConfirmPassword=txt_confirmPassword.Text,
                 Email =txt_email.Text,
                 ManagerId =(cmb_managerName.SelectedItem  as User).UserId,

@@ -71,12 +71,13 @@ namespace Client_WinForm
             lbl_duration.Text = "";
             if (!PresentDayRequests.UpdateDetailsByLogout())
                 MessageBox.Show("didnt succeed");
+           
             else
             {
                 cmb_myProjects.Enabled = true;
                 btn_login.Enabled = true;
                 btn_logout.Enabled = false;
-
+                MessageBox.Show("Update successfuly");
             }
         }
 

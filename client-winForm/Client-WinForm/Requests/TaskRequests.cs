@@ -9,15 +9,14 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
+using System.Windows;
 
 namespace Client_WinForm.Requests
 {
    public class TaskRequests
     {
-        public static string AddTask(Task newTask)
+        public static bool AddTask(Task newTask)
         {
-            try
-            {
                 //Post Request for Add Task
                 var httpWebRequest = (HttpWebRequest)WebRequest.Create(@"http://localhost:61309/api/Tasks/AddTask");
                 httpWebRequest.ContentType = "application/json";
@@ -30,31 +29,36 @@ namespace Client_WinForm.Requests
                     streamWriter.Flush();
                     streamWriter.Close();
                 }
-                //Gettting response
-                var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-
-                //Reading response
-                using (var streamReader = new StreamReader(httpResponse.GetResponseStream(), ASCIIEncoding.ASCII))
+                try
                 {
-                    string result = streamReader.ReadToEnd();
-                    //If Register succeeded
-                    if (httpResponse.StatusCode == HttpStatusCode.Created)
-                    {
-                        return "Added successfuly!";
-                    }
-                    //Printing the matching error
-                    else return "Did not succeed to update.";
-                }
-            }
-            catch (Exception exception)
-            {
+                    //Gettting response
+                    var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
 
-                if (exception.Message.Contains("302"))
-                    return "Worker already exists in this project.";
-                return "Did not succeed to update.";
+                    //Reading response
+                    using (var streamReader = new StreamReader(httpResponse.GetResponseStream(), ASCIIEncoding.ASCII))
+                    {
+                        string result = streamReader.ReadToEnd();
+                        //If Adding Task succeeded
+                        if (httpResponse.StatusCode == HttpStatusCode.Created)
+                        {
+                            return true;
+                        }
+                    }
+                }
+                catch (WebException ex)
+                {
+                    using (var stream = ex.Response.GetResponseStream())
+                    using (var reader = new StreamReader(stream))
+                    {
+                        //Printing the matching error
+                        MessageBox.Show(reader.ReadToEnd());
+                    }
+                    return false;
+
+                }
+                return false;
+
             }
-            
-        }
 
         public static List<Task> GetAllTasksByProjectId(int projectId)
         {
@@ -96,8 +100,7 @@ namespace Client_WinForm.Requests
 
         public static bool UpdateTask(Task task)
         {
-            try
-            {
+            
                 HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create($@"http://localhost:61309/api/Tasks/UpdateTask");
                 httpWebRequest.ContentType = "application/json";
                 httpWebRequest.Method = "PUT";
@@ -109,27 +112,36 @@ namespace Client_WinForm.Requests
                     streamWriter.Flush();
                     streamWriter.Close();
                 }
-                //Get response
+            try
+            {
+                //Gettting response
                 var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-                //Read response
-                using (var streamReaderPUT = new StreamReader(httpResponse.GetResponseStream(), ASCIIEncoding.ASCII))
+
+                //Reading response
+                using (var streamReader = new StreamReader(httpResponse.GetResponseStream(), ASCIIEncoding.ASCII))
                 {
-                    string resultPUT = streamReaderPUT.ReadToEnd();
-                    //If request succeeded
-                    if (httpResponse.StatusCode == HttpStatusCode.OK)
+                    string result = streamReader.ReadToEnd();
+                    //If Update Task succeeded
+                    if (httpResponse.StatusCode == HttpStatusCode.Created)
                     {
                         return true;
-
                     }
-                    //Print the matching error
-                    else return false;
-
+                    return false;
                 }
             }
-            catch (Exception exception)
+            catch (WebException ex)
             {
+                using (var stream = ex.Response.GetResponseStream())
+                using (var reader = new StreamReader(stream))
+                {
+                    //Printing the matching error
+                    MessageBox.Show(reader.ReadToEnd());
+                }
                 return false;
+
             }
+
+
         }
 
         public static Dictionary<string, Hours> GetWorkerTasksDictionary(int workerId)

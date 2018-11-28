@@ -13,7 +13,7 @@ namespace BLL
 {
     public class LogicProjects
     {
-
+        
         public static List<Project> GetAllProjects()
         {
             string query = $"SELECT * FROM task.project;";
@@ -289,7 +289,7 @@ namespace BLL
         private static void SetTimer()
         {
             // Create a timer with a two second interval.
-            aTimer = new Timer(1000);
+            aTimer = new Timer(1000*59);
             // Hook up the Elapsed event for the timer. 
             aTimer.Elapsed += OnTimedEvent;
             aTimer.AutoReset = true;
@@ -300,7 +300,7 @@ namespace BLL
         {
             System.Diagnostics.Debug.WriteLine("ll");
 
-            if (DateTime.Now.ToShortTimeString() == "14:25")
+            if (DateTime.Now.ToShortTimeString() == "21:00")
                 LogicProjects.CheckDeadLine();
 
 

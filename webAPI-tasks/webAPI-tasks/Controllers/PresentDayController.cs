@@ -15,21 +15,7 @@ namespace webAPI_tasks.Controllers
     [EnableCors("*", "*", "*")]
     public class PresentDayController : ApiController
     {
-        [HttpGet]
-        [Route("api/PresentDay/getAllPressentGroupByUser")]
-        public HttpResponseMessage GetAllPressentGroupByUser()
-        {
-            return Request.CreateResponse(HttpStatusCode.OK, LogicPresentDay.GetAllPresents());
-        }
-
-
-        [HttpGet]
-        [Route("api/getAllPressentGroupByUserAndProject")]
-        public HttpResponseMessage getAllPressentGroupByUserAndProject()
-        {
-            return Request.CreateResponse(HttpStatusCode.OK, LogicPresentDay.GetAllPresents());
-        }
-
+       
         [HttpPost]
         [Route("api/PresentDay/AddPresent")]
         public HttpResponseMessage AddPresent([FromBody]PresentDay value)
@@ -38,7 +24,7 @@ namespace webAPI_tasks.Controllers
             {
                 int id = LogicPresentDay.AddPresent(value);
                 return id != 0 ?
-                      Request.CreateResponse(HttpStatusCode.OK, id) :
+                      Request.CreateResponse(HttpStatusCode.Created, id) :
                       Request.CreateResponse(HttpStatusCode.BadRequest, "Can not add to DB");
             };
 

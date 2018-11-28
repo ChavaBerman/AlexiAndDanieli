@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -22,8 +23,8 @@ namespace BOL.Validations
 
                 //Invoke method 'getAllUsers' from 'UserService' in 'BLL project' by reflection (not by adding reference!)
 
-                //1. Load 'BLL' project
-                Assembly assembly = Assembly.LoadFrom(@"S:\ChavyBerman\webAPI-tasks\BLL\bin\Debug\BLL.dll");
+                //1. Load 'BLL' project   
+                Assembly assembly = Assembly.LoadFrom(Directory.GetParent(AppContext.BaseDirectory).Parent.FullName + @"\BLL\bin\Debug\BLL.dll");
 
                 //2. Get 'UserService' type
                 Type userServiceType = assembly.GetTypes().First(t => t.Name.Equals("LogicManager"));
@@ -40,7 +41,7 @@ namespace BOL.Validations
                 bool isUnique =users.Any(user => user.Email.Equals(email, StringComparison.OrdinalIgnoreCase)&&user.UserId!=userId) == false;
                 if (isUnique == false)
                 {
-                    ErrorMessage = "email nust be unique";
+                    ErrorMessage = "Enter another email address, this one is already exists.";
                     validationResult = new ValidationResult(ErrorMessageString);
                 }
             }

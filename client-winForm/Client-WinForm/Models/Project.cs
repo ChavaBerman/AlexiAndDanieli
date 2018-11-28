@@ -13,29 +13,22 @@ namespace Client_WinForm.Models
 
         public Project()
         {
-
-            //HoursForDepartment = new List<HourForDepartment>();
-            PresentsDayUser = new List<PresentDay>();
-            workers = new List<User>();
+         
         }
         [Key]
         public int ProjectId { get; set; }
 
         [Required(ErrorMessage = "Name is required")]
         [MaxLength(15, ErrorMessage = "ProjectName grade than 15 chars"), MinLength(2, ErrorMessage = "ProjectName less than 2 chars")]
-        [UniqueProjectName]
         public string ProjectName { get; set; }
 
         [Required(ErrorMessage = "CustomerName is required")]
         [MaxLength(15, ErrorMessage = "CustomerName grade than 15 chars"), MinLength(2, ErrorMessage = "CustomerName less than 2 chars")]
         public string CustomerName { get; set; }
 
-
-
         [Required(ErrorMessage = "DateBegin is required")]
         [ValidDateTimeBegin]
         public DateTime DateBegin { get; set; }
-
 
         [Required(ErrorMessage = "DateEnd is required")]
         [ValidDateTimeEnd]
@@ -57,15 +50,9 @@ namespace Client_WinForm.Models
         [DefaultValue(0)]
         public decimal UIUXHours { get; set; }
         public List<Task> tasks { get; set; }
-
-        //-------------------------
-        public User Manager { get; set; }
+        public List<User> workers;
 
 
-
-        public List<PresentDay> PresentsDayUser { get; set; }
-
-        public List<User> workers { get; set; }
 
     }
 }

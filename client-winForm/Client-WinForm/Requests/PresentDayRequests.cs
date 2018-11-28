@@ -7,92 +7,104 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace Client_WinForm.Requests
 {
-   public class PresentDayRequests
+    public class PresentDayRequests
     {
-        static int idPresentDay=0;
+        //Id 
+        static int idPresentDay = 0;
+
         public static bool AddPresent(PresentDay NewpresentDay)
         {
+            //Post Request for Register
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create(@"http://localhost:61309/api/PresentDay/AddPresent");
+            httpWebRequest.ContentType = "application/json";
+            httpWebRequest.Method = "POST";
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            {
+                string presentDay = JsonConvert.SerializeObject(NewpresentDay, Formatting.None);
+
+                streamWriter.Write(presentDay);
+                streamWriter.Flush();
+                streamWriter.Close();
+            }
             try
             {
-                //Post Request for Register
-                var httpWebRequest = (HttpWebRequest)WebRequest.Create(@"http://localhost:61309/api/PresentDay/AddPresent");
-                httpWebRequest.ContentType = "application/json";
-                httpWebRequest.Method = "POST";
-                using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
-                {
-                    string user = JsonConvert.SerializeObject(NewpresentDay, Formatting.None);
-
-                    streamWriter.Write(user);
-                    streamWriter.Flush();
-                    streamWriter.Close();
-                }
                 //Gettting response
                 var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-
                 //Reading response
                 using (var streamReader = new StreamReader(httpResponse.GetResponseStream(), ASCIIEncoding.ASCII))
                 {
                     string result = streamReader.ReadToEnd();
-                    //If Register succeeded
+                    //If AddPresent succeeded
                     if (httpResponse.StatusCode == HttpStatusCode.Created)
                     {
-                        idPresentDay = int.Parse(result);
-
-
+                        if (!int.TryParse(result, out idPresentDay))
+                            return false;
                         return true;
-                    }
-                    //Printing the matching error
 
+                    }
+                    return false;
                 }
             }
-            catch (Exception exception)
+            catch (WebException ex)
             {
-                System.Windows.Forms.MessageBox.Show("failed to add");
+                using (var stream = ex.Response.GetResponseStream())
+                using (var reader = new StreamReader(stream))
+                {
 
+                    //Printing the matchung errors:
+                    MessageBox.Show(reader.ReadToEnd());
+                }
+                return false;
             }
-            return false;
         }
 
         public static bool UpdatePresentDay(PresentDay presentDay)
         {
+
+            HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create($@"http://localhost:61309/api/PresentDay/UpdatePresentDay");
+            httpWebRequest.ContentType = "application/json";
+            httpWebRequest.Method = "PUT";
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            {
+                dynamic currentPresentDay = presentDay;
+                string currentPresentNameString = Newtonsoft.Json.JsonConvert.SerializeObject(currentPresentDay, Formatting.None);
+                streamWriter.Write(currentPresentNameString);
+                streamWriter.Flush();
+                streamWriter.Close();
+            }
+            //Get response
             try
             {
-                HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create($@"http://localhost:61309/api/PresentDay/UpdatePresentDay");
-                httpWebRequest.ContentType = "application/json";
-                httpWebRequest.Method = "PUT";
-                using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
-                {
-                    dynamic currentPresentDay = presentDay;
-                    string currentPresentNameString = Newtonsoft.Json.JsonConvert.SerializeObject(currentPresentDay, Formatting.None);
-                    streamWriter.Write(currentPresentNameString);
-                    streamWriter.Flush();
-                    streamWriter.Close();
-                }
-                //Get response
+                //Gettting response
                 var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-                //Read response
-                using (var streamReaderPUT = new StreamReader(httpResponse.GetResponseStream(), ASCIIEncoding.ASCII))
+                //Reading response
+                using (var streamReader = new StreamReader(httpResponse.GetResponseStream(), ASCIIEncoding.ASCII))
                 {
-                    string resultPUT = streamReaderPUT.ReadToEnd();
-                    //If request succeeded
+                    string result = streamReader.ReadToEnd();
+                    //If AddPresent succeeded
                     if (httpResponse.StatusCode == HttpStatusCode.OK)
                     {
-                        
                         return true;
-
                     }
-                    //Print the matching error
-                    else return false;
-
+                    return false;
                 }
             }
-            catch (Exception exception)
+            catch (WebException ex)
             {
+                using (var stream = ex.Response.GetResponseStream())
+                using (var reader = new StreamReader(stream))
+                {
+
+                    //Printing the matchung errors:
+                    MessageBox.Show(reader.ReadToEnd());
+                }
                 return false;
             }
+
         }
 
         public static bool UpdateDetailsByLogout()
@@ -103,7 +115,7 @@ namespace Client_WinForm.Requests
                 return false;
             }
             return true;
-           
+
         }
     }
 }

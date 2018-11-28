@@ -111,12 +111,8 @@ namespace Client_WinForm.Manager
             {
                 if (Requests.ProjectRequests.AddProject(newProject))
                 {
-
-                    MessageBox.Show("added successfully");
                     Close();
                 }
-                //Printing the matching error
-                else MessageBox.Show("failed to add");
             }
             else
             {

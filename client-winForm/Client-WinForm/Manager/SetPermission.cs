@@ -21,7 +21,7 @@ namespace Client_WinForm.Manager
         {
             InitializeComponent();
         
-            cmb_workers.DataSource = UserRequests.GetAllUsers();
+            cmb_workers.DataSource = UserRequests.GetAllWorkers();
             cmb_workers.DisplayMember = "userName";
 
             cmb_projects.DataSource = ProjectRequests.GetAllProjects();
@@ -38,7 +38,7 @@ namespace Client_WinForm.Manager
                 GivenHours = num_hours.Value,
                 ReservingHours = 0
             };
-            MessageBox.Show(TaskRequests.AddTask(newTask));
+           TaskRequests.AddTask(newTask);
             
         }
     }

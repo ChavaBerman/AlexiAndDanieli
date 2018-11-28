@@ -36,6 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btn_enter = new System.Windows.Forms.Button();
             this.cb_rememberUser = new System.Windows.Forms.CheckBox();
+            this.btn_forgot_password = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txt_userName
@@ -95,11 +96,22 @@
             this.cb_rememberUser.Text = "Remember me";
             this.cb_rememberUser.UseVisualStyleBackColor = true;
             // 
+            // btn_forgot_password
+            // 
+            this.btn_forgot_password.Location = new System.Drawing.Point(402, 116);
+            this.btn_forgot_password.Name = "btn_forgot_password";
+            this.btn_forgot_password.Size = new System.Drawing.Size(118, 30);
+            this.btn_forgot_password.TabIndex = 7;
+            this.btn_forgot_password.Text = "forgot password?";
+            this.btn_forgot_password.UseVisualStyleBackColor = true;
+            this.btn_forgot_password.Click += new System.EventHandler(this.btn_forgot_password_Click);
+            // 
             // ManagementTaskLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_forgot_password);
             this.Controls.Add(this.cb_rememberUser);
             this.Controls.Add(this.btn_enter);
             this.Controls.Add(this.label2);
@@ -122,6 +134,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_enter;
         private System.Windows.Forms.CheckBox cb_rememberUser;
+        private System.Windows.Forms.Button btn_forgot_password;
     }
 }
 

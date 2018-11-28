@@ -51,3 +51,14 @@ S:\ChavyBerman\ffffff\webAPI-tasks\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.ca
 S:\ChavyBerman\ffffff\webAPI-tasks\DAL\obj\Debug\DAL.csproj.CopyComplete
 S:\ChavyBerman\ffffff\webAPI-tasks\DAL\obj\Debug\DAL.dll
 S:\ChavyBerman\ffffff\webAPI-tasks\DAL\obj\Debug\DAL.pdb
+S:\ChavyBerman\try105\webAPI-tasks\DAL\bin\Debug\DAL.dll
+S:\ChavyBerman\try105\webAPI-tasks\DAL\bin\Debug\DAL.pdb
+S:\ChavyBerman\try105\webAPI-tasks\DAL\bin\Debug\Google.Protobuf.dll
+S:\ChavyBerman\try105\webAPI-tasks\DAL\bin\Debug\MySql.Data.dll
+S:\ChavyBerman\try105\webAPI-tasks\DAL\bin\Debug\Google.Protobuf.xml
+S:\ChavyBerman\try105\webAPI-tasks\DAL\bin\Debug\MySql.Data.xml
+S:\ChavyBerman\try105\webAPI-tasks\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+S:\ChavyBerman\try105\webAPI-tasks\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+S:\ChavyBerman\try105\webAPI-tasks\DAL\obj\Debug\DAL.csproj.CopyComplete
+S:\ChavyBerman\try105\webAPI-tasks\DAL\obj\Debug\DAL.dll
+S:\ChavyBerman\try105\webAPI-tasks\DAL\obj\Debug\DAL.pdb

@@ -624,7 +624,6 @@ S:\ChavyBerman\try105\client-winForm\Client-WinForm\bin\Debug\Microsoft.VisualSt
 S:\ChavyBerman\try105\client-winForm\Client-WinForm\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
 S:\ChavyBerman\try105\client-winForm\Client-WinForm\bin\Debug\VSLangProj80.dll
 S:\ChavyBerman\try105\client-winForm\Client-WinForm\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
-S:\ChavyBerman\try105\client-winForm\Client-WinForm\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
 S:\ChavyBerman\try105\client-winForm\Client-WinForm\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
 S:\ChavyBerman\try105\client-winForm\Client-WinForm\bin\Debug\System.Threading.Tasks.Dataflow.dll
 S:\ChavyBerman\try105\client-winForm\Client-WinForm\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
@@ -702,3 +701,4 @@ S:\ChavyBerman\try105\client-winForm\Client-WinForm\bin\Debug\ru\Microsoft.Repor
 S:\ChavyBerman\try105\client-winForm\Client-WinForm\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 S:\ChavyBerman\try105\client-winForm\Client-WinForm\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 S:\ChavyBerman\try105\client-winForm\Client-WinForm\obj\Debug\Client-WinForm.csproj.CopyComplete
+S:\ChavyBerman\try105\client-winForm\Client-WinForm\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll

@@ -20,7 +20,7 @@ namespace webAPI_tasks.Controllers
     {
 
      
-
+        //get asll users (manager-team heads- workers):
         [HttpGet]
         [Route("api/Users/getAllUsers")]
         public HttpResponseMessage Get()
@@ -28,6 +28,7 @@ namespace webAPI_tasks.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, LogicManager.GetAllUsers());
         }
 
+        //get all team heads:
         [HttpGet]
         [Route("api/Users/GetAllTeamHeads")]
         public HttpResponseMessage GetAllTeamHeads()
@@ -35,6 +36,7 @@ namespace webAPI_tasks.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, LogicManager.GetAllTeamHeads());
         }
 
+        //get all workers(DEV-QA-UIUX):
         [HttpGet]
         [Route("api/Users/GetAllWorkers")]
         public HttpResponseMessage GetAllWorkers()
@@ -42,21 +44,23 @@ namespace webAPI_tasks.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, LogicManager.GetAllWorkers());
         }
 
+        //get all workers that are not belong to this team head (gets team head id):
         [HttpGet]
-        [Route("api/Users/GetAllowedWorkers/{id}")]
-        public HttpResponseMessage GetAllowedWorkers(int id)
+        [Route("api/Users/GetAllowedWorkers/{teamHeadId}")]
+        public HttpResponseMessage GetAllowedWorkers(int teamHeadId)
         {
-            return Request.CreateResponse(HttpStatusCode.OK, LogicManager.GetAllowedWorkers(id));
+            return Request.CreateResponse(HttpStatusCode.OK, LogicManager.GetAllowedWorkers(teamHeadId));
         }
 
-
+        //get all workers that are belong to this team head (gets team head id):
         [HttpGet]
-        [Route("api/Users/GetWorkersByTeamhead/{id}")]
-        public HttpResponseMessage GetWorkersByTeamhead(int id)
+        [Route("api/Users/GetWorkersByTeamhead/{teamHeadId}")]
+        public HttpResponseMessage GetWorkersByTeamhead(int teamHeadId)
         {
-            return Request.CreateResponse(HttpStatusCode.OK, LogicManager.GetWorkersByTeamhead(id));
+            return Request.CreateResponse(HttpStatusCode.OK, LogicManager.GetWorkersByTeamhead(teamHeadId));
         }
 
+        //get user by id:
         [HttpGet]
         [Route("api/Users/getUserDetails/{id}")]
         public HttpResponseMessage Get(int id)
@@ -64,14 +68,15 @@ namespace webAPI_tasks.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, LogicManager.GetUserDetails(id));
         }
 
-
-        [HttpPost]
-        [Route("api/Users/sendMessageToManager")]
+        //send message to manager (gets EmailParams object that contains user id, subject and message):
+        [HttpPost]                                                       
+        [Route("api/Users/sendMessageToManager")]                        
         public HttpResponseMessage sendMessageToManager([FromBody]EmailParams emailParams)
         {
             return Request.CreateResponse(HttpStatusCode.OK, LogicManager.sendEmailToManager(emailParams.idUser, emailParams.message, emailParams.subject));
         }
 
+        //add user to DB (gets User object):
         [HttpPost]
         [Route("api/Users/addUser")]
         public HttpResponseMessage Post([FromBody]User value)
@@ -79,7 +84,7 @@ namespace webAPI_tasks.Controllers
             if (ModelState.IsValid)
             {
                 return (LogicManager.AddUser(value)) ?
-                    Request.CreateResponse(HttpStatusCode.OK) :
+                    Request.CreateResponse(HttpStatusCode.Created) :
                     Request.CreateResponse(HttpStatusCode.BadRequest, "Can not add to DB");
             };
 
@@ -92,9 +97,9 @@ namespace webAPI_tasks.Controllers
             return Request.CreateResponse(HttpStatusCode.BadRequest, ErrorList);
         }
 
+        //login to system with user name and password (gets LoginUser object that contains name and password):
         [HttpPost]
         [Route("api/Users/loginByPassword")]
-
         public HttpResponseMessage LoginByPassword([FromBody]LoginUser value)
         {
             if (ModelState.IsValid)
@@ -103,7 +108,7 @@ namespace webAPI_tasks.Controllers
                 //TODO:TOKEN
                 return user != null ?
                     Request.CreateResponse(HttpStatusCode.Created, user) :
-                    Request.CreateResponse(HttpStatusCode.BadRequest, "This user does not exist");
+                    Request.CreateResponse(HttpStatusCode.BadRequest, "can not login with those details");
 
             };
 
@@ -117,19 +122,20 @@ namespace webAPI_tasks.Controllers
             return Request.CreateResponse(HttpStatusCode.BadRequest, ErrorList);
 
         }
+
+        //login by computer (gets ComputerLogin object taht contains ComputerIp):
         [HttpPost]
         [Route("api/Users/LoginByComputerUser")]
         public HttpResponseMessage LoginByComputerUser([FromBody]ComputerLogin computerLogin)
         {
-
             User user = LogicManager.GetUserDetailsComputerUser(computerLogin.ComputerIp);
-            //TODO:TOKEN
             return user != null ?
                  Request.CreateResponse(HttpStatusCode.Created, user) :
                     Request.CreateResponse(HttpStatusCode.BadRequest, "Can not add to DB");
 
         }
 
+        //update user details (gets User object for updating);
         [HttpPut]
         [Route("api/Users/UpdateUser")]
         public HttpResponseMessage UpdateUser([FromBody]User value)
@@ -138,7 +144,7 @@ namespace webAPI_tasks.Controllers
             if (ModelState.IsValid)
             {
                 return LogicManager.UpdateUser(value) ?
-                     Request.CreateResponse(HttpStatusCode.OK) :
+                     Request.CreateResponse(HttpStatusCode.Created) :
                     Request.CreateResponse(HttpStatusCode.BadRequest, "Can not update in DB");
             };
 
@@ -152,11 +158,12 @@ namespace webAPI_tasks.Controllers
             return Request.CreateResponse(HttpStatusCode.BadRequest, ErrorList);
         }
 
+        //delete user from DB (gets the userId):
         [HttpDelete]
-        [Route("api/Users/RemoveUser/{id}")]
-        public HttpResponseMessage Delete(int id)
+        [Route("api/Users/RemoveUser/{userId}")]
+        public HttpResponseMessage Delete(int userId)
         {
-            return LogicManager.RemoveUser(id) ?
+            return LogicManager.RemoveUser(userId) ?
                  Request.CreateResponse(HttpStatusCode.OK) :
                     Request.CreateResponse(HttpStatusCode.BadRequest, "Can not remove from DB");
         }

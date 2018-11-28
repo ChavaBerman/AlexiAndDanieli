@@ -11,6 +11,7 @@ namespace Client_WinForm.Models
     {
         [Key]
         public int Id { get; set; }
+
         public string StatusName { get; set; }
     }
 }

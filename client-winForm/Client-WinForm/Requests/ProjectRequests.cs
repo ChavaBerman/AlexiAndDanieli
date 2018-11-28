@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace Client_WinForm.Requests
 {
@@ -32,7 +33,7 @@ namespace Client_WinForm.Requests
             }
             return allProjects;
         }
-     
+
         public static List<Project> GetAllProjectsByTeamHead(int id)
         {
             List<Project> allProjects = new List<Project>();
@@ -71,7 +72,7 @@ namespace Client_WinForm.Requests
         }
         public static decimal GetAllProjectState(int id)
         {
-            decimal precents=-1;
+            decimal precents = -1;
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(@"http://localhost:61309/api/Projects/");
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
@@ -89,40 +90,47 @@ namespace Client_WinForm.Requests
         }
         public static bool AddProject(Project newProject)
         {
+            //Post Request for Register
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create(@"http://localhost:61309/api/Projects/AddProject");
+            httpWebRequest.ContentType = "application/json";
+            httpWebRequest.Method = "POST";
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            {
+                string project = JsonConvert.SerializeObject(newProject, Formatting.None);
+
+                streamWriter.Write(project);
+                streamWriter.Flush();
+                streamWriter.Close();
+            }
+            //Get response
             try
             {
-                //Post Request for Register
-                var httpWebRequest = (HttpWebRequest)WebRequest.Create(@"http://localhost:61309/api/Projects/AddProject");
-                httpWebRequest.ContentType = "application/json";
-                httpWebRequest.Method = "POST";
-                using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
-                {
-                    string project = JsonConvert.SerializeObject(newProject, Formatting.None);
-
-                    streamWriter.Write(project);
-                    streamWriter.Flush();
-                    streamWriter.Close();
-                }
                 //Gettting response
                 var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-
                 //Reading response
                 using (var streamReader = new StreamReader(httpResponse.GetResponseStream(), ASCIIEncoding.ASCII))
                 {
                     string result = streamReader.ReadToEnd();
-                    //If Register succeeded
+                    //If AddProject succeeded
                     if (httpResponse.StatusCode == HttpStatusCode.Created)
                     {
                         return true;
                     }
+                    return false;
                 }
             }
-            catch
+            catch (WebException ex)
             {
-                System.Windows.Forms.MessageBox.Show("failed to add");
+                using (var stream = ex.Response.GetResponseStream())
+                using (var reader = new StreamReader(stream))
+                {
 
+                    //Printing the matchung errors:
+                    MessageBox.Show(reader.ReadToEnd());
+                }
+                return false;
             }
-            return false;
+
         }
     }
 }

@@ -19,7 +19,7 @@ namespace BOL.Validations
           
                 if (dateBegin>((DateTime)value))
                 {
-                    ErrorMessage = "date end project grate than date begin project";
+                    ErrorMessage = "the end date of project is grater than begin date.";
                     validationResult = new ValidationResult(ErrorMessageString);
                 }
            

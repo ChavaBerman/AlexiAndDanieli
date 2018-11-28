@@ -15,7 +15,9 @@ namespace BLL
 {
     public class LogicManager
     {
-
+        /// <summary>Add present day to user
+        /// <para>value - PresentDay object contains  
+        /// </summary>
         public static List<User> GetAllUsers()
         {
             string query = $"SELECT * FROM task.user JOIN task.status ON task.user.IdStatus=task.status.IdStatus;";
@@ -26,6 +28,23 @@ namespace BLL
                 while (reader.Read())
                 {
                     users.Add(ConvertorUser.convertDBtoUser(reader));
+                }
+                return users;
+            };
+
+            return DBAccess.RunReader(query, func);
+        }
+
+        public static List<User> GetAllUsersWithPassword()
+        {
+            string query = $"SELECT * FROM task.user JOIN task.status ON task.user.IdStatus=task.status.IdStatus;";
+
+            Func<MySqlDataReader, List<User>> func = (reader) =>
+            {
+                List<User> users = new List<User>();
+                while (reader.Read())
+                {
+                    users.Add(ConvertorUser.convertDBtoUserWithPassword(reader));
                 }
                 return users;
             };
@@ -248,7 +267,7 @@ namespace BLL
             User user = GetUserDetails(idUser);
             if (manager == null)
                 return false;
-            message += $"< br />< span style = 'color:red' > sincerly,{ user.UserName}< span />";
+            message += $"<br/><span style = 'color:red'> sincerly,{ user.UserName}<span/>";
             return sendMessage(manager, message, subject);
 
         }
@@ -271,7 +290,7 @@ namespace BLL
             msg.To.Add(new MailAddress(user.Email));
             msg.Subject = subject;
             msg.IsBodyHtml = true;
-            msg.Body = string.Format($"<html><head>הודעה שנשלחה</head><body><p>{message}</br></p></body>");
+            msg.Body = string.Format($"<html><body><p>{message}</br></p></body>");
             try
             {
                 client.Send(msg);

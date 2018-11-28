@@ -20,11 +20,13 @@ namespace Client_WinForm.Models
         [Range(1, int.MaxValue)]
         [DefaultValue(1)]
        public decimal GivenHours { get; set; }
+
         public int IdUser { get; set; }
+
         public int IdProject { get; set; }
 
-
         public string projectName { get; set; }
+
         public string userName { get; set; }
     }
 }

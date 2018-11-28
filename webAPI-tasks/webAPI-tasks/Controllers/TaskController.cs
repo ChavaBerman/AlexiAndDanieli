@@ -21,7 +21,7 @@ namespace webAPI_tasks.Controllers
             if (ModelState.IsValid)
             {
                 if (LogicTask.CheckIfExists(value))
-                    return Request.CreateResponse(HttpStatusCode.Found, "Worker already exists in this project.");
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, "Worker already exists in this project.");
                 return (LogicTask.AddTask(value)) ?
                     Request.CreateResponse(HttpStatusCode.Created) :
                     Request.CreateResponse(HttpStatusCode.BadRequest, "Can not add to DB.");
@@ -60,13 +60,13 @@ namespace webAPI_tasks.Controllers
 
         [HttpPut]
         [Route("api/Tasks/UpdateTask")]
-        public HttpResponseMessage Put([FromBody]Task value)
+        public HttpResponseMessage UpdateTask([FromBody]Task value)
         {
 
             if (ModelState.IsValid)
             {
                 return (LogicTask.UpdateTask(value)) ?
-                     Request.CreateResponse(HttpStatusCode.OK) :
+                     Request.CreateResponse(HttpStatusCode.Created) :
                     Request.CreateResponse(HttpStatusCode.BadRequest, "Can not update in DB");
             };
 

@@ -16,22 +16,20 @@ namespace Client_WinForm.Models
         {
         }
         [Key]
+
         public int IdPresentDay { get; set; }
         [ValidDateTimeBegin]
         public DateTime TimeBegin { get; set; }
 
        //TODO: [ValidDateTimeEnd]
         public DateTime TimeEnd { get; set; }
+
         public decimal sumHoursDay { get; set; }
 
         public int UserId { get; set; }
 
         public int ProjectId { get; set; }
 
-        //------------------------
-        public User User { get; set; }
-
-        public Project Project { get; set; }
 
 
     }
