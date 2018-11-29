@@ -19,7 +19,7 @@ namespace Client_WinForm.Models
         public int ProjectId { get; set; }
 
         [Required(ErrorMessage = "Name is required")]
-        [MaxLength(15, ErrorMessage = "ProjectName grade than 15 chars"), MinLength(2, ErrorMessage = "ProjectName less than 2 chars")]
+        [MaxLength(15, ErrorMessage = "ProjectName can contains max 15 chars"), MinLength(2, ErrorMessage = "ProjectName must contains at least 2 chars")]
         public string ProjectName { get; set; }
 
         [Required(ErrorMessage = "CustomerName is required")]
@@ -36,7 +36,7 @@ namespace Client_WinForm.Models
 
         public bool IsFinish { get; set; } = false;
 
-        public int IdManager { get; set; }
+        public int IdTeamHead { get; set; }
 
         [Range(0, int.MaxValue)]
         [DefaultValue(0)]
@@ -50,7 +50,7 @@ namespace Client_WinForm.Models
         [DefaultValue(0)]
         public decimal UIUXHours { get; set; }
         public List<Task> tasks { get; set; }
-        public List<User> workers;
+        public List<Worker> workers;
 
 
 

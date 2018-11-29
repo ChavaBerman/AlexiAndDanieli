@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { User, Project, UserService, ProjectService, Task } from '../../shared/imports';
+import { Worker, Project, WorkerService, ProjectService, Task } from '../../shared/imports';
 import { FormGroup, FormControl } from '@angular/forms';
 import { TaskService } from '../../shared/services/task.service';
 import swal from 'sweetalert2';
@@ -11,21 +11,21 @@ import swal from 'sweetalert2';
 })
 export class SetPermissionComponent implements OnInit {
 
-  workers: Array<User>;
+  workers: Array<Worker>;
   projects: Array<Project>;
   formGroup: FormGroup;
 
-  constructor(private userService: UserService, private projectService: ProjectService, private taskService: TaskService) {
+  constructor(private workerService: WorkerService, private projectService: ProjectService, private taskService: TaskService) {
     let formGroupConfig = {
       givenHours: new FormControl(""),
-      idUser: new FormControl(""),
+      idWorker: new FormControl(""),
       idProject: new FormControl(""),
     };
     this.formGroup = new FormGroup(formGroupConfig);
   }
 
   ngOnInit() {
-    this.userService.getAllWorkers().subscribe((res) => {
+    this.workerService.getAllWorkers().subscribe((res) => {
       this.workers = res;
     });
     this.projectService.getAllProjects().subscribe((res) => {

@@ -13,8 +13,8 @@ namespace Client_WinForm.Worker
 {
     public partial class ApplyToManager : Form
     {
-        User worker;
-        public ApplyToManager(User worker)
+        Models.Worker worker;
+        public ApplyToManager(Models.Worker worker)
         {
             this.worker = worker;
             InitializeComponent();
@@ -22,7 +22,7 @@ namespace Client_WinForm.Worker
 
         private void btn_sendApply_Click(object sender, EventArgs e)
         {
-           if( Requests.UserRequests.sendMessageToManager(worker.UserId, txt_message.Text,txt_subject.Text!="" ? txt_subject.Text : "No Subject"))
+           if( Requests.WorkerRequests.sendMessageToManager(worker.WorkerId, txt_message.Text,txt_subject.Text!="" ? txt_subject.Text : "No Subject"))
                 MessageBox.Show("Sent successfuly");
             else MessageBox.Show("Did not succeed to send your message, try again.");
         }

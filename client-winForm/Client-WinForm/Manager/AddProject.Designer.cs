@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txt_projectName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -48,9 +49,11 @@
             this.label9 = new System.Windows.Forms.Label();
             this.btn_add_project = new System.Windows.Forms.Button();
             this.Added_Workers = new System.Windows.Forms.ListView();
+            this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.DevHours)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.UIUXHours)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.QAHours)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_projectName
@@ -59,6 +62,7 @@
             this.txt_projectName.Name = "txt_projectName";
             this.txt_projectName.Size = new System.Drawing.Size(121, 20);
             this.txt_projectName.TabIndex = 0;
+            this.txt_projectName.TextChanged += new System.EventHandler(this.textChanged);
             // 
             // label1
             // 
@@ -84,6 +88,7 @@
             this.txt_CustomerName.Name = "txt_CustomerName";
             this.txt_CustomerName.Size = new System.Drawing.Size(121, 20);
             this.txt_CustomerName.TabIndex = 2;
+            this.txt_CustomerName.TextChanged += new System.EventHandler(this.textChanged);
             // 
             // label3
             // 
@@ -221,6 +226,10 @@
             this.Added_Workers.UseCompatibleStateImageBehavior = false;
             this.Added_Workers.SelectedIndexChanged += new System.EventHandler(this.Added_Workers_SelectedIndexChanged);
             // 
+            // errorProvider
+            // 
+            this.errorProvider.ContainerControl = this;
+            // 
             // AddProject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -251,6 +260,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.DevHours)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.UIUXHours)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.QAHours)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,5 +288,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btn_add_project;
         private System.Windows.Forms.ListView Added_Workers;
+        private System.Windows.Forms.ErrorProvider errorProvider;
     }
 }

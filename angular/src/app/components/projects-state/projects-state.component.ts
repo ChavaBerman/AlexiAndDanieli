@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Project, ProjectService, User, UserService, Task, TaskService } from 'src/app/shared/imports';
+import { Project, ProjectService, Worker, WorkerService, Task, TaskService } from 'src/app/shared/imports';
 
 @Component({
   selector: 'app-projects-state',
@@ -10,14 +10,14 @@ export class ProjectsStateComponent implements OnInit {
 
   myProjects: Array<Project>;
   currentProjectTasks: Array<Task>;
-  teamHead: User;
+  teamHead: Worker;
   currentProject:Project=null;
 
-  constructor(private projectService: ProjectService, private userService: UserService, private taskService: TaskService) { }
+  constructor(private projectService: ProjectService, private workerService: WorkerService, private taskService: TaskService) { }
 
   ngOnInit() {
-     this.teamHead = this.userService.getCurrentUser();
-    this.projectService.getAllProjectsByTeamHead(this.teamHead.userId).subscribe((res) => {
+     this.teamHead = this.workerService.getCurrentWorker();
+    this.projectService.getAllProjectsByTeamHead(this.teamHead.workerId).subscribe((res) => {
       this.myProjects = res;
       this.currentProject = this.myProjects[0];
       this.GetAllTasks();

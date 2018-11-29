@@ -20,8 +20,10 @@ import {
     ApplyToManagerComponent,
     MyTasksComponent,
     MyHoursComponent,
+    ForgotPasswordComponent,
 
 } from './shared/imports';
+import { ChangePasswordComponent } from './components/change-password/change-password.component';
 
 const appRoutes: Routes = [
     {
@@ -29,6 +31,12 @@ const appRoutes: Routes = [
         path: 'taskManagement', children: [
             {
                 path: 'login', component: LoginComponent
+            },
+            {
+                path: 'forgot-password', component: ForgotPasswordComponent
+            },
+            {
+                path: 'change-password/:requestId', component: ChangePasswordComponent
             },
             {
                 path: 'manager', component: ManagerComponent, children: [

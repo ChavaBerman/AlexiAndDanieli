@@ -24,8 +24,8 @@ namespace Client_WinForm.Requests
             HttpResponseMessage response = client.GetAsync("GetAllProjects").Result;
             if (response.IsSuccessStatusCode)
             {
-                var usersJson = response.Content.ReadAsStringAsync().Result;
-                allProjects = JsonConvert.DeserializeObject<List<Project>>(usersJson);
+                var projectsJson = response.Content.ReadAsStringAsync().Result;
+                allProjects = JsonConvert.DeserializeObject<List<Project>>(projectsJson);
             }
             else
             {

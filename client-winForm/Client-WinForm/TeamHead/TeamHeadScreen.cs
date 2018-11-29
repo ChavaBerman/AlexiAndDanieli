@@ -13,8 +13,8 @@ namespace Client_WinForm.TeamHead
 {
     public partial class TeamHeadScreen : Form
     {
-        User Teamhead;
-        public TeamHeadScreen(User Teamhead)
+        Models.Worker Teamhead;
+        public TeamHeadScreen(Models.Worker Teamhead)
         {
             this.Teamhead = Teamhead;
             InitializeComponent();

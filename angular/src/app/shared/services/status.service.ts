@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http'
 import { Observable, Subject } from 'rxjs';
 import { Global } from '../global';
 import { Router } from "../../../../node_modules/@angular/router";
-import { User } from '../imports';
+import { Worker } from '../imports';
 
 @Injectable()
 export class StatusService {

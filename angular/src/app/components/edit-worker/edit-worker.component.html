@@ -4,8 +4,8 @@
   <form [formGroup]="formGroup" (ngSubmit)="saveWorker()">
     <div class="form-item">
       <label>Choose worker</label>
-      <select formControlName="userId" (change)="chooseWorker($event)">
-        <option *ngFor="let worker of workers" [ngValue]="worker.userId">{{worker.userName}}</option>
+      <select formControlName="workerId" (change)="chooseWorker($event)">
+        <option *ngFor="let worker of workers" [ngValue]="worker.workerId">{{worker.workerName}}</option>
       </select>
     </div>
 
@@ -19,7 +19,7 @@
     <div class="form-item">
       <label>Choose team head</label>
       <select formControlName="idTeamHead">
-        <option *ngFor="let teamHead of teamHeads" [ngValue]="teamHead.userId">{{teamHead.userName}}</option>
+        <option *ngFor="let teamHead of teamHeads" [ngValue]="teamHead.workerId">{{teamHead.workerName}}</option>
       </select>
     </div>
 
@@ -28,7 +28,7 @@
     </div>
 
     <div class="button-panel">
-      <input type="button" class="button" value="Delete" (click)="removeUser()"/>
+      <input type="button" class="button" value="Delete" (click)="removeWorker()"/>
     </div>
   </form>
 </div>

@@ -11,7 +11,7 @@ import {TreeTableModule} from 'primeng/treetable';
 import {
   ManagerComponent,
   LoginComponent,
-  UserService,
+  WorkerService,
   ReportService,
   MainComponent,
   HeaderComponent,
@@ -43,7 +43,10 @@ import {
   PresentDayService,
   TaskDetailsForWorkerComponent,
   ClockComponent,
-  ReportComponent
+  ProjectReportComponent,
+  ProjectWorkersReportComponent,
+  ForgotPasswordComponent,
+  ChangePasswordComponent
 } from './shared/imports';
 
 
@@ -81,7 +84,10 @@ import {
     BeginEndTaskComponent,
     TaskDetailsForWorkerComponent,
     ClockComponent,
-    ReportComponent,
+    ProjectReportComponent,
+    ProjectWorkersReportComponent,
+    ForgotPasswordComponent,
+    ChangePasswordComponent
     
 
 
@@ -95,7 +101,7 @@ import {
     ChartsModule,
     TreeTableModule
   ],
-  providers: [UserService, StatusService, ProjectService, ReportService,TaskService,PresentDayService,SimpleTimer],
+  providers: [WorkerService, StatusService, ProjectService, ReportService,TaskService,PresentDayService,SimpleTimer],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

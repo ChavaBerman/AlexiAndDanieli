@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,6 +42,8 @@
             this.btn_addWorker = new System.Windows.Forms.Button();
             this.txt_confirmPassword = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -94,6 +97,7 @@
             this.txt_userName.Name = "txt_userName";
             this.txt_userName.Size = new System.Drawing.Size(121, 20);
             this.txt_userName.TabIndex = 5;
+            this.txt_userName.TextChanged += new System.EventHandler(this.txt_userName_TextChanged);
             // 
             // txt_password
             // 
@@ -101,6 +105,7 @@
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(121, 20);
             this.txt_password.TabIndex = 6;
+            this.txt_password.TextChanged += new System.EventHandler(this.txt_password_TextChanged);
             // 
             // txt_email
             // 
@@ -108,6 +113,7 @@
             this.txt_email.Name = "txt_email";
             this.txt_email.Size = new System.Drawing.Size(121, 20);
             this.txt_email.TabIndex = 7;
+            this.txt_email.TextChanged += new System.EventHandler(this.txt_email_TextChanged);
             // 
             // cmb_department
             // 
@@ -142,6 +148,7 @@
             this.txt_confirmPassword.Name = "txt_confirmPassword";
             this.txt_confirmPassword.Size = new System.Drawing.Size(121, 20);
             this.txt_confirmPassword.TabIndex = 12;
+            this.txt_confirmPassword.TextChanged += new System.EventHandler(this.txt_confirmPassword_TextChanged);
             // 
             // label6
             // 
@@ -151,6 +158,10 @@
             this.label6.Size = new System.Drawing.Size(90, 13);
             this.label6.TabIndex = 11;
             this.label6.Text = "Confirm password";
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // AddWorker
             // 
@@ -172,6 +183,7 @@
             this.Controls.Add(this.label1);
             this.Name = "AddWorker";
             this.Text = "AddWorker";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -192,5 +204,6 @@
         private System.Windows.Forms.Button btn_addWorker;
         private System.Windows.Forms.TextBox txt_confirmPassword;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

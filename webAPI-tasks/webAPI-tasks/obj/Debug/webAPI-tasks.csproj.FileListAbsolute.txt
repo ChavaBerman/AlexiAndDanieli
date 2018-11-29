@@ -1186,4 +1186,3 @@ S:\ChavyBerman\try105\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.Co
 S:\ChavyBerman\try105\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CopyComplete
 S:\ChavyBerman\try105\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.dll
 S:\ChavyBerman\try105\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.pdb
-S:\ChavyBerman\try105\webAPI-tasks\webAPI-tasks\bin\Microsoft.VisualStudio.WCFReference.Interop.dll

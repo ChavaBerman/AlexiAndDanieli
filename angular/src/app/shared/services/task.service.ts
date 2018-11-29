@@ -22,11 +22,11 @@ export class TaskService {
   }
 
   GetAllTasksByProjectId(projectId: number): Observable<any> {
-    let url: string = `${this.basicURL}/Tasks/GetTasksWithUserAndProjectByProjectId/${projectId}`;
+    let url: string = `${this.basicURL}/Tasks/GetTasksWithWorkerAndProjectByProjectId/${projectId}`;
     return this.http.get(url);
   }
-  GetTasksWithUserAndProjectByUserId(userId: number): Observable<any> {
-    let url: string = `${this.basicURL}/Tasks/GetTasksWithUserAndProjectByUserId/${userId}`;
+  GetTasksWithWorkerAndProjectByWorkerId(workerId: number): Observable<any> {
+    let url: string = `${this.basicURL}/Tasks/GetTasksWithWorkerAndProjectByWorkerId/${workerId}`;
     return this.http.get(url);
   } 
   GetWorkersDictionary(projectId: number): Observable<any> {

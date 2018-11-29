@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {User, UserService } from '../../shared/imports';
+import {Worker, WorkerService } from '../../shared/imports';
 
 
 @Component({
@@ -8,11 +8,11 @@ import {User, UserService } from '../../shared/imports';
   styleUrls: ['./manager-home.component.css']
 })
 export class ManagerHomeComponent implements OnInit {
-  currentUser:User;
-  constructor(private userService:UserService) { 
-    this.userService.currentUserSubject.subscribe(
+  currentWorker:Worker;
+  constructor(private workerService:WorkerService) { 
+    this.workerService.currentWorkerSubject.subscribe(
       {
-        next: (user:User) => this.currentUser=user
+        next: (worker:Worker) => this.currentWorker=worker
       }
     );
   }

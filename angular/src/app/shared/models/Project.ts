@@ -1,4 +1,4 @@
-import { User } from "./user";
+import { Worker } from "./Worker";
 import { Task } from "./Task";
 
 export class Project {
@@ -14,8 +14,8 @@ export class Project {
     UIUXHours: number;
     tasks:Array<Task>=new Array<Task>();
     //-------------------------
-    manager: User;
-    workers:Array<User>;
+    manager: Worker;
+    workers:Array<Worker>;
 
 
 }

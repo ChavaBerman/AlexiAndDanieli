@@ -15,24 +15,24 @@ namespace Client_WinForm
         public Welcome()
         {
             IsMdiContainer = true;
-            User user = Requests.UserRequests.LoginByComputerUser();
-            if (user != null)
+            Models.Worker worker = Requests.WorkerRequests.LoginByComputerWorker();
+            if (worker != null)
             {
-                switch (user.statusObj.StatusName)
+                switch (worker.statusObj.StatusName)
                 {
                     case "Manager":
-                        Manager.ManagerMainScreen managerMainScreen = new Manager.ManagerMainScreen(user);
+                        Manager.ManagerMainScreen managerMainScreen = new Manager.ManagerMainScreen(worker);
 
                         managerMainScreen.Show();
                         break;
                     case "TeamHead":
-                        TeamHeadScreen TeamHeadScreen = new TeamHeadScreen(user);
+                        TeamHeadScreen TeamHeadScreen = new TeamHeadScreen(worker);
 
                         TeamHeadScreen.Show();
                         break;
 
                     default:
-                        WorkerScreen workerScreen = new WorkerScreen(user);
+                        WorkerScreen workerScreen = new WorkerScreen(worker);
 
                         workerScreen.Show();
                         break;

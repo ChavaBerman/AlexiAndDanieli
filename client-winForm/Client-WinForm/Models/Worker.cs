@@ -8,18 +8,18 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Client_WinForm.Models
 {
-    public class User
+    public class Worker
     {
-        public User()
+        public Worker()
         {
          
         }
         [Key]
-        public int UserId { get; set; }
+        public int WorkerId { get; set; }
 
         [Required(ErrorMessage = "name is required")]
         [MinLength(2, ErrorMessage = "name must be more than 2 chars"), MaxLength(15, ErrorMessage = "name must be less than 15 chars")]
-        public string UserName { get; set; }
+        public string WorkerName { get; set; }
 
         [Required(ErrorMessage = "password is required")]
 
@@ -31,10 +31,8 @@ namespace Client_WinForm.Models
  
         [EmailAddress]
         public string Email { get; set; }
-
-        [MinLength(20),MaxLength(50)]
-      
-        public string UserComputer { get; set; } = "";
+       
+        public string WorkerComputer { get; set; } = "";
 
         public decimal NumHoursWork { get; set; } = 9;
 

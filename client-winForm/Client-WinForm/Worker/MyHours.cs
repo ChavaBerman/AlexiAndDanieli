@@ -15,12 +15,12 @@ namespace Client_WinForm.Worker
 {
     public partial class MyHours : Form
     {
-        public MyHours(User worker)
+        public MyHours(Models.Worker worker)
         {
 
             InitializeComponent();
             Dictionary<string, Hours> workersDictionary = new Dictionary<string, Hours>();
-            workersDictionary = TaskRequests.GetWorkerTasksDictionary(worker.UserId);
+            workersDictionary = TaskRequests.GetWorkerTasksDictionary(worker.WorkerId);
             List<decimal> givenList = workersDictionary.Values.Select(p => p.GivenHours).ToList();
             List<decimal> reservingList = workersDictionary.Values.Select(p => p.ReservingHours).ToList();
             chart1.Series[0].Points.DataBindXY(workersDictionary.Keys, givenList);

@@ -5,14 +5,14 @@
     <div class="form-item">
       <label>Choose worker</label>
       <select formControlName="idWorker" (change)="changeWorker($event)">
-        <option *ngFor="let worker of workers" [ngValue]="worker.userId">{{worker.userName}}</option>
+        <option *ngFor="let worker of workers" [ngValue]="worker.workerId">{{worker.workerName}}</option>
       </select>
     </div>
 
     <div class="form-item">
       <label>His Team Head:</label>
       <select formControlName="idTeamHead">
-        <option *ngFor="let teamHead of teamHeads" [ngValue]="teamHead.userId">{{teamHead.userName}}</option>
+        <option *ngFor="let teamHead of teamHeads" [ngValue]="teamHead.workerId">{{teamHead.workerName}}</option>
       </select>
     </div>
 

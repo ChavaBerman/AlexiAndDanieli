@@ -38,20 +38,20 @@
     <div class="form-item">
       <label for="idManager">Team Head</label><br>
       <select formControlName="idManager" (change)="changeTeamHead($event)">
-        <option *ngFor="let teamHead of teamHeadsArray" [ngValue]="teamHead.userId">{{teamHead.userName}}</option>
+        <option *ngFor="let teamHead of teamHeadsArray" [ngValue]="teamHead.workerId">{{teamHead.workerName}}</option>
       </select>
     </div>
 
     <div class="form-item">
       <label for="idManager">Choose workers</label><br>
       <select formControlName="idManager" (change)="changeWorker($event)">
-        <option *ngFor="let worker of allowedWorkers" [ngValue]="worker.userId">{{worker.userName}}</option>
+        <option *ngFor="let worker of allowedWorkers" [ngValue]="worker.workerId">{{worker.workerName}}</option>
       </select>
     </div>
     <div class="form-item">
         <label for="idManager">Your chosen workers</label><br>
         <select formControlName="idManager" (change)="removeWorker($event)">
-          <option *ngFor="let worker of choosenWorkers" [ngValue]="worker.userId">{{worker.userName}}</option>
+          <option *ngFor="let worker of choosenWorkers" [ngValue]="worker.workerId">{{worker.workerName}}</option>
         </select>
       </div>
     <div class="form-item">

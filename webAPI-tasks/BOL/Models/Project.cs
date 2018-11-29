@@ -19,8 +19,8 @@ namespace BOL
         {
 
             //HoursForDepartment = new List<HourForDepartment>();
-            PresentsDayUser = new List<PresentDay>();
-            workers = new List<User>();
+            PresentsDayWorker = new List<PresentDay>();
+            workers = new List<Worker>();
         }
         [Key]
         public int ProjectId { get; set; }
@@ -47,7 +47,7 @@ namespace BOL
 
         public bool IsFinish { get; set; } = false;
 
-        public int IdManager { get; set; }
+        public int IdTeamHead { get; set; }
 
         [Range(0, int.MaxValue)]
         [DefaultValue(0)]
@@ -63,13 +63,13 @@ namespace BOL
         public List<Models.Task> tasks { get; set; }
 
         //-------------------------
-        public User Manager { get; set; }
+        public Worker Manager { get; set; }
 
 
 
-        public List<PresentDay> PresentsDayUser { get; set; }
+        public List<PresentDay> PresentsDayWorker { get; set; }
 
-        public List<User> workers { get; set; }
+        public List<Worker> workers { get; set; }
 
     }
 }

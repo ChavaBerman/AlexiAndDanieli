@@ -14,7 +14,7 @@ namespace BOL.Convertors
         {
             return new PresentDay() {
                 ProjectId=readerRow.GetInt32(0),
-                UserId=readerRow.GetInt32(1)
+                WorkerId=readerRow.GetInt32(1)
             };
         }
     }

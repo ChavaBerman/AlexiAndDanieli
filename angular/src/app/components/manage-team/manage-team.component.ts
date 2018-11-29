@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { User, UserService } from 'src/app/shared/imports';
+import { Worker, WorkerService } from 'src/app/shared/imports';
 import { FormControl, FormGroup } from '@angular/forms';
 import swal from 'sweetalert2';
 
@@ -10,11 +10,11 @@ import swal from 'sweetalert2';
 })
 export class ManageTeamComponent implements OnInit {
 
-  workers:Array<User>;
-  teamHeads:Array<User>;
+  workers:Array<Worker>;
+  teamHeads:Array<Worker>;
   formGroup: FormGroup;
-  workerForChange:User;
-  constructor( private userService: UserService) { 
+  workerForChange:Worker;
+  constructor( private workerService: WorkerService) { 
     let formGroupConfig = {
       idWorker: new FormControl(""),
       idTeamHead: new FormControl("")
@@ -23,8 +23,8 @@ export class ManageTeamComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.userService.getAllWorkers().subscribe((res)=>{this.workers=res;});
-    this.userService.getAllTeamHeads().subscribe((res)=>{this.teamHeads=res;});
+    this.workerService.getAllWorkers().subscribe((res)=>{this.workers=res;});
+    this.workerService.getAllTeamHeads().subscribe((res)=>{this.teamHeads=res;});
   }
 
   changeWorker(event:Event){
@@ -37,7 +37,7 @@ export class ManageTeamComponent implements OnInit {
 
   saveTeamHead(){
     this.workerForChange.managerId=this.formGroup.controls["idTeamHead"].value;
-    this.userService.updateWorker(this.workerForChange).subscribe(
+    this.workerService.updateWorker(this.workerForChange).subscribe(
       (res) => {
         swal({
           position: 'top-end',

@@ -29,7 +29,7 @@ namespace webAPI_tasks.Controllers
 
             List<string> ErrorList = new List<string>();
 
-            //if the code reached this part - the user is not valid
+            //if the code reached this part - the worker is not valid
             foreach (var item in ModelState.Values)
                 foreach (var err in item.Errors)
                     ErrorList.Add(err.ErrorMessage);
@@ -39,17 +39,17 @@ namespace webAPI_tasks.Controllers
         }
 
         [HttpGet]
-        [Route("api/Tasks/GetTasksWithUserAndProjectByProjectId/{projectId}")]
-        public HttpResponseMessage GetTasksWithUserAndProjectByProjectId(int projectId)
+        [Route("api/Tasks/GetTasksWithWorkerAndProjectByProjectId/{projectId}")]
+        public HttpResponseMessage GetTasksWithWorkerAndProjectByProjectId(int projectId)
         {
-            return Request.CreateResponse(HttpStatusCode.OK, LogicTask.GetTasksWithUserAndProjectByProjectId(projectId));
+            return Request.CreateResponse(HttpStatusCode.OK, LogicTask.GetTasksWithWorkerAndProjectByProjectId(projectId));
         }
 
         [HttpGet]
-        [Route("api/Tasks/GetTasksWithUserAndProjectByUserId/{userId}")]
-        public HttpResponseMessage GetTasksWithUserAndProjectByUserId(int userId)
+        [Route("api/Tasks/GetTasksWithWorkerAndProjectByWorkerId/{workerId}")]
+        public HttpResponseMessage GetTasksWithWorkerAndProjectByWorkerId(int workerId)
         {
-            return Request.CreateResponse(HttpStatusCode.OK, LogicTask.GetTasksWithUserAndProjectByUserId(userId));
+            return Request.CreateResponse(HttpStatusCode.OK, LogicTask.GetTasksWithWorkerAndProjectByWorkerId(workerId));
         }
         [HttpGet]
         [Route("api/Tasks/GetWorkersDictionary/{projectId}")]
@@ -72,7 +72,7 @@ namespace webAPI_tasks.Controllers
 
             List<string> ErrorList = new List<string>();
 
-            //if the code reached this part - the user is not valid
+            //if the code reached this part - the worker is not valid
             foreach (var item in ModelState.Values)
                 foreach (var err in item.Errors)
                     ErrorList.Add(err.ErrorMessage);

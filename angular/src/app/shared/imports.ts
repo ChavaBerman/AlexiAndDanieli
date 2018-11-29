@@ -1,17 +1,16 @@
 
 
 //-----------------Models-----------------
-export { User } from './models/user'
+export { Worker } from './models/Worker'
 export { Status } from './models/Status'
 export { Project } from './models/Project'
 export { Task } from './models/Task'
 export { PresentDay } from './models/Present-day'
 export { EmailParams } from './models/Email-params'
-export { ReportData } from './models/Report'
 
 
 //---------------Services----------------s
-export { UserService } from './services/user.service'
+export { WorkerService } from './services/worker.service'
 export { StatusService } from './services/status.service'
 export { ProjectService } from './services/project.service'
 export { TaskService } from './services/task.service'
@@ -49,9 +48,10 @@ export { MyHoursComponent } from '../components/my-hours/my-hours.component';
 export { BeginEndTaskComponent } from '../components/begin-end-task/begin-end-task.component';
 export { TaskDetailsForWorkerComponent } from '../components/task-details-for-worker/task-details-for-worker.component';
 export { ClockComponent } from '../components/clock/clock.component';
-export { ReportComponent } from '../components/report/report.component';
-
-
+export { ProjectReportComponent } from '../components/project-report/project-report.component';
+export { ProjectWorkersReportComponent } from '../components/project-workers-report/project-workers-report.component';
+export { ForgotPasswordComponent } from '../components/forgot-password/forgot-password.component';
+export { ChangePasswordComponent } from '../components/change-password/change-password.component';
 
 //-----------validations-----------------
 export {

@@ -17,7 +17,7 @@ namespace BOL.Validations
             try
             {
                 //Take userId and username of the user parameter
-                int userId = (validationContext.ObjectInstance as User).UserId;
+                int userId = (validationContext.ObjectInstance as Worker).WorkerId;
                 string name = value.ToString();
 
                 //Invoke method 'getAllUsers' from 'UserService' in 'BLL project' by reflection (not by adding reference!)
@@ -32,12 +32,12 @@ namespace BOL.Validations
                 MethodInfo getAllUsersMethod = userServiceType.GetMethods().First(m => m.Name.Equals("GetAllUsers"));
 
                 //4. Invoke this method
-                List<User> users = getAllUsersMethod.Invoke(Activator.CreateInstance(userServiceType), new object[] { }) as List<User>;
+                List<Worker> users = getAllUsersMethod.Invoke(Activator.CreateInstance(userServiceType), new object[] { }) as List<Worker>;
 
                 //The result of this method is list of users
 
                 //check if username of the user parameter is unique
-                bool isUnique = users.Any(user => user.UserName.Equals(name, StringComparison.OrdinalIgnoreCase) && user.UserId != userId) == false;
+                bool isUnique = users.Any(user => user.WorkerName.Equals(name, StringComparison.OrdinalIgnoreCase) && user.WorkerId != userId) == false;
                 if (isUnique == false)
                 {
                     ErrorMessage = "Choose another name, it is already exsists.";

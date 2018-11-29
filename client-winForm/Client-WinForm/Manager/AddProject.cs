@@ -20,37 +20,42 @@ namespace Client_WinForm.Manager
 {
     public partial class AddProject : Form
     {
-        List<User> addedUsers = new List<User>();
+        List<Models.Worker> addedWorkers = new List<Models.Worker>();
         List<Models.Task> tasksForAddedWorkers = new List<Models.Task>();
-        List<User> teamHeadWorkers = new List<User>();
+        List<Models.Worker> teamHeadWorkers = new List<Models.Worker>();
+        
+
         public AddProject()
         {
             InitializeComponent();
-            List<User> teamHeads = new List<User>();
-            teamHeads = Requests.UserRequests.GetAllTeamHeads();
+            List<Models.Worker> teamHeads = new List<Models.Worker>();
+            teamHeads = Requests.WorkerRequests.GetAllTeamHeads();
             cmb_TeamHeads.DataSource = teamHeads;
-            cmb_TeamHeads.DisplayMember = "userName";
+            cmb_TeamHeads.DisplayMember = "WorkerName";
+            errorProvider.SetError(txt_projectName, "project name is required");
+            errorProvider.SetError(txt_CustomerName, "customer name is required");
+            btn_add_project.Enabled = false;
         }
 
         private void cmb_TeamHeads_SelectedIndexChanged(object sender, EventArgs e)
         {
             Added_Workers.Items.Clear();
-            addedUsers.Clear();
-            List<User> allowedWorkers = new List<User>();
-            allowedWorkers = Requests.UserRequests.GetAllowedWorkers(((sender as ComboBox).SelectedItem as User).UserId);
+            addedWorkers.Clear();
+            List<Models.Worker> allowedWorkers = new List<Models.Worker>();
+            allowedWorkers = Requests.WorkerRequests.GetAllowedWorkers(((sender as ComboBox).SelectedItem as Models.Worker).WorkerId);
             cmb_workers.DataSource = allowedWorkers;
-            cmb_workers.DisplayMember = "userName";
-            teamHeadWorkers = Requests.UserRequests.GetWorkersByTeamhead(((sender as ComboBox).SelectedItem as User).UserId);
+            cmb_workers.DisplayMember = "WorkerName";
+            teamHeadWorkers = Requests.WorkerRequests.GetWorkersByTeamhead(((sender as ComboBox).SelectedItem as Models.Worker).WorkerId);
         }
 
         private void cmb_workers_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-            User user = ((sender as ComboBox).SelectedItem as User);
-            if (addedUsers.Find(p => p.UserId == user.UserId) == null)
+            Models.Worker worker = ((sender as ComboBox).SelectedItem as Models.Worker);
+            if (addedWorkers.Find(p => p.WorkerId == worker.WorkerId) == null)
             {
-                addedUsers.Add(user);
-                Added_Workers.Items.Add(user.UserName);
+                addedWorkers.Add(worker);
+                Added_Workers.Items.Add(worker.WorkerName);
 
             }
         }
@@ -61,7 +66,7 @@ namespace Client_WinForm.Manager
 
             foreach (ListViewItem item in Added_Workers.SelectedItems)
             {
-                addedUsers.RemoveAt(Added_Workers.Items.IndexOf(item));
+                addedWorkers.RemoveAt(Added_Workers.Items.IndexOf(item));
                 Added_Workers.Items.Remove(item);
 
             }
@@ -70,16 +75,16 @@ namespace Client_WinForm.Manager
         private void btn_add_project_Click(object sender, EventArgs e)
         {
 
-            addedUsers.AddRange(teamHeadWorkers);
-            foreach (User worker in addedUsers)
+            addedWorkers.AddRange(teamHeadWorkers);
+            foreach (Models.Worker worker in addedWorkers)
             {
                 int reservingHours = 0;
                 while (reservingHours == 0)
                 {
                     try
                     {
-                        reservingHours = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("enter num of reserving hours for " + worker.UserName, "Reserving hours", "1"));
-                        tasksForAddedWorkers.Add(new Models.Task { ReservingHours = reservingHours, IdUser = worker.UserId });
+                        reservingHours = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("enter num of reserving hours for " + worker.WorkerName, "Reserving hours", "1"));
+                        tasksForAddedWorkers.Add(new Models.Task { ReservingHours = reservingHours, IdWorker = worker.WorkerId });
                     }
                     catch
                     {
@@ -94,9 +99,9 @@ namespace Client_WinForm.Manager
             {
                 ProjectName = txt_projectName.Text,
                 CustomerName = txt_CustomerName.Text,
-                IdManager = ((cmb_TeamHeads as ComboBox).SelectedItem as User).UserId,
-                workers = addedUsers,
-                tasks=tasksForAddedWorkers,
+                IdTeamHead = ((cmb_TeamHeads as ComboBox).SelectedItem as Models.Worker).WorkerId,
+                workers = addedWorkers,
+                tasks= tasksForAddedWorkers,
                 DevHours = DevHours.Value,
                 UIUXHours = UIUXHours.Value,
                 QAHours = QAHours.Value,
@@ -119,6 +124,27 @@ namespace Client_WinForm.Manager
                 MessageBox.Show(string.Join(",\n", results.Select(p => p.ErrorMessage)));
 
             }
+
+        }
+
+        private void textChanged(object sender, EventArgs e)
+        {
+            bool validControl = true;
+            if ((sender as TextBox).Text.Length < 2 || (sender as TextBox).Text.Length > 15)
+            {
+                errorProvider.SetError(sender as TextBox, "must contain 2-15 chars");
+                validControl = false;
+            }
+            if((sender as TextBox).Text.Contains("'"))
+            {
+                errorProvider.SetError(sender as TextBox, "must contain 2-15 chars");
+                validControl = false;
+            }
+            if (validControl)
+                errorProvider.SetError(sender as TextBox, "");
+            if (errorProvider.GetError(txt_CustomerName) == "" && errorProvider.GetError(txt_projectName) == "")
+                btn_add_project.Enabled = true;
+            else btn_add_project.Enabled = false;
 
         }
     }

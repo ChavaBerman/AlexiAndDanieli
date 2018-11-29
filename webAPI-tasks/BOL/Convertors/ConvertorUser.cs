@@ -8,20 +8,20 @@ using System.Threading.Tasks;
 
 namespace BOL.Convertors
 {
-  public class ConvertorUser
+  public class ConvertorWorker
     {
-        public static User convertDBtoUser(MySqlDataReader readerRow)
+        public static Worker convertDBtoWorker(MySqlDataReader readerRow)
         {
             //TODO:לעדכן את הסטטוס של המשתמש באוביקט
-            return new User() {
-                UserId = readerRow.GetInt32(0),
-                UserName = readerRow.GetString(1),
+            return new Worker() {
+                WorkerId = readerRow.GetInt32(0),
+                WorkerName = readerRow.GetString(1),
                 Email = readerRow.GetString(3),
                 IsNewWorker=false,
                 StatusId = readerRow.GetInt32(4),
                 NumHoursWork = readerRow.GetInt32(5),
                 ManagerId = readerRow.GetInt32(6),
-                 UserComputer= readerRow.GetString(7),
+                 WorkerComputer= readerRow.GetString(7),
                 statusObj=new Status()
                 {
                     Id=readerRow.GetInt32(8),
@@ -29,20 +29,20 @@ namespace BOL.Convertors
                 }
             };
         }
-        public static User convertDBtoUserWithPassword(MySqlDataReader readerRow)
+        public static Worker convertDBtoWorkerWithPassword(MySqlDataReader readerRow)
         {
             //TODO:לעדכן את הסטטוס של המשתמש באוביקט
-            return new User()
+            return new Worker()
             {
-                UserId = readerRow.GetInt32(0),
-                UserName = readerRow.GetString(1),
+                WorkerId = readerRow.GetInt32(0),
+                WorkerName = readerRow.GetString(1),
                 Password=readerRow.GetString(2),
                 Email = readerRow.GetString(3),
                 IsNewWorker = false,
                 StatusId = readerRow.GetInt32(4),
                 NumHoursWork = readerRow.GetInt32(5),
                 ManagerId = readerRow.GetInt32(6),
-                UserComputer = readerRow.GetString(7),
+                WorkerComputer = readerRow.GetString(7),
                 statusObj = new Status()
                 {
                     Id = readerRow.GetInt32(8),

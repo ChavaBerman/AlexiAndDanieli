@@ -14,10 +14,10 @@ namespace Client_WinForm.Worker
     public partial class MyTasks : Form
     {
 
-        public MyTasks(User worker)
+        public MyTasks(Models.Worker worker)
         {
             InitializeComponent();
-            dataGridView1.DataSource = Requests.TaskRequests.GetAllTasksByUserId(worker.UserId).Select(p=>new { p.projectName,p.ReservingHours,p.GivenHours}).ToList();
+            dataGridView1.DataSource = Requests.TaskRequests.GetAllTasksByWorkerId(worker.WorkerId).Select(p=>new { p.projectName,p.ReservingHours,p.GivenHours}).ToList();
         }
     }
 }

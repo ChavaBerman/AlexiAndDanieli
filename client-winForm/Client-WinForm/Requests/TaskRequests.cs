@@ -66,7 +66,7 @@ namespace Client_WinForm.Requests
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(@"http://localhost:61309/api/Tasks/");
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            HttpResponseMessage response = client.GetAsync($"GetTasksWithUserAndProjectByProjectId/{projectId}").Result;
+            HttpResponseMessage response = client.GetAsync($"GetTasksWithWorkerAndProjectByProjectId/{projectId}").Result;
             if (response.IsSuccessStatusCode)
             {
                 var tasksJson = response.Content.ReadAsStringAsync().Result;
@@ -79,13 +79,13 @@ namespace Client_WinForm.Requests
             return allTasks;
         }
 
-        public static List<Task> GetAllTasksByUserId(int userId)
+        public static List<Task> GetAllTasksByWorkerId(int workerId)
         {
             List<Task> allTasks = new List<Task>();
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(@"http://localhost:61309/api/Tasks/");
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            HttpResponseMessage response = client.GetAsync($"GetTasksWithUserAndProjectByUserId/{userId}").Result;
+            HttpResponseMessage response = client.GetAsync($"GetTasksWithWorkerAndProjectByWorkerId/{workerId}").Result;
             if (response.IsSuccessStatusCode)
             {
                 var tasksJson = response.Content.ReadAsStringAsync().Result;
@@ -107,8 +107,8 @@ namespace Client_WinForm.Requests
                 using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
                 {
                     dynamic currentTask = task;
-                    string currentUserNameString = Newtonsoft.Json.JsonConvert.SerializeObject(currentTask, Formatting.None);
-                    streamWriter.Write(currentUserNameString);
+                    string currentWorkerNameString = Newtonsoft.Json.JsonConvert.SerializeObject(currentTask, Formatting.None);
+                    streamWriter.Write(currentWorkerNameString);
                     streamWriter.Flush();
                     streamWriter.Close();
                 }

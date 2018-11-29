@@ -62,8 +62,7 @@ namespace webAPI_tasks.Controllers
             };
 
             List<string> ErrorList = new List<string>();
-
-            //if the code reached this part - the user is not valid
+            
             foreach (var item in ModelState.Values)
                 foreach (var err in item.Errors)
                     ErrorList.Add(err.ErrorMessage);
@@ -74,7 +73,7 @@ namespace webAPI_tasks.Controllers
 
         [HttpPut]
         [Route("api/Projects/AddWorkerToProject")]
-        public HttpResponseMessage Put([FromBody]int projectId, [FromBody]List<User> workers)
+        public HttpResponseMessage Put([FromBody]int projectId, [FromBody]List<Worker> workers)
         {
 
             if (ModelState.IsValid)
@@ -85,8 +84,7 @@ namespace webAPI_tasks.Controllers
             };
 
             List<string> ErrorList = new List<string>();
-
-            //if the code reached this part - the user is not valid
+            
             foreach (var item in ModelState.Values)
                 foreach (var err in item.Errors)
                     ErrorList.Add(err.ErrorMessage);

@@ -1,10 +1,10 @@
 import {Status} from './Status';
-export class User{
-    userId:number
-    userName:string
+export class Worker{
+    workerId:number
+    workerName:string
     password:string
     email:string
-    userComputer:string
+    workerComputer:string
     numHoursWork:number
     managerId:number
     statusId:number

@@ -1,7 +1,6 @@
 
 export class EmailParams{
-    idUser:number;
+    idWorker:number;
     subject:string;
     message:string;
-
 }

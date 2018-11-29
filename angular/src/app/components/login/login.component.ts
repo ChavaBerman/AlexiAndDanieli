@@ -1,17 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, ValidatorFn } from '@angular/forms';
 import { checkStringLength } from '../../../app/shared/validaitors/validators'
-import { UserService } from '../../shared/services/user.service'
+import { WorkerService } from '../../shared/services/worker.service'
 import * as sha256 from 'async-sha256'
 import { Router } from '../../../../node_modules/@angular/router';
 import swal from 'sweetalert2';
-import { User } from 'src/app/shared/imports';
+import { Worker } from 'src/app/shared/imports';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit{
+
 
   //----------------PROPERTIRS-------------------
   formGroup: FormGroup;
@@ -19,10 +20,10 @@ export class LoginComponent {
   hashPassword: string;
 
   //----------------CONSTRUCTOR------------------
-  constructor(private userservice: UserService, private router: Router) {
+  constructor(private workerService: WorkerService, private router: Router) {
     let formGroupConfig = {
-      userName: new FormControl("", checkStringLength("name", 3, 15)),
-      userPassword: new FormControl("", checkStringLength("password", 6, 10)),
+      workerName: new FormControl("", checkStringLength("name", 3, 15)),
+      workerPassword: new FormControl("", checkStringLength("password", 6, 10)),
       rememberMe:new FormControl("")
     };
 
@@ -30,29 +31,41 @@ export class LoginComponent {
   }
 
   //----------------METHODS-------------------
+  ngOnInit() {
+    this.workerService.getIp().subscribe((res) => {
+      console.log(res);
+      this.workerService.getCurrentWorkerByIp(res["ip"]).subscribe((worker) => {
+        if (worker != null) {
+          localStorage.setItem("currentWorker", JSON.stringify(worker));
+          this.workerService.navigate(JSON.parse(JSON.stringify(worker)));
+        }
+        else this.workerService.navigateToLogin();
+      })
+    })
+  }
   async  submitLogin() {
 
 
-    this.hashPassword = await sha256(this.formGroup.controls["userPassword"].value);
-    this.userservice.login(this.formGroup.controls["userName"].value, this.hashPassword).subscribe((res) => {
-         let user:User=new User();
-         user.userId=res.userId;
+    this.hashPassword = await sha256(this.formGroup.controls["workerPassword"].value);
+    this.workerService.login(this.formGroup.controls["workerName"].value, this.hashPassword).subscribe((res) => {
+         let worker:Worker=new Worker();
+         worker.workerId=res.workerId;
          
-         user.userName=res.userName;
-         user.email=res.email;
-         user.isNewWorker=false;
-         user.managerId=res.managerId;
-         user.numHoursWork=res.numHoursWork;
-         user.statusId=res.statusId;
-         user.statusObj=res.statusObj;
-      localStorage.setItem("user", JSON.stringify(user));
+         worker.workerName=res.workerName;
+         worker.email=res.email;
+         worker.isNewWorker=false;
+         worker.managerId=res.managerId;
+         worker.numHoursWork=res.numHoursWork;
+         worker.statusId=res.statusId;
+         worker.statusObj=res.statusObj;
+      localStorage.setItem("currentWorker", JSON.stringify(worker));
       if(this.formGroup.controls["rememberMe"].value==true)
       {
 
-       this.userservice.getIp().subscribe((ip)=>{
+       this.workerService.getIp().subscribe((ip)=>{
 
-         user.userComputer=ip["ip"];
-         this.userservice.updateWorker(user).subscribe(
+         worker.workerComputer=ip["ip"];
+         this.workerService.updateWorker(worker).subscribe(
           (msg) => {
             swal({
               position: 'top-end',
@@ -71,13 +84,15 @@ export class LoginComponent {
         });
        
       }
-      this.userservice.navigate(res);
+      this.workerService.navigate(res);
 
     }
     )
   };
 
-
+  forgotPassword(){
+    this.router.navigate(['taskManagement/forgot-password']);
+  }
 
 
 }

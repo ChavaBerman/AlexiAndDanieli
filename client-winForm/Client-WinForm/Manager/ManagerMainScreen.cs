@@ -13,13 +13,13 @@ namespace Client_WinForm.Manager
 {
     public partial class ManagerMainScreen : Form
     {
-        User manager=new User();
-        public ManagerMainScreen(User user)
+        Models.Worker manager=new Models.Worker();
+        public ManagerMainScreen(Models.Worker worker)
         {
-            manager = user;
+            manager = worker;
             IsMdiContainer = true;
             InitializeComponent();
-            Text = "Hello " + manager.UserName;
+            Text = "Hello " + manager.WorkerName;
         }
 
         private void addProjectToolStripMenuItem_Click(object sender, EventArgs e)

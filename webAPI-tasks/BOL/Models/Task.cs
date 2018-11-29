@@ -20,11 +20,11 @@ namespace BOL.Models
         [Range(0, int.MaxValue,ErrorMessage ="Given hours can not be less than 0")]
         [DefaultValue(1)]
         public decimal GivenHours { get; set; }
-        public int IdUser { get; set; }
+        public int IdWorker { get; set; }
         public int IdProject { get; set; }
 
 
         public string projectName { get; set; }
-        public string userName { get; set; }
+        public string workerName { get; set; }
     }
 }

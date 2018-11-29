@@ -40,7 +40,7 @@ export function checkInt(cntName: string, min: number, max: number): Array<Valid
 export function confirmPassword(formgroup: FormGroup): Array<ValidatorFn> {
   return [
     f => !f.value ? { "val": `confirm password is required` } : null,
-    f => f.value && f.value != formgroup.get("password").value ? { "val": `confirm password does not match the passwords` } : null
+    f => f.value && f.value != formgroup.get("password").value ? { "val": `confirm password does not match the password` } : null
 
   ];
 }

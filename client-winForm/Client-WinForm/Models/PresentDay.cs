@@ -26,7 +26,7 @@ namespace Client_WinForm.Models
 
         public decimal sumHoursDay { get; set; }
 
-        public int UserId { get; set; }
+        public int WorkerId { get; set; }
 
         public int ProjectId { get; set; }
 

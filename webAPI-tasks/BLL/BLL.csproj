@@ -59,7 +59,8 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="LogicDepartment.cs" />
-    <Compile Include="LogicManager.cs" />
+    <Compile Include="LogicForgetPassword.cs" />
+    <Compile Include="LogicWorker.cs" />
     <Compile Include="LogicPresentDay.cs" />
     <Compile Include="LogicProjects.cs" />
     <Compile Include="LogicReports.cs" />

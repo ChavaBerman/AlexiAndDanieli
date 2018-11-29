@@ -15,11 +15,11 @@ namespace Client_WinForm.TeamHead
 {
     public partial class HoursChart : Form
     {
-        public HoursChart(User teamHead)
+        public HoursChart(Models.Worker teamHead)
         {
             
             InitializeComponent();
-            cmb_projects.DataSource = ProjectRequests.GetAllProjectsByTeamHead(teamHead.UserId);
+            cmb_projects.DataSource = ProjectRequests.GetAllProjectsByTeamHead(teamHead.WorkerId);
             cmb_projects.DisplayMember = "ProjectName";
 
             
@@ -28,7 +28,7 @@ namespace Client_WinForm.TeamHead
         private void cmb_projects_SelectedIndexChanged(object sender, EventArgs e)
         {
 Dictionary<string, Hours> workersDictionary = new Dictionary<string, Hours>();
-            workersDictionary = UserRequests.GetWorkersDictionary(((sender as ComboBox).SelectedItem as Project).ProjectId);
+            workersDictionary = WorkerRequests.GetWorkersDictionary(((sender as ComboBox).SelectedItem as Project).ProjectId);
             List<decimal> givenList = workersDictionary.Values.Select(p => p.GivenHours).ToList();
             List<decimal> reservingList = workersDictionary.Values.Select(p => p.ReservingHours).ToList();
             chart1.Series[0].Points.DataBindXY(workersDictionary.Keys, givenList);

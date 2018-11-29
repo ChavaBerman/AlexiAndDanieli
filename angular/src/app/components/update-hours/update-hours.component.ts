@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { User, UserService, Task, TaskService } from 'src/app/shared/imports';
+import { Worker, WorkerService, Task, TaskService } from 'src/app/shared/imports';
 
 @Component({
   selector: 'app-update-hours',
@@ -8,17 +8,17 @@ import { User, UserService, Task, TaskService } from 'src/app/shared/imports';
 })
 export class UpdateHoursComponent implements OnInit {
 
-  teamHead:User;
-  myWorkers:Array<User>;
-  currentWorker:User;
+  teamHead:Worker;
+  myWorkers:Array<Worker>;
+  currentWorker:Worker;
   currentWorkerTasks:Array<Task>=null;
 
-  constructor(private userService:UserService,private taskService:TaskService) { 
-  this.teamHead= this.userService.getCurrentUser();
+  constructor(private workerService:WorkerService,private taskService:TaskService) { 
+  this.teamHead= this.workerService.getCurrentWorker();
   }
 
   ngOnInit() {
-    this.userService.getAllWorkersByTeamHead(this.teamHead.userId).subscribe((res)=>{
+    this.workerService.getAllWorkersByTeamHead(this.teamHead.workerId).subscribe((res)=>{
       this.myWorkers=res;
        this.currentWorker = this.myWorkers[0];
     this.GetTasks();
@@ -32,7 +32,7 @@ export class UpdateHoursComponent implements OnInit {
 
   }
   GetTasks(){
-    this.taskService.GetTasksWithUserAndProjectByUserId(this.currentWorker.userId).subscribe((res)=>{
+    this.taskService.GetTasksWithWorkerAndProjectByWorkerId(this.currentWorker.workerId).subscribe((res)=>{
       this.currentWorkerTasks=res;
     });
   }

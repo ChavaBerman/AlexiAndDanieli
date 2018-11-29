@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { UserService } from './shared/imports';
+import { WorkerService } from './shared/imports';
+import { ActivatedRoute } from '@angular/router';
 
 
 @Component({
@@ -9,22 +10,12 @@ import { UserService } from './shared/imports';
 })
 export class AppComponent implements OnInit {
   title = 'ClientAngular';
-  constructor(private userservice: UserService) {
+  constructor(private workerService: WorkerService,private route:ActivatedRoute) {
 
   }
 
   ngOnInit() {
 
-    this.userservice.getIp().subscribe((res) => {
-      console.log(res);
-      this.userservice.getCurrentUserByIp(res["ip"]).subscribe((user) => {
-        if (user != null) {
-          localStorage.setItem("user", JSON.stringify(user));
-          this.userservice.navigate(JSON.parse(JSON.stringify(user)));
-        }
-        else this.userservice.navigateToLogin();
-      })
-    })
     //TODO
 
   }

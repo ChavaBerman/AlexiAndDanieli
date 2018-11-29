@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Task, TaskService, User, UserService } from 'src/app/shared/imports';
+import { Task, TaskService, Worker, WorkerService } from 'src/app/shared/imports';
 
 @Component({
   selector: 'app-my-tasks',
@@ -9,14 +9,14 @@ import { Task, TaskService, User, UserService } from 'src/app/shared/imports';
 export class MyTasksComponent implements OnInit {
 
   myTasks:Array<Task>;
-  worker:User;
+  worker:Worker;
 
-  constructor(private taskService:TaskService,private userService:UserService) { 
-   this.worker= this.userService.getCurrentUser();
+  constructor(private taskService:TaskService,private workerService:WorkerService) { 
+   this.worker= this.workerService.getCurrentWorker();
   }
 
   ngOnInit() {
-    this.taskService.GetTasksWithUserAndProjectByUserId(this.worker.userId).subscribe((res)=>{
+    this.taskService.GetTasksWithWorkerAndProjectByWorkerId(this.worker.workerId).subscribe((res)=>{
       this.myTasks=res;
     })
   }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { UserService } from 'src/app/shared/imports';
+import { WorkerService } from 'src/app/shared/imports';
 
 @Component({
   selector: 'app-worker',
@@ -8,12 +8,12 @@ import { UserService } from 'src/app/shared/imports';
 })
 export class WorkerComponent implements OnInit {
 
-  constructor(private userservice:UserService) { }
+  constructor(private workerService:WorkerService) { }
 
   ngOnInit() {
   }
   logOut() {
-    //log out the user
-    this.userservice.logout();
+    //log out the worker
+    this.workerService.logout();
   }
 }

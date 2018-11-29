@@ -3,19 +3,19 @@
   <form [formGroup]="formGroup" (ngSubmit)="submitLogin()">
     <div class="form-item">
       <label for="email"></label>
-      <input type="text" formControlName="userName"  placeholder="User Name"/>
+      <input type="text" formControlName="workerName"  placeholder="worker Name"/>
     </div>
-    <div *ngIf="formGroup.controls['userName'].errors">
-      <p *ngFor="let err of obj.values(formGroup.controls['userName'].errors)">{{err}}</p>
+    <div *ngIf="formGroup.controls['workerName'].errors">
+      <p *ngFor="let err of obj.values(formGroup.controls['workerName'].errors)">{{err}}</p>
   </div>
     <div class="form-item">
       <label for="password"></label>
-      <input type="password" formControlName="userPassword"  placeholder="Password"/>
+      <input type="password" formControlName="workerPassword"  placeholder="Password"/>
     </div>
 
    
-  <div *ngIf="formGroup.controls['userPassword'].errors">
-    <p *ngFor="let err of obj.values(formGroup.controls['userPassword'].errors)">{{err}}</p>
+  <div *ngIf="formGroup.controls['workerPassword'].errors">
+    <p *ngFor="let err of obj.values(formGroup.controls['workerPassword'].errors)">{{err}}</p>
 </div>
     <div class="button-panel">
       <input type="submit" class="button" title="Sign In" value="Sign In" [disabled]="formGroup.invalid"/>
@@ -23,6 +23,6 @@
     <p><input type="checkbox" formControlName="rememberMe"/>Remember Me</p>
   </form>
   <div class="form-footer">
-
+<button (click)="forgotPassword()">forgot password</button>
   </div>
 </div> 

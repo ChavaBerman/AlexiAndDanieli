@@ -21,18 +21,18 @@ namespace BLL
             {
                 int parentId = id++;
                 decimal givenHoursOfProject = 0;
-                List<User> workersOfProject = new List<User>();
-                workersOfProject = LogicManager.GetWorkersByProjectId(project.ProjectId);
-                foreach (User worker in workersOfProject)
+                List<Worker> workersOfProject = new List<Worker>();
+                workersOfProject = LogicWorker.GetWorkersByProjectId(project.ProjectId);
+                foreach (Worker worker in workersOfProject)
                 {
                     Task task = new Task();
-                    task = LogicTask.GetTaskByIdProjectAndIdUser(worker.UserId, project.ProjectId);
+                    task = LogicTask.GetTaskByIdProjectAndIdWorker(worker.WorkerId, project.ProjectId);
                     ReportData reportData = new ReportData
                     {
                         Id = id++,
                         ParentId = parentId,
-                        Name = worker.UserName,
-                        TeamHeader = LogicManager.GetUserDetails(project.IdManager).UserName,
+                        Name = worker.WorkerName,
+                        TeamHeader = LogicWorker.GetWorkerDetails(project.IdTeamHead).WorkerName,
                         ReservingHours = task.ReservingHours,
                         GivenHours = task.GivenHours,
                         DateBegin = null,
@@ -46,7 +46,7 @@ namespace BLL
                     Id = parentId,
                     ParentId = 0,
                     Name = project.ProjectName,
-                    TeamHeader = LogicManager.GetUserDetails(project.IdManager).UserName,
+                    TeamHeader = LogicWorker.GetWorkerDetails(project.IdTeamHead).WorkerName,
                     ReservingHours = project.QAHours + project.UIUXHours + project.DevHours,
                     GivenHours = givenHoursOfProject,
                     Customer = project.CustomerName,
@@ -69,27 +69,27 @@ namespace BLL
             foreach (Project project in projects)
             {
                 int parentId = id++;
-                User teamHead = LogicManager.GetUserDetails(project.IdManager);
+                Worker teamHead = LogicWorker.GetWorkerDetails(project.IdTeamHead);
                 if (projectName == "ok" || project.ProjectName == projectName)
                     if (requiredMonth == 0 || project.DateBegin.Month <= requiredMonth && project.DateEnd.Month >= requiredMonth)
-                        if (teamHeadName == "ok" || teamHeadName == teamHead.UserName)
+                        if (teamHeadName == "ok" || teamHeadName == teamHead.WorkerName)
                         {
                             decimal givenHoursOfProject = 0;
-                            List<User> workersOfProject = new List<User>();
-                            workersOfProject = LogicManager.GetWorkersByProjectId(project.ProjectId);
-                            foreach (User worker in workersOfProject)
+                            List<Worker> workersOfProject = new List<Worker>();
+                            workersOfProject = LogicWorker.GetWorkersByProjectId(project.ProjectId);
+                            foreach (Worker worker in workersOfProject)
                             {
                                 Task task = new Task();
-                                task = LogicTask.GetTaskByIdProjectAndIdUser(worker.UserId, project.ProjectId);
+                                task = LogicTask.GetTaskByIdProjectAndIdWorker(worker.WorkerId, project.ProjectId);
                                 givenHoursOfProject += task.GivenHours;
-                                if (workerName == "ok" || worker.UserName == workerName)
+                                if (workerName == "ok" || worker.WorkerName == workerName)
                                 {
                                     ReportData reportData = new ReportData
                                     {
                                         Id = id++,
                                         ParentId = parentId,
-                                        Name = worker.UserName,
-                                        TeamHeader = LogicManager.GetUserDetails(project.IdManager).UserName,
+                                        Name = worker.WorkerName,
+                                        TeamHeader = LogicWorker.GetWorkerDetails(project.IdTeamHead).WorkerName,
                                         ReservingHours = task.ReservingHours,
                                         GivenHours = task.GivenHours,
                                         DateBegin = null,
@@ -103,7 +103,7 @@ namespace BLL
                                 Id = parentId,
                                 ParentId = 0,
                                 Name = project.ProjectName,
-                                TeamHeader = LogicManager.GetUserDetails(project.IdManager).UserName,
+                                TeamHeader = LogicWorker.GetWorkerDetails(project.IdTeamHead).WorkerName,
                                 ReservingHours = project.QAHours + project.UIUXHours + project.DevHours,
                                 GivenHours = givenHoursOfProject,
                                 Customer = project.CustomerName,

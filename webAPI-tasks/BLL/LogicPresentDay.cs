@@ -25,7 +25,7 @@ namespace BLL
                     presentDays.Add(new PresentDay
                     {
                         ProjectId=reader.GetInt32(0),
-                        UserId = reader.GetInt32(1),
+                        WorkerId = reader.GetInt32(1),
                         TimeBegin=reader.GetDateTime(2),
                         TimeEnd=reader.GetDateTime(3),
                         sumHoursDay=reader.GetInt32(4)
@@ -48,7 +48,7 @@ namespace BLL
                     presentDays.Add(new PresentDay
                     {
                         ProjectId = reader.GetInt32(0),
-                        UserId = reader.GetInt32(1),
+                        WorkerId = reader.GetInt32(1),
                         TimeBegin = reader.GetMySqlDateTime(2).GetDateTime(),
                         TimeEnd = reader.GetMySqlDateTime(3).GetDateTime(),
                         sumHoursDay = reader.GetInt32(4),
@@ -74,7 +74,7 @@ namespace BLL
                     presentDays.Add(new PresentDay
                     {
                         ProjectId = reader.GetInt32(0),
-                        UserId = reader.GetInt32(1),
+                        WorkerId = reader.GetInt32(1),
                         TimeBegin = reader.GetDateTime(2),
                         TimeEnd = reader.GetDateTime(3),
                         sumHoursDay = reader.GetInt32(4),
@@ -103,13 +103,13 @@ namespace BLL
             string query = $"UPDATE task.PresentDay SET EndHour='{presentDay.TimeEnd.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss")}',TotalHours={addedHours} WHERE IdPresentDay={presentDay.IdPresentDay}";
             if (DBAccess.RunNonQuery(query) == 1)
             {
-                BOL.Models.Task currentTask = LogicTask.GetTaskByIdProjectAndIdUser(currentPresentDay.UserId, currentPresentDay.ProjectId);
+                BOL.Models.Task currentTask = LogicTask.GetTaskByIdProjectAndIdWorker(currentPresentDay.WorkerId, currentPresentDay.ProjectId);
                 currentTask.GivenHours +=(decimal)addedHours;
                 if (LogicTask.UpdateTask(currentTask))
                 {
-                   User Currentuser =LogicManager.GetUserDetails(currentPresentDay.UserId);
-                    Currentuser.NumHoursWork +=(decimal) addedHours;
-                  if(  LogicManager.UpdateUser(Currentuser))
+                   Worker CurrentWorker =LogicWorker.GetWorkerDetails(currentPresentDay.WorkerId);
+                    CurrentWorker.NumHoursWork +=(decimal) addedHours;
+                  if(  LogicWorker.UpdateWorker(CurrentWorker))
                         return true;
                 }
             }
@@ -119,11 +119,11 @@ namespace BLL
         public static int AddPresent(PresentDay presentDay)
         {
             //TODO:לעדכן את סך השעות שהעובד עבד
-            string query = $"INSERT INTO `task`.`PresentDay`(`IdProject`,`IdUser`,`startHour`,`EndHour`,`Totalhours`) VALUES({presentDay.ProjectId},{presentDay.UserId},'{presentDay.TimeBegin.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss tt")}','{presentDay.TimeEnd.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss")}',{presentDay.sumHoursDay}); ";
+            string query = $"INSERT INTO `task`.`PresentDay`(`IdProject`,`IdUser`,`startHour`,`EndHour`,`Totalhours`) VALUES({presentDay.ProjectId},{presentDay.WorkerId},'{presentDay.TimeBegin.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss tt")}','{presentDay.TimeEnd.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss")}',{presentDay.sumHoursDay}); ";
             if (DBAccess.RunNonQuery(query) == 1)
             {
                 try {
-                return  GetPresent(presentDay.UserId, presentDay.ProjectId, presentDay.TimeBegin.ToLocalTime()).IdPresentDay;
+                return  GetPresent(presentDay.WorkerId, presentDay.ProjectId, presentDay.TimeBegin.ToLocalTime()).IdPresentDay;
                 }
                 catch
                 {

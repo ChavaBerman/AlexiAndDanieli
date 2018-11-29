@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Project, ProjectService, User, UserService, PresentDay, PresentDayService } from 'src/app/shared/imports';
+import { Project, ProjectService, Worker, WorkerService, PresentDay, PresentDayService } from 'src/app/shared/imports';
 import swal from 'sweetalert2';
 import {SimpleTimer} from 'ng2-simple-timer';
 
@@ -16,7 +16,7 @@ export class BeginEndTaskComponent implements OnInit {
   hoursDisplay: number = 0;
   secondsDisplay: number = 0;
   timer: any;
-  worker: User;
+  worker: Worker;
   myProjects: Array<Project>;
   currentProject: Project;
   statBtnEnable: boolean = false;
@@ -27,11 +27,11 @@ export class BeginEndTaskComponent implements OnInit {
   interval:any;
   presentDay: PresentDay = new PresentDay();
 
-  constructor(private projectService: ProjectService, private userService: UserService, private presentDayService: PresentDayService,private st: SimpleTimer) { }
+  constructor(private projectService: ProjectService, private workerService: WorkerService, private presentDayService: PresentDayService,private st: SimpleTimer) { }
 
   ngOnInit() {
-    this.worker = this.userService.getCurrentUser();
-    this.projectService.GetAllProjectsByWorker(this.worker.userId).subscribe((res) => {
+    this.worker = this.workerService.getCurrentWorker();
+    this.projectService.GetAllProjectsByWorker(this.worker.workerId).subscribe((res) => {
       this.myProjects = res;
       this.currentProject = this.myProjects[0];
     })
@@ -47,7 +47,7 @@ export class BeginEndTaskComponent implements OnInit {
     this.selectProjectEnable = true;
     this.endBtnEnable = false;
 
-    this.presentDay.userId = this.worker.userId;
+    this.presentDay.workerId = this.worker.workerId;
     this.presentDay.ProjectId = this.currentProject.projectId;
     this.presentDay.timeBegin = new Date();
     this.presentDayService.addPresentDay(this.presentDay).subscribe(

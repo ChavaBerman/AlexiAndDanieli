@@ -17,28 +17,28 @@ namespace BOL.Validations
             ValidationResult validationResult = ValidationResult.Success;
             try
             {
-                //Take userId and email of the user parameter
-                int userId = (validationContext.ObjectInstance as User).UserId;
+                //Take worker id and email of the worker parameter
+                int workerId = (validationContext.ObjectInstance as Worker).WorkerId;
                 string email = value.ToString();
 
-                //Invoke method 'getAllUsers' from 'UserService' in 'BLL project' by reflection (not by adding reference!)
+                //Invoke method 'getAllWorkers' from 'WorkerService' in 'BLL project' by reflection (not by adding reference!)
 
                 //1. Load 'BLL' project   
                 Assembly assembly = Assembly.LoadFrom(Directory.GetParent(AppContext.BaseDirectory).Parent.FullName + @"\BLL\bin\Debug\BLL.dll");
 
-                //2. Get 'UserService' type
-                Type userServiceType = assembly.GetTypes().First(t => t.Name.Equals("LogicManager"));
+                //2. Get 'WorkerService' type
+                Type workerServiceType = assembly.GetTypes().First(t => t.Name.Equals("LogicManager"));
 
-                //3. Get 'GetAllUsers' method
-                MethodInfo getAllUsersMethod = userServiceType.GetMethods().First(m => m.Name.Equals("GetAllUsers"));
+                //3. Get 'GetAllWorkers' method
+                MethodInfo getAllWorkersMethod = workerServiceType.GetMethods().First(m => m.Name.Equals("GetAllWorkers"));
 
                 //4. Invoke this method
-                List<User> users = getAllUsersMethod.Invoke(Activator.CreateInstance(userServiceType), new object[] { }) as List<User>;
+                List<Worker> workers = getAllWorkersMethod.Invoke(Activator.CreateInstance(workerServiceType), new object[] { }) as List<Worker>;
 
-                //The result of this method is list of users
+                //The result of this method is list of workers
 
-                //check if email of the user parameter is unique
-                bool isUnique =users.Any(user => user.Email.Equals(email, StringComparison.OrdinalIgnoreCase)&&user.UserId!=userId) == false;
+                //check if email of the worker parameter is unique
+                bool isUnique =workers.Any(worker => worker.Email.Equals(email, StringComparison.OrdinalIgnoreCase)&&worker.WorkerId!=workerId) == false;
                 if (isUnique == false)
                 {
                     ErrorMessage = "Enter another email address, this one is already exists.";

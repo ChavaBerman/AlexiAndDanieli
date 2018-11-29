@@ -18,19 +18,19 @@ namespace Client_WinForm.Manager
         {
             InitializeComponent();
 
-            cmb_managerName.DataSource = UserRequests.GetAllTeamHeads();
-            cmb_managerName.DisplayMember = "userName";
+            cmb_managerName.DataSource = WorkerRequests.GetAllTeamHeads();
+            cmb_managerName.DisplayMember = "WorkerName";
 
-            cmb_workers.DataSource = UserRequests.GetAllWorkers();
-            cmb_workers.DisplayMember = "userName";
+            cmb_workers.DataSource = WorkerRequests.GetWorkers();
+            cmb_workers.DisplayMember = "WorkerName";
         }
 
         private void cmb_workers_SelectedIndexChanged(object sender, EventArgs e)
         {
-            User currentWorker = ((sender as ComboBox).SelectedItem as User);
+            Models.Worker currentWorker = ((sender as ComboBox).SelectedItem as Models.Worker);
             foreach (var cbi in cmb_managerName.Items)
             {
-                if ((cbi as User).UserId == currentWorker.ManagerId)
+                if ((cbi as Models.Worker).WorkerId == currentWorker.ManagerId)
                 {
                     cmb_managerName.SelectedItem = cbi;
                     break;
@@ -40,9 +40,9 @@ namespace Client_WinForm.Manager
 
         private void btn_save_Click(object sender, EventArgs e)
         {
-            User user = cmb_workers.SelectedItem as User;
-            user.ManagerId = (cmb_managerName.SelectedItem as User).UserId;
-            if (UserRequests.UpdateUser(user))
+            Models.Worker worker = cmb_workers.SelectedItem as Models.Worker;
+            worker.ManagerId = (cmb_managerName.SelectedItem as Models.Worker).WorkerId;
+            if (WorkerRequests.UpdateWorker(worker))
             {
                 MessageBox.Show("Succeeded!");
                 Close();

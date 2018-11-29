@@ -21,8 +21,8 @@ namespace Client_WinForm.Manager
         {
             InitializeComponent();
         
-            cmb_workers.DataSource = UserRequests.GetAllWorkers();
-            cmb_workers.DisplayMember = "userName";
+            cmb_workers.DataSource = WorkerRequests.GetWorkers();
+            cmb_workers.DisplayMember = "WorkerName";
 
             cmb_projects.DataSource = ProjectRequests.GetAllProjects();
             cmb_projects.DisplayMember = "ProjectName";
@@ -33,7 +33,7 @@ namespace Client_WinForm.Manager
         {
             Models.Task newTask = new Models.Task
             {
-                IdUser = (cmb_workers.SelectedItem as User).UserId,
+                IdWorker = (cmb_workers.SelectedItem as Models.Worker).WorkerId,
                 IdProject = (cmb_projects.SelectedItem as Project).ProjectId,
                 GivenHours = num_hours.Value,
                 ReservingHours = 0

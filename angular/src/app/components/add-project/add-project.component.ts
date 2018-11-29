@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
-import { checkStringLength, checkInt, StatusService, Status, UserService, User, validateDateEnd, createValidatorDateBegin, ProjectService, Task } from '../../shared/imports';
+import { checkStringLength, checkInt, StatusService, Status, WorkerService, Worker, validateDateEnd, createValidatorDateBegin, ProjectService, Task } from '../../shared/imports';
 import { Router } from '@angular/router';
 import * as sha256 from 'async-sha256';
 import swal from 'sweetalert2';
@@ -16,13 +16,13 @@ export class AddProjectComponent implements OnInit {
 
   formGroup: FormGroup;
   obj: typeof Object = Object;
-  teamHeadsArray: Array<User>;
-  allowedWorkers: Array<User> = new Array<User>();
-  choosenWorkers: Array<User> = new Array<User>();
-  teamHeadWorkers: Array<User> = new Array<User>();
-  currentUser: User;
+  teamHeadsArray: Array<Worker>;
+  allowedWorkers: Array<Worker> = new Array<Worker>();
+  choosenWorkers: Array<Worker> = new Array<Worker>();
+  teamHeadWorkers: Array<Worker> = new Array<Worker>();
+  currentWorker: Worker;
   newProject: Project;
-  constructor(private statusService: StatusService, private userService: UserService, private projectService: ProjectService, private router: Router) {
+  constructor(private statusService: StatusService, private workerService: WorkerService, private projectService: ProjectService, private router: Router) {
 
     let formGroupConfig = {
       projectName: new FormControl("", checkStringLength("name", 3, 15)),
@@ -37,7 +37,7 @@ export class AddProjectComponent implements OnInit {
     this.formGroup = new FormGroup(formGroupConfig);
     this.formGroup.addControl("dateEnd", new FormControl("", validateDateEnd(this.formGroup)));
 
-    this.currentUser = this.userService.getCurrentUser();
+    this.currentWorker = this.workerService.getCurrentWorker();
   }
 
   ngOnInit() {
@@ -45,13 +45,13 @@ export class AddProjectComponent implements OnInit {
   }
 
   getAllTeamHeads() {
-    this.userService.getAllTeamHeads().subscribe((res) => {
+    this.workerService.getAllTeamHeads().subscribe((res) => {
       this.teamHeadsArray = res;
-      this.getAllowedWorkers(this.teamHeadsArray[0].userId)
+      this.getAllowedWorkers(this.teamHeadsArray[0].workerId)
     });
   }
   getAllowedWorkers(idTeamHead: number) {
-    this.userService.getAllowedWorkers(idTeamHead).subscribe((res) => {
+    this.workerService.getAllowedWorkers(idTeamHead).subscribe((res) => {
       this.allowedWorkers = res;
     });
   }
@@ -61,8 +61,8 @@ export class AddProjectComponent implements OnInit {
     this.choosenWorkers.splice(0, this.choosenWorkers.length - 1);
     let selectedOptions = event.target['options'];
     let teamHead = this.teamHeadsArray[selectedOptions.selectedIndex];
-    this.getAllowedWorkers(teamHead.userId);
-    this.userService.getAllWorkersByTeamHead(teamHead.userId).subscribe((res) => {
+    this.getAllowedWorkers(teamHead.workerId);
+    this.workerService.getAllWorkersByTeamHead(teamHead.workerId).subscribe((res) => {
       this.teamHeadWorkers = res;
     })
 
@@ -91,16 +91,11 @@ export class AddProjectComponent implements OnInit {
     this.newProject.tasks = new Array<Task>();
     this.choosenWorkers.forEach(async (element) => {
       let task: Task = new Task();
-      task.idUser = element.userId;
-      //  const {value: reservingHours} = await swal({
-      //    title: 'enter resering hours for: '+element.userName,
-      //    input: 'number',
-      //    inputPlaceholder: '1'
-      //  })
+      task.idWorker = element.workerId;
       let reservingHours = NaN;
       while (isNaN(reservingHours)) {
         
-          reservingHours = Number(prompt("enter reserving hours for: " + element.userName, "1"));
+          reservingHours = Number(prompt("enter reserving hours for: " + element.workerName, "1"));
        if(isNaN(reservingHours))
        alert("enter number only!!!");
       

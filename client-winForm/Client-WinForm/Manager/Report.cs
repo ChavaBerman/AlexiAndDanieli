@@ -32,11 +32,11 @@ namespace Client_WinForm.Manager
             cmb_projects.DataSource = Requests.ProjectRequests.GetAllProjects();
             cmb_projects.DisplayMember = "ProjectName";
             cmb_projects.SelectedIndex = -1;
-            cmb_teamHeads.DataSource = Requests.UserRequests.GetAllTeamHeads();
-            cmb_teamHeads.DisplayMember = "UserName";
+            cmb_teamHeads.DataSource = Requests.WorkerRequests.GetAllTeamHeads();
+            cmb_teamHeads.DisplayMember = "WorkerName";
             cmb_teamHeads.SelectedIndex = -1;
-            cmb_workers.DataSource = Requests.UserRequests.GetAllWorkers();
-            cmb_workers.DisplayMember = "UserName";
+            cmb_workers.DataSource = Requests.WorkerRequests.GetWorkers();
+            cmb_workers.DisplayMember = "WorkerName";
             cmb_workers.SelectedIndex = -1;
             isStarted = true;
         }
@@ -47,8 +47,8 @@ namespace Client_WinForm.Manager
             {
                 int requiredMonth = cmb_month.SelectedIndex + 1;
                 string projectName = cmb_projects.SelectedIndex > -1 ? (cmb_projects.SelectedItem as Project).ProjectName : "ok";
-                string workerName = cmb_workers.SelectedIndex > -1 ? (cmb_workers.SelectedItem as User).UserName : "ok";
-                string teamHeadName = cmb_teamHeads.SelectedIndex > -1 ? (cmb_teamHeads.SelectedItem as User).UserName : "ok";
+                string workerName = cmb_workers.SelectedIndex > -1 ? (cmb_workers.SelectedItem as Models.Worker).WorkerName : "ok";
+                string teamHeadName = cmb_teamHeads.SelectedIndex > -1 ? (cmb_teamHeads.SelectedItem as Models.Worker).WorkerName : "ok";
                 reportDataList = Requests.ReportsRequests.FilterReport(requiredMonth, projectName, teamHeadName, workerName);
                 grid_data_report.DataSource = reportDataList;
                 grid_data_report.Columns["Id"].IsVisible = false;

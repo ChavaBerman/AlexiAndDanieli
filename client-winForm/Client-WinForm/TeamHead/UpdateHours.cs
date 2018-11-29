@@ -18,11 +18,11 @@ namespace Client_WinForm.TeamHead
      
         List<Models.Task> tasks = new List<Models.Task>();
 
-        public UpdateHours(User teamHead)
+        public UpdateHours(Models.Worker teamHead)
         {
             InitializeComponent();
-            cmb_workers.DataSource = UserRequests.GetWorkersByTeamhead(teamHead.UserId);
-            cmb_workers.DisplayMember = "userName";
+            cmb_workers.DataSource = WorkerRequests.GetWorkersByTeamhead(teamHead.WorkerId);
+            cmb_workers.DisplayMember = "WorkerName";
 
 
 
@@ -31,8 +31,8 @@ namespace Client_WinForm.TeamHead
 
         private void cmb_workers_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int userId = ((sender as ComboBox).SelectedItem as User).UserId;
-            tasks = TaskRequests.GetAllTasksByUserId(userId);
+            int workerId = ((sender as ComboBox).SelectedItem as Models.Worker).WorkerId;
+            tasks = TaskRequests.GetAllTasksByWorkerId(workerId);
             List<ShownTask> selectTask = new List<ShownTask>();
             foreach (Models.Task item in tasks)
             {

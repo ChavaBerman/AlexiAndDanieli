@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { User, Project, UserService, ProjectService, TaskService, StatusService, Status, } from '../../shared/imports';
+import { Worker, Project, WorkerService, ProjectService, TaskService, StatusService, Status, } from '../../shared/imports';
 import { FormGroup, FormControl } from '@angular/forms';
 import swal from 'sweetalert2';
 
@@ -11,15 +11,15 @@ import swal from 'sweetalert2';
 export class EditWorkerComponent implements OnInit {
 
 
-  workers: Array<User>;
+  workers: Array<Worker>;
   statuses: Array<Status>;
-  teamHeads: Array<User>;
+  teamHeads: Array<Worker>;
   formGroup: FormGroup;
-  currentWorker: User;
+  currentWorker: Worker;
 
-  constructor(private userService: UserService, private statusService: StatusService) {
+  constructor(private workerService: WorkerService, private statusService: StatusService) {
     let formGroupConfig = {
-      idUser: new FormControl(""),
+      idWorker: new FormControl(""),
       idStatus: new FormControl(""),
       idTeamHead: new FormControl("")
     };
@@ -27,10 +27,10 @@ export class EditWorkerComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.userService.getAllWorkers().subscribe((res) => {
+    this.workerService.getAllWorkers().subscribe((res) => {
       this.workers = res;
     })
-    this.userService.getAllTeamHeads().subscribe((res) => {
+    this.workerService.getAllTeamHeads().subscribe((res) => {
       this.teamHeads = res;
     })
     this.statusService.getAllStatus().subscribe((res) => {
@@ -52,7 +52,7 @@ export class EditWorkerComponent implements OnInit {
     let idStatus: number = this.formGroup.controls["idStatus"].value;
     this.currentWorker.managerId = idTeamHead;
     this.currentWorker.statusId = idStatus;
-    this.userService.updateWorker(this.currentWorker).subscribe(
+    this.workerService.updateWorker(this.currentWorker).subscribe(
       (res) => {
         swal({
           position: 'top-end',
@@ -70,7 +70,7 @@ export class EditWorkerComponent implements OnInit {
 
   }
 
-  removeUser(){
+  removeWorker(){
     swal({
       title: 'Are you sure?',
       text: "You won't be able to revert this!",
@@ -81,8 +81,8 @@ export class EditWorkerComponent implements OnInit {
       confirmButtonText: 'Yes, delete it!'
     }).then((result) => {
       if (result.value) {
-      //remove user:
-        this.userService.removeUser(this.currentWorker.userId).subscribe(
+      //remove worker:
+        this.workerService.removeWorker(this.currentWorker.workerId).subscribe(
           (res)=>{
             swal({
               position: 'top-end',

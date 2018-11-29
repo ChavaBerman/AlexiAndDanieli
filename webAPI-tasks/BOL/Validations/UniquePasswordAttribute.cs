@@ -18,11 +18,10 @@ namespace BOL.Validations
             ValidationResult validationResult = ValidationResult.Success;
             try
             {
-                Directory.GetCurrentDirectory();
                 string password = "";
-                //Take userId and password of the user parameter
-                int userId = (validationContext.ObjectInstance as User).UserId;
-                if ((validationContext.ObjectInstance as User).IsNewWorker == false)
+                //Take workerId and password of the worker parameter
+                int workerId = (validationContext.ObjectInstance as Worker).WorkerId;
+                if ((validationContext.ObjectInstance as Worker).IsNewWorker == false)
                     return null;
                 try
                 {
@@ -40,18 +39,18 @@ namespace BOL.Validations
                 Assembly assembly = Assembly.LoadFrom(Directory.GetParent(AppContext.BaseDirectory).Parent.FullName+@"\BLL\bin\Debug\BLL.dll");
 
                 //2. Get 'UserService' type
-                Type userServiceType = assembly.GetTypes().First(t => t.Name.Equals("LogicManager"));
+                Type workerServiceType = assembly.GetTypes().First(t => t.Name.Equals("LogicManager"));
 
                 //3. Get 'GetAllUsers' method
-                MethodInfo getAllUsersMethod = userServiceType.GetMethods().First(m => m.Name.Equals("GetAllUsersWithPassword"));
+                MethodInfo getAllWorkersMethod = workerServiceType.GetMethods().First(m => m.Name.Equals("GetAllWorkersWithPassword"));
 
                 //4. Invoke this method
-                List<User> users = getAllUsersMethod.Invoke(Activator.CreateInstance(userServiceType), new object[] { }) as List<User>;
+                List<Worker> workers = getAllWorkersMethod.Invoke(Activator.CreateInstance(workerServiceType), new object[] { }) as List<Worker>;
 
-                //The result of this method is list of users
+                //The result of this method is list of workers
 
 
-                bool isUnique = users.Any(user => user.Password.Equals(password) && user.UserId != userId) == false;
+                bool isUnique = workers.Any(worker => worker.Password.Equals(password) && worker.WorkerId != workerId) == false;
                 if (isUnique == false)
                 {
                     ErrorMessage = "Choose another password.";

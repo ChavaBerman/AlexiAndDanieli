@@ -8,14 +8,15 @@ using System.Threading.Tasks;
 
 namespace Client_WinForm
 {
-   public class LoginUser
+   public class LoginWorker
     {
         [Required]
         [MinLength(64),MaxLength(64)]
         public string Password { get; set; }
+
         [Required]
         [MinLength(2), MaxLength(15)]
-        public string UserName { get; set; }
+        public string WorkerName { get; set; }
 
         public static String sha256_hash(String value)
         {

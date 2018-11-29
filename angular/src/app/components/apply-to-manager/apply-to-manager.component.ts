@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
-import { UserService, User, EmailParams } from 'src/app/shared/imports';
+import { WorkerService, Worker, EmailParams } from 'src/app/shared/imports';
 import swal from 'sweetalert2';
 
 @Component({
@@ -11,26 +11,26 @@ import swal from 'sweetalert2';
 export class ApplyToManagerComponent implements OnInit {
 
   formGroup: FormGroup;
-  worker: User;
+  worker: Worker;
 
-  constructor(private userService: UserService) {
+  constructor(private workerService: WorkerService) {
     let formGroupConfig = {
       subject: new FormControl(""),
       message: new FormControl("")
     };
     this.formGroup = new FormGroup(formGroupConfig);
 
-  this.worker = this.userService.getCurrentUser();
+  this.worker = this.workerService.getCurrentWorker();
   }
 
   ngOnInit() {
   }
   sendEmail() {
     let emailParams:EmailParams=new EmailParams();
-    emailParams.idUser=this.worker.userId;
+    emailParams.idWorker=this.worker.workerId;
     emailParams.message=this.formGroup.controls["message"].value;
     emailParams.subject=this.formGroup.controls["subject"].value;
-    this.userService.senEmail(emailParams).subscribe(
+    this.workerService.senEmail(emailParams).subscribe(
       (res) => {
         swal({
           position: 'top-end',

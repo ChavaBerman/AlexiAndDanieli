@@ -1,5 +1,5 @@
-export class LoginUser{
+export class LoginWorker{
     Password:string
-    userName:string
+    workerName:string
 
 }

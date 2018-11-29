@@ -5,7 +5,7 @@
     <div class="form-item">
       <label>Choose worker</label>
       <select (change)="changeWorker($event)">
-        <option *ngFor="let worker of myWorkers" [ngValue]="worker.userId">{{worker.userName}}</option>
+        <option *ngFor="let worker of myWorkers" [ngValue]="worker.workerId">{{worker.workerName}}</option>
       </select>
     </div>
     <div *ngIf="currentWorkerTasks">

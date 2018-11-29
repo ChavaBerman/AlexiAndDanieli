@@ -4,8 +4,8 @@
   <form [formGroup]="formGroup" (ngSubmit)="saveTask()">
     <div class="form-item">
       <label>Choose worker</label>
-      <select formControlName="idUser">
-        <option *ngFor="let worker of workers" [ngValue]="worker.userId">{{worker.userName}}</option>
+      <select formControlName="idWorker">
+        <option *ngFor="let worker of workers" [ngValue]="worker.workerId">{{worker.workerName}}</option>
       </select>
     </div>
 

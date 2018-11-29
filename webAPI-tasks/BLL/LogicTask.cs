@@ -16,13 +16,13 @@ namespace BLL
     {
         public static bool AddTask(BOL.Models.Task task)
         {
-            string query = $"INSERT INTO `task`.`task`(`reservingHours`,`givenHours`,`idProject`,`idUser`)VALUES({task.ReservingHours},{task.GivenHours },{task.IdProject},{task.IdUser});";
+            string query = $"INSERT INTO `task`.`task`(`reservingHours`,`givenHours`,`idProject`,`idUser`)VALUES({task.ReservingHours},{task.GivenHours },{task.IdProject},{task.IdWorker});";
             return DBAccess.RunNonQuery(query) == 1;
         }
 
         public static bool CheckIfExists(BOL.Models.Task task)
         {
-            string query = $"SELECT * FROM task.task WHERE idProject={task.IdProject} and idUser={task.IdUser};";
+            string query = $"SELECT * FROM task.task WHERE idProject={task.IdProject} and idUser={task.IdWorker};";
             List<BOL.Models.Task> projects = new List<BOL.Models.Task>();
             Func<MySqlDataReader, List<BOL.Models.Task>> func = (reader) =>
             {
@@ -40,15 +40,15 @@ namespace BLL
             return false;
         }
 
-        public static List<BOL.Models.Task> GetTasksWithUserAndProjectByUserId(int userId)
+        public static List<BOL.Models.Task> GetTasksWithWorkerAndProjectByWorkerId(int workerId)
         {
-            string query = $"SELECT task.task.*,task.project.name,task.user.userName FROM task.task join task.user on task.user.idUser=task.task.idUser join task.project on task.project.idProject=task.task.idProject where task.task.idUser={userId};";
+            string query = $"SELECT task.task.*,task.project.name,task.user.userName FROM task.task join task.user on task.user.idUser=task.task.idUser join task.project on task.project.idProject=task.task.idProject where task.task.idUser={workerId};";
             Func<MySqlDataReader, List<BOL.Models.Task>> func = (reader) =>
             {
                 List<BOL.Models.Task> tasks = new List<BOL.Models.Task>();
                 while (reader.Read())
                 {
-                    tasks.Add(ConvertorTask.convertToProjectWithProjectAndUser(reader));
+                    tasks.Add(ConvertorTask.convertToProjectWithProjectAndWorker(reader));
                 }
                 return tasks;
             };
@@ -59,9 +59,9 @@ namespace BLL
 
         }
 
-        public static BOL.Models.Task GetTaskByIdProjectAndIdUser(int userId, int projectId)
+        public static BOL.Models.Task GetTaskByIdProjectAndIdWorker(int workerId, int projectId)
         {
-            string query = $"SELECT * FROM task.task  where task.task.idUser={userId} and task.task.idProject={projectId};";
+            string query = $"SELECT * FROM task.task  where task.task.idUser={workerId} and task.task.idProject={projectId};";
             Func<MySqlDataReader, List<BOL.Models.Task>> func = (reader) =>
             {
                 List<BOL.Models.Task> tasks = new List<BOL.Models.Task>();
@@ -78,7 +78,7 @@ namespace BLL
 
         }
 
-        public static List<BOL.Models.Task> GetTasksWithUserAndProjectByProjectId(int idProject)
+        public static List<BOL.Models.Task> GetTasksWithWorkerAndProjectByProjectId(int idProject)
         {
             string query = $"SELECT task.task.*,task.project.name,task.user.userName FROM task.task join task.user on task.user.idUser=task.task.idUser join task.project on task.project.idProject=task.task.idProject where task.task.idProject={idProject};";
             Func<MySqlDataReader, List<BOL.Models.Task>> func = (reader) =>
@@ -86,7 +86,7 @@ namespace BLL
                 List<BOL.Models.Task> tasks = new List<BOL.Models.Task>();
                 while (reader.Read())
                 {
-                    tasks.Add(ConvertorTask.convertToProjectWithProjectAndUser(reader));
+                    tasks.Add(ConvertorTask.convertToProjectWithProjectAndWorker(reader));
                 }
                 return tasks;
             };
@@ -100,10 +100,10 @@ namespace BLL
         {
             List<BOL.Models.Task> tasks = new List<BOL.Models.Task>();
             Dictionary<string, Hours> dictionary = new Dictionary<string, Hours>();
-            tasks = GetTasksWithUserAndProjectByProjectId(projectId);
+            tasks = GetTasksWithWorkerAndProjectByProjectId(projectId);
             foreach (BOL.Models.Task item in tasks)
             {
-                dictionary.Add(item.userName, new Hours { GivenHours = item.GivenHours, ReservingHours = item.ReservingHours });
+                dictionary.Add(item.workerName, new Hours { GivenHours = item.GivenHours, ReservingHours = item.ReservingHours });
             }
             return dictionary;
         }
@@ -111,7 +111,7 @@ namespace BLL
         {
             List<BOL.Models.Task> tasks = new List<BOL.Models.Task>();
             Dictionary<string, Hours> dictionary = new Dictionary<string, Hours>();
-            tasks = GetTasksWithUserAndProjectByUserId(workerId);
+            tasks = GetTasksWithWorkerAndProjectByWorkerId(workerId);
             foreach (BOL.Models.Task item in tasks)
             {
                 dictionary.Add(item.projectName, new Hours { GivenHours = item.GivenHours, ReservingHours = item.ReservingHours });

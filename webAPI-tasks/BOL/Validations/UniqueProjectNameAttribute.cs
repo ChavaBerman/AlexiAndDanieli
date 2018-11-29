@@ -16,25 +16,25 @@ namespace BOL.Validations
             ValidationResult validationResult = ValidationResult.Success;
             try
             {
-                //Take userId and projectName of the user parameter
+                //Take projectId and projectName of the project parameter
                 int projectId = (validationContext.ObjectInstance as Project).ProjectId;
                 string projectName = value.ToString();
 
-                //Invoke method 'getAllUsers' from 'UserService' in 'BLL project' by reflection (not by adding reference!)
+                //Invoke method 'GetAllProjects' from 'projectService' in 'BLL project' by reflection (not by adding reference!)
 
                 //1. Load 'BLL' project
                 Assembly assembly = Assembly.LoadFrom(Directory.GetParent(AppContext.BaseDirectory).Parent.FullName + @"\BLL\bin\Debug\BLL.dll");
 
-                //2. Get 'UserService' type
-                Type userServiceType = assembly.GetTypes().First(t => t.Name.Equals("LogicProjects"));
+                //2. Get 'WorkerService' type
+                Type projectServiceType = assembly.GetTypes().First(t => t.Name.Equals("LogicProjects"));
 
-                //3. Get 'GetAllUsers' method
-                MethodInfo getAllProjectsMethod = userServiceType.GetMethods().First(m => m.Name.Equals("GetAllProjects"));
+                //3. Get 'GetAllProjects' method
+                MethodInfo getAllProjectsMethod = projectServiceType.GetMethods().First(m => m.Name.Equals("GetAllProjects"));
 
                 //4. Invoke this method
-                List<Project> projects = getAllProjectsMethod.Invoke(Activator.CreateInstance(userServiceType), new object[] { }) as List<Project>;
+                List<Project> projects = getAllProjectsMethod.Invoke(Activator.CreateInstance(projectServiceType), new object[] { }) as List<Project>;
 
-                //The result of this method is list of users
+                //The result of this method is list of projects
 
 
                 bool isUnique = projects.Any(project => project.ProjectName.Equals(projectName) && project.ProjectId != projectId) == false;

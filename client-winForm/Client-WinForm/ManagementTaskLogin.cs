@@ -29,39 +29,39 @@ namespace Client_WinForm
         private void btn_enter_Click(object sender, EventArgs e)
         {
 
-            LoginUser loginUser = new LoginUser { UserName = txt_userName.Text, Password = LoginUser.sha256_hash(txt_password.Text).ToUpper() };
-            var validationContext = new ValidationContext(loginUser, null, null);
+            LoginWorker loginWorker = new LoginWorker { WorkerName = txt_userName.Text, Password = LoginWorker.sha256_hash(txt_password.Text).ToUpper() };
+            var validationContext = new ValidationContext(loginWorker, null, null);
             var results = new List<ValidationResult>();
-            User user = new User();
+            Models.Worker worker = new Models.Worker();
 
-            if (Validator.TryValidateObject(loginUser, validationContext, results, true))
+            if (Validator.TryValidateObject(loginWorker, validationContext, results, true))
             {
 
-                user = Requests.UserRequests.LoginByPassword(loginUser);
-                if (user != null)
+                worker = Requests.WorkerRequests.LoginByPassword(loginWorker);
+                if (worker != null)
                 {
                     if (cb_rememberUser.Checked)
                     {
-                        user.UserComputer = Requests.UserRequests.GetIp();
-                        if (!Requests.UserRequests.UpdateUser(user))
-                            MessageBox.Show("this computer already registred to another user");
+                        worker.WorkerComputer = Requests.WorkerRequests.GetIp();
+                        if (!Requests.WorkerRequests.UpdateWorker(worker))
+                            MessageBox.Show("this computer already registred to another worker");
                     }
 
-                    switch (user.statusObj.StatusName)
+                    switch (worker.statusObj.StatusName)
                     {
                         case "Manager":
-                            Manager.ManagerMainScreen managerMainScreen = new Manager.ManagerMainScreen(user);
+                            Manager.ManagerMainScreen managerMainScreen = new Manager.ManagerMainScreen(worker);
                             managerMainScreen.Show();
                             Close();
                             break;
                         case "TeamHead":
-                            TeamHeadScreen TeamHeadScreen = new TeamHeadScreen(user);
+                            TeamHeadScreen TeamHeadScreen = new TeamHeadScreen(worker);
                             TeamHeadScreen.Show();
                             Close();
                             break;
 
                         default:
-                            WorkerScreen workerScreen = new WorkerScreen(user);
+                            WorkerScreen workerScreen = new WorkerScreen(worker);
                             workerScreen.Show();
                             Close();
                             break;

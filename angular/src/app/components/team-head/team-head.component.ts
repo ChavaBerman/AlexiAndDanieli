@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { UserService } from 'src/app/shared/imports';
+import { WorkerService } from 'src/app/shared/imports';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,18 +8,18 @@ import { Router } from '@angular/router';
   styleUrls: ['./team-head.component.css']
 })
 export class TeamHeadComponent implements OnInit {
-  currentuser: boolean;
+  currentWorker: boolean;
 
-  constructor(private userservice: UserService, private router: Router) { }
+  constructor(private workerService: WorkerService, private router: Router) { }
 
   ngOnInit() {
     //take value from local storage 
-    if (localStorage['currentuser']!=null)
-      this.currentuser = true;
+    if (localStorage['currentWorker']!=null)
+      this.currentWorker = true;
   }
 
   logOut() {
-    //log out the user
-    this.userservice.logout();
+    //log out the worker
+    this.workerService.logout();
   }
 }

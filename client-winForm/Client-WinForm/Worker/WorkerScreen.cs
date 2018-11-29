@@ -16,9 +16,9 @@ namespace Client_WinForm
     public partial class WorkerScreen : Form
     {
         PresentDay presentDay=new PresentDay();
-        User worker;
+        Models.Worker worker;
         Project currentProject;
-        public WorkerScreen(User worker)
+        public WorkerScreen(Models.Worker worker)
         {
 
             this.worker = worker;
@@ -26,7 +26,7 @@ namespace Client_WinForm
             IsMdiContainer = true;
             btn_logout.Enabled = false;
             btn_login.Enabled = false;
-            cmb_myProjects.DataSource = ProjectRequests.GetAllProjectsByWorker(worker.UserId);
+            cmb_myProjects.DataSource = ProjectRequests.GetAllProjectsByWorker(worker.WorkerId);
             cmb_myProjects.DisplayMember = "ProjectName";
         }
 
@@ -47,7 +47,7 @@ namespace Client_WinForm
         {
             presentDay = new PresentDay()
             {
-                UserId = worker.UserId,
+                WorkerId = worker.WorkerId,
                 ProjectId = currentProject.ProjectId,
                 TimeBegin = DateTime.Parse(txt_clock.Text),
 

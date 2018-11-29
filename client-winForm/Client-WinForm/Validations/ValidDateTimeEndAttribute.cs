@@ -15,7 +15,7 @@ namespace Client_WinForm.Validations
         {
             ValidationResult validationResult = ValidationResult.Success;
            
-                //Take userId and email of the user parameter
+                //Take workerId and email of the worker parameter
                 DateTime dateBegin = (validationContext.ObjectInstance as Project).DateBegin;
           
                 if (dateBegin>= ((DateTime)value))

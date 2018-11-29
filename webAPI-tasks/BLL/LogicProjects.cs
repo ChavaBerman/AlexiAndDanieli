@@ -33,7 +33,7 @@ namespace BLL
                         DevHours = reader.GetInt32(5),
                         DateBegin = reader.GetMySqlDateTime(6).GetDateTime(),
                         DateEnd = reader.GetMySqlDateTime(7).GetDateTime(),
-                        IdManager = reader.GetInt32(8),
+                        IdTeamHead = reader.GetInt32(8),
                         IsFinish = reader.GetBoolean(9)
                     });
                 }
@@ -62,7 +62,7 @@ namespace BLL
                         DevHours = reader.GetInt32(5),
                         DateBegin = reader.GetMySqlDateTime(6).GetDateTime(),
                         DateEnd = reader.GetMySqlDateTime(7).GetDateTime(),
-                        IdManager = reader.GetInt32(8),
+                        IdTeamHead = reader.GetInt32(8),
                         IsFinish = reader.GetBoolean(9)
                     });
                 }
@@ -92,7 +92,7 @@ namespace BLL
                             DevHours = reader.GetInt32(5),
                             DateBegin = reader.GetMySqlDateTime(6).GetDateTime(),
                             DateEnd = reader.GetMySqlDateTime(7).GetDateTime(),
-                            IdManager = reader.GetInt32(8),
+                            IdTeamHead = reader.GetInt32(8),
                             IsFinish = reader.GetBoolean(9)
                         });
                     }
@@ -123,7 +123,7 @@ namespace BLL
                             DevHours = reader.GetInt32(5),
                             DateBegin = reader.GetMySqlDateTime(6).GetDateTime(),
                             DateEnd = reader.GetMySqlDateTime(7).GetDateTime(),
-                            IdManager = reader.GetInt32(8),
+                            IdTeamHead = reader.GetInt32(8),
                             IsFinish = reader.GetBoolean(9)
                         });
                     }
@@ -152,7 +152,7 @@ namespace BLL
                         DevHours = reader.GetInt32(5),
                         DateBegin = reader.GetMySqlDateTime(6).GetDateTime(),
                         DateEnd = reader.GetMySqlDateTime(7).GetDateTime(),
-                        IdManager = reader.GetInt32(8),
+                        IdTeamHead = reader.GetInt32(8),
                         IsFinish = reader.GetBoolean(9)
 
                     });
@@ -189,7 +189,7 @@ namespace BLL
                         DevHours = reader.GetInt32(5),
                         DateBegin = reader.GetMySqlDateTime(6).GetDateTime(),
                         DateEnd = reader.GetMySqlDateTime(7).GetDateTime(),
-                        IdManager = reader.GetInt32(8),
+                        IdTeamHead = reader.GetInt32(8),
                         IsFinish = reader.GetBoolean(9),
                     });
                 }
@@ -222,12 +222,12 @@ namespace BLL
 
 
 
-        public static bool AddWorkerToProject(int projectId, List<User> workers)
+        public static bool AddWorkerToProject(int projectId, List<Worker> workers)
         {
 
             foreach (var item in workers)
             {
-                string query = $"INSERT INTO `task`.`projectworker`(`projectId`,`workerId`)VALUES({ projectId},{ item.UserId});";
+                string query = $"INSERT INTO `task`.`projectworker`(`projectId`,`workerId`)VALUES({ projectId},{ item.WorkerId});";
                 if (DBAccess.RunNonQuery(query) != 1)
                     return false;
             }
@@ -240,13 +240,13 @@ namespace BLL
             //TODO:איזה דפרטמנט
             string dateBegin = project.DateBegin.ToString("yyy-MM-dd");
             string dateEnd = project.DateEnd.ToString("yyy-MM-dd");
-            string query = $"INSERT INTO `task`.`project`(`name`,`startdate`,`Enddate`,`isFinished`,`customerName`,`DevHours`,`QAHours`,`UIUXHours`,`teamheadId`) VALUES('{project.ProjectName}','{dateBegin}','{dateEnd}',{project.IsFinish},'{project.CustomerName}',{project.DevHours},{project.QAHours},{project.UIUXHours},{project.IdManager}); ";
+            string query = $"INSERT INTO `task`.`project`(`name`,`startdate`,`Enddate`,`isFinished`,`customerName`,`DevHours`,`QAHours`,`UIUXHours`,`teamheadId`) VALUES('{project.ProjectName}','{dateBegin}','{dateEnd}',{project.IsFinish},'{project.CustomerName}',{project.DevHours},{project.QAHours},{project.UIUXHours},{project.IdTeamHead}); ";
             if (DBAccess.RunNonQuery(query) == 1)
             {
                 Project currentProject = GetProjectDetails(project.ProjectName);
                 foreach (BOL.Models.Task task in project.tasks)
                 {
-                    query = $"INSERT INTO `task`.`task`(`reservingHours`,`givenHours`,`idProject`,`idUser`)VALUES({task.ReservingHours},0,{currentProject.ProjectId},{task.IdUser });";
+                    query = $"INSERT INTO `task`.`task`(`reservingHours`,`givenHours`,`idProject`,`idUser`)VALUES({task.ReservingHours},0,{currentProject.ProjectId},{task.IdWorker });";
                     DBAccess.RunNonQuery(query);
                 }
                 return true;
@@ -261,14 +261,14 @@ namespace BLL
             deadProjects = GetAllProjectsByDeadLine();
             foreach (Project proj in deadProjects)
             {
-                User teamHead = new User();
-                teamHead = LogicManager.GetUserDetails(proj.IdManager);
-                List<User> workers = new List<User>();
-                workers = LogicManager.GetAllWorkersByTeamId(proj.IdManager);
-                LogicManager.sendMessage(teamHead,$"Hi {teamHead.UserName}, <br/>Project: {proj.ProjectName} is about to reach the deadline tomorrow. This project is under your responsibility, please hurry up!!!","ATTENTION");
-                foreach (User worker in workers)
+                Worker teamHead = new Worker();
+                teamHead = LogicWorker.GetWorkerDetails(proj.IdTeamHead);
+                List<Worker> workers = new List<Worker>();
+                workers = LogicWorker.GetAllWorkersByTeamId(proj.IdTeamHead);
+                LogicWorker.sendMessage(teamHead,$"Hi {teamHead.WorkerName}, <br/>Project: {proj.ProjectName} is about to reach the deadline tomorrow. This project is under your responsibility, please hurry up!!!","ATTENTION");
+                foreach (Worker worker in workers)
                 {
-                    LogicManager.sendMessage(worker, $"Hi {worker.UserName}, <br/>Project: {proj.ProjectName} is about to reach the deadline tomorrow. you are subscribed to this project, please hurry up!!!", "ATTENTION");
+                    LogicWorker.sendMessage(worker, $"Hi {worker.WorkerName}, <br/>Project: {proj.ProjectName} is about to reach the deadline tomorrow. you are subscribed to this project, please hurry up!!!", "ATTENTION");
                 }
 
             }

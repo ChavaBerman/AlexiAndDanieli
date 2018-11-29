@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {  User, UserService, TaskService } from 'src/app/shared/imports';
+import {  Worker, WorkerService, TaskService } from 'src/app/shared/imports';
 
 @Component({
   selector: 'app-my-hours',
@@ -14,8 +14,8 @@ export class MyHoursComponent implements OnInit {
   barChartData: any;
   reservingArray:any=[];
   givenArray:any=[];
-  worker: User;
-  constructor( private userService: UserService,private taskService:TaskService) { }
+  worker: Worker;
+  constructor( private workerService: WorkerService,private taskService:TaskService) { }
 
   ngOnInit() {
     this.barChartOptions = {
@@ -30,8 +30,8 @@ export class MyHoursComponent implements OnInit {
       { data:[], label: 'reserving hours' },
       { data: [], label: 'given hours' }
     ];
-    this.worker = this.userService.getCurrentUser();
-    this.taskService.GetProectsDictionaryByWorkerId(this.worker.userId).subscribe((res)=>{
+    this.worker = this.workerService.getCurrentWorker();
+    this.taskService.GetProectsDictionaryByWorkerId(this.worker.workerId).subscribe((res)=>{
       Object.keys(res).map(key => {
          this.barChartLabels.push(key);
          this.reservingArray.push(res[key]["reservingHours"]);

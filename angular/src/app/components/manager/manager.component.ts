@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { UserService } from '../../shared/services/user.service';
+import { WorkerService } from '../../shared/services/worker.service';
 import { Router } from '@angular/router';
 
 
@@ -10,19 +10,19 @@ import { Router } from '@angular/router';
 })
 export class ManagerComponent implements OnInit {
 
-  currentuser: boolean;
+  currentWorker: boolean;
 
-  constructor(private userservice: UserService,private router:Router) { }
+  constructor(private workerService: WorkerService,private router:Router) { }
 
   ngOnInit() {
     //take value from local storage 
-    if (localStorage['currentuser'])
-      this.currentuser = true;
+    if (localStorage['currentWorker'])
+      this.currentWorker = true;
   }
 
   logOut() {
-    //log out the user
-    this.userservice.logout();
+    //log out the worker
+    this.workerService.logout();
    
 
   }

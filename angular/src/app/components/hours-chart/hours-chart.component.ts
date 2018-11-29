@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Project, ProjectService, User, UserService, TaskService } from 'src/app/shared/imports';
+import { Project, ProjectService, Worker, WorkerService, TaskService } from 'src/app/shared/imports';
 
 @Component({
   selector: 'app-hours-chart',
@@ -16,8 +16,8 @@ export class HoursChartComponent implements OnInit {
   reservingArray:any=[];
   givenArray:any=[];
   projects: Array<Project>;
-  teamHead: User;
-  constructor(private projectService: ProjectService, private userService: UserService,private taskService:TaskService) { }
+  teamHead: Worker;
+  constructor(private projectService: ProjectService, private workerService: WorkerService,private taskService:TaskService) { }
 
   ngOnInit() {
     this.barChartOptions = {
@@ -32,8 +32,8 @@ export class HoursChartComponent implements OnInit {
       { data:[], label: 'reserving hours' },
       { data: [], label: 'given hours' }
     ];
-    this.teamHead = this.userService.getCurrentUser();
-    this.projectService.getAllProjectsByTeamHead(this.teamHead.userId).subscribe((res) => {
+    this.teamHead = this.workerService.getCurrentWorker();
+    this.projectService.getAllProjectsByTeamHead(this.teamHead.workerId).subscribe((res) => {
       this.projects = res;
     })
 

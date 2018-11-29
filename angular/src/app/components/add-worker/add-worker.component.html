@@ -2,11 +2,11 @@
   <h1>Add Worker</h1>
   <form [formGroup]="formGroup" (ngSubmit)="submitNewWorker()">
     <div class="form-item">
-      <label for="userName"></label>
-      <input type="text" formControlName="userName" placeholder="User Name" />
+      <label for="workerName"></label>
+      <input type="text" formControlName="workerName" placeholder="Worker Name" />
     </div>
-    <div *ngIf="formGroup.controls['userName'].errors">
-      <p *ngFor="let err of obj.values(formGroup.controls['userName'].errors)">{{err}}</p>
+    <div *ngIf="formGroup.controls['workerName'].errors">
+      <p *ngFor="let err of obj.values(formGroup.controls['workerName'].errors)">{{err}}</p>
     </div>
     <div class="form-item">
       <label for="password"></label>
@@ -38,7 +38,7 @@
     <div class="form-item">
         <label for="managerId"></label>
         <select formControlName="managerId">
-          <option *ngFor="let manager of managersArray" [ngValue]="manager.userId">{{manager.userName}}</option>
+          <option *ngFor="let manager of managersArray" [ngValue]="manager.workerId">{{manager.workerName}}</option>
         </select>
       </div>
 

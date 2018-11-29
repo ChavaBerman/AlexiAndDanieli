@@ -1,4 +1,4 @@
-import { User } from "./user";
+import { Worker } from "./Worker";
 import { Project } from "./Project";
 
 export class PresentDay{
@@ -6,9 +6,9 @@ export class PresentDay{
     timeBegin:Date;
     timeEnd:Date;
     sumHoursDay:number;
-    userId:number;
+    workerId:number;
     ProjectId:number;
     //---------------------
-    user:User;
+    worker:Worker;
     prot:Project;
 }
