@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { WorkerService, Worker, EmailParams } from 'src/app/shared/imports';
 import swal from 'sweetalert2';
@@ -8,28 +8,27 @@ import swal from 'sweetalert2';
   templateUrl: './apply-to-manager.component.html',
   styleUrls: ['./apply-to-manager.component.css']
 })
-export class ApplyToManagerComponent implements OnInit {
+export class ApplyToManagerComponent {
 
   formGroup: FormGroup;
-  worker: Worker;
+  currentWorker: Worker;
 
   constructor(private workerService: WorkerService) {
+    //declare all controls in form:
     let formGroupConfig = {
       subject: new FormControl(""),
       message: new FormControl("")
     };
     this.formGroup = new FormGroup(formGroupConfig);
-
-  this.worker = this.workerService.getCurrentWorker();
+    //get current worker:
+    this.currentWorker = this.workerService.getCurrentWorker();
   }
 
-  ngOnInit() {
-  }
   sendEmail() {
-    let emailParams:EmailParams=new EmailParams();
-    emailParams.idWorker=this.worker.workerId;
-    emailParams.message=this.formGroup.controls["message"].value;
-    emailParams.subject=this.formGroup.controls["subject"].value;
+    let emailParams: EmailParams = new EmailParams();
+    emailParams.idWorker = this.currentWorker.workerId;
+    emailParams.message = this.formGroup.controls["message"].value;
+    emailParams.subject = this.formGroup.controls["subject"].value;
     this.workerService.senEmail(emailParams).subscribe(
       (res) => {
         swal({
@@ -39,12 +38,13 @@ export class ApplyToManagerComponent implements OnInit {
           showConfirmButton: false,
           timer: 1500
         });
-      },(req)=> {
-          swal({
-            type: 'error',
-            title: 'Oops...',
-            text: 'Did not succeed to send.' });
-        }
+      }, (req) => {
+        swal({
+          type: 'error',
+          title: 'Oops...',
+          text: 'Did not succeed to send.'
+        });
+      }
     )
   }
 

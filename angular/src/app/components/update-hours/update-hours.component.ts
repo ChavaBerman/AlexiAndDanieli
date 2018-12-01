@@ -8,32 +8,36 @@ import { Worker, WorkerService, Task, TaskService } from 'src/app/shared/imports
 })
 export class UpdateHoursComponent implements OnInit {
 
-  teamHead:Worker;
-  myWorkers:Array<Worker>;
-  currentWorker:Worker;
-  currentWorkerTasks:Array<Task>=null;
+  teamHead: Worker;
+  myWorkers: Array<Worker>;
+  currentWorker: Worker;
+  currentWorkerTasks: Array<Task> = null;
 
-  constructor(private workerService:WorkerService,private taskService:TaskService) { 
-  this.teamHead= this.workerService.getCurrentWorker();
+  constructor(private workerService: WorkerService, private taskService: TaskService) {
+    //get current team head:
+    this.teamHead = this.workerService.getCurrentWorker();
   }
 
   ngOnInit() {
-    this.workerService.getAllWorkersByTeamHead(this.teamHead.workerId).subscribe((res)=>{
-      this.myWorkers=res;
-       this.currentWorker = this.myWorkers[0];
-    this.GetTasks();
-    }); 
-   
-  }
-  changeWorker(event:Event){
-    let selectedOptions = event.target['options'];
-    this.currentWorker = this.myWorkers[selectedOptions.selectedIndex];
-   this.GetTasks();
+    //get all workers witch belong to current team head:
+    this.workerService.getAllWorkersByTeamHead(this.teamHead.workerId).subscribe((res) => {
+      this.myWorkers = res;
+      this.currentWorker = this.myWorkers[0];
+      this.GetTasks();
+    });
 
   }
-  GetTasks(){
-    this.taskService.GetTasksWithWorkerAndProjectByWorkerId(this.currentWorker.workerId).subscribe((res)=>{
-      this.currentWorkerTasks=res;
+  changeWorker(event: Event) {
+    //get selested  worker:
+    let selectedOptions = event.target['options'];
+    this.currentWorker = this.myWorkers[selectedOptions.selectedIndex];
+    this.GetTasks();
+
+  }
+  GetTasks() {
+    //get all selected worker's tasks;
+    this.taskService.getTasksWithWorkerAndProjectByWorkerId(this.currentWorker.workerId).subscribe((res) => {
+      this.currentWorkerTasks = res;
     });
   }
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Worker, Project, WorkerService, ProjectService, TaskService, StatusService, Status, } from '../../shared/imports';
+import { Worker, WorkerService, StatusService, Status, } from '../../shared/imports';
 import { FormGroup, FormControl } from '@angular/forms';
 import swal from 'sweetalert2';
 
@@ -18,6 +18,7 @@ export class EditWorkerComponent implements OnInit {
   currentWorker: Worker;
 
   constructor(private workerService: WorkerService, private statusService: StatusService) {
+    //declare all controls in form:
     let formGroupConfig = {
       idWorker: new FormControl(""),
       idStatus: new FormControl(""),
@@ -27,20 +28,25 @@ export class EditWorkerComponent implements OnInit {
   }
 
   ngOnInit() {
+    //get all workers:
     this.workerService.getAllWorkers().subscribe((res) => {
       this.workers = res;
     })
+    //get all team heads:
     this.workerService.getAllTeamHeads().subscribe((res) => {
       this.teamHeads = res;
     })
+    //get all statuses:
     this.statusService.getAllStatus().subscribe((res) => {
       this.statuses = res;
     })
   }
 
   chooseWorker(event: Event) {
+    //get choosen worker:
     let selectedOptions = event.target['options'];
     this.currentWorker = this.workers[selectedOptions.selectedIndex];
+    //show user his details:
     this.formGroup.patchValue({
       idStatus: this.currentWorker.statusId,
       idTeamHead: this.currentWorker.managerId
@@ -65,12 +71,12 @@ export class EditWorkerComponent implements OnInit {
         swal({
           type: 'error',
           title: 'Oops...',
-          text: 'Did not succeed to update.' });
+          text: 'Did not succeed to update.'
+        });
       })
-
   }
 
-  removeWorker(){
+  removeWorker() {
     swal({
       title: 'Are you sure?',
       text: "You won't be able to revert this!",
@@ -81,9 +87,9 @@ export class EditWorkerComponent implements OnInit {
       confirmButtonText: 'Yes, delete it!'
     }).then((result) => {
       if (result.value) {
-      //remove worker:
+        //remove worker:
         this.workerService.removeWorker(this.currentWorker.workerId).subscribe(
-          (res)=>{
+          (res) => {
             swal({
               position: 'top-end',
               type: 'success',
@@ -91,13 +97,14 @@ export class EditWorkerComponent implements OnInit {
               showConfirmButton: false,
               timer: 1500
             });
-            this.workers.splice(this.workers.indexOf(this.currentWorker),1);
+            this.workers.splice(this.workers.indexOf(this.currentWorker), 1);
           }
-          ,(req)=>{
+          , (req) => {
             swal({
               type: 'error',
               title: 'Oops...',
-              text: 'Did not succeed to remove.' });
+              text: 'Did not succeed to remove.'
+            });
           }
         );
       }

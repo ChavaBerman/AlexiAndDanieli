@@ -7,14 +7,15 @@ import { Worker } from '../imports';
 
 @Injectable()
 export class ReportService {
- 
-    constructor(private http: HttpClient, private router: Router) {
 
-    }
     basicURL: string = Global.BASE_ENDPOINT;
-   createProjectReport(): Observable<any>{
-    let url: string = `${this.basicURL}/Reports/GetProjectReportData`;
-    return this.http.get(url);
-   }
+
+    constructor(private http: HttpClient, private router: Router) { }
+
+    //GET
+    createProjectReport(): Observable<any> {
+        let url: string = `${this.basicURL}/Reports/GetProjectReportData`;
+        return this.http.get(url);
+    }
 
 }

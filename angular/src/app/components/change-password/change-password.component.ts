@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { checkStringLength, confirmPassword, WorkerService } from 'src/app/shared/imports';
@@ -9,26 +9,29 @@ import swal from 'sweetalert2';
   templateUrl: './change-password.component.html',
   styleUrls: ['./change-password.component.css']
 })
-export class ChangePasswordComponent implements OnInit {
+export class ChangePasswordComponent  {
+
   obj: typeof Object = Object;
-  formGroup:FormGroup;
-  requestId:number;
-  constructor(private  route: ActivatedRoute,private workerService:WorkerService) {
+  formGroup: FormGroup;
+  requestId: number;
+
+  constructor(private route: ActivatedRoute, private workerService: WorkerService) {
+    //declare all controls in form:
     let formGroupConfig = {
       password: new FormControl("", checkStringLength("password", 6, 6)),
       workerName: new FormControl("")
     };
-
     this.formGroup = new FormGroup(formGroupConfig);
+    //add confirmPassword control to form:
     this.formGroup.addControl("confirmPassword", new FormControl("", confirmPassword(this.formGroup)));
-    this.requestId =parseInt(this.route.snapshot.paramMap.get('requestId'));
-   }
-
-  ngOnInit() {
+    //get requestId from url:
+    this.requestId = parseInt(this.route.snapshot.paramMap.get('requestId'));
   }
- async submitNewPassword(){
-  let hashPassword=await sha256(this.formGroup.controls["password"].value);
-    this.workerService.sendNewPassword(hashPassword,this.requestId,this.formGroup.controls["workerName"].value).subscribe(
+
+  async submitNewPassword() {
+    //hash password:
+    let hashPassword = await sha256(this.formGroup.controls["password"].value);
+    this.workerService.sendNewPassword(hashPassword, this.requestId, this.formGroup.controls["workerName"].value).subscribe(
       (res) => {
         swal({
           position: 'top-end',
@@ -37,15 +40,13 @@ export class ChangePasswordComponent implements OnInit {
           showConfirmButton: false,
           timer: 100
         });
-      },(req)=> {
-    
-          swal({
-            type: 'error',
-            title: 'Oops...',
-            text: req.error });
-        }
-    )
+      }, (req) => {
 
+        swal({
+          type: 'error',
+          title: 'Oops...',
+          text: req.error
+        });
+      });
   }
-
 }

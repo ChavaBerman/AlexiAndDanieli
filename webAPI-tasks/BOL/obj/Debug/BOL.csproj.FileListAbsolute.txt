@@ -96,3 +96,7 @@ S:\ChavyBerman\try105\webAPI-tasks\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.ca
 S:\ChavyBerman\try105\webAPI-tasks\BOL\obj\Debug\BOL.csproj.CopyComplete
 S:\ChavyBerman\try105\webAPI-tasks\BOL\obj\Debug\BOL.dll
 S:\ChavyBerman\try105\webAPI-tasks\BOL\obj\Debug\BOL.pdb
+C:\Users\User\Documents\GitHub\TryNumber105\webAPI-tasks\BOL\obj\Debug\BOL.csprojAssemblyReference.cache
+C:\Users\User\Documents\GitHub\TryNumber105\webAPI-tasks\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\TryNumber105\webAPI-tasks\BOL\obj\Debug\BOL.dll
+C:\Users\User\Documents\GitHub\TryNumber105\webAPI-tasks\BOL\obj\Debug\BOL.pdb

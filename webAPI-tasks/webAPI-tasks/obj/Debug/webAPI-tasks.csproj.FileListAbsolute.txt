@@ -1186,3 +1186,7 @@ S:\ChavyBerman\try105\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.Co
 S:\ChavyBerman\try105\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CopyComplete
 S:\ChavyBerman\try105\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.dll
 S:\ChavyBerman\try105\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.pdb
+C:\Users\User\Documents\GitHub\TryNumber105\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csprojAssemblyReference.cache
+C:\Users\User\Documents\GitHub\TryNumber105\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\TryNumber105\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.dll
+C:\Users\User\Documents\GitHub\TryNumber105\webAPI-tasks\webAPI-tasks\obj\Debug\webAPI-tasks.pdb

@@ -24,7 +24,7 @@
     </div>
     <div class="form-item">
       <label for="statusId">Department</label>
-      <select formControlName="statusId" (change)="changeManager($event)">
+      <select formControlName="statusId" (change)="changeStatus($event)">
         <option *ngFor="let status of statusArray" [ngValue]="status.id">{{status.statusName}}</option>
       </select>
     </div>

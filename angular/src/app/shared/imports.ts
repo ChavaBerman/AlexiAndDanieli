@@ -30,7 +30,6 @@ export { AddProjectComponent } from '../components/add-project/add-project.compo
 export { SetPermissionComponent } from '../components/set-permission/set-permission.component';
 export { EditWorkerComponent } from '../components/edit-worker/edit-worker.component';
 export { ManageTeamComponent } from '../components/manage-team/manage-team.component';
-export { ManageReportsComponent } from '../components/manage-reports/manage-reports.component';
 export { ManagerHomeComponent } from '../components/manager-home/manager-home.component';
 export { TeamHeadComponent } from '../components/team-head/team-head.component';
 export { TeamHeadHomeComponent } from '../components/team-head-home/team-head-home.component';
@@ -48,8 +47,6 @@ export { MyHoursComponent } from '../components/my-hours/my-hours.component';
 export { BeginEndTaskComponent } from '../components/begin-end-task/begin-end-task.component';
 export { TaskDetailsForWorkerComponent } from '../components/task-details-for-worker/task-details-for-worker.component';
 export { ClockComponent } from '../components/clock/clock.component';
-export { ProjectReportComponent } from '../components/project-report/project-report.component';
-export { ProjectWorkersReportComponent } from '../components/project-workers-report/project-workers-report.component';
 export { ForgotPasswordComponent } from '../components/forgot-password/forgot-password.component';
 export { ChangePasswordComponent } from '../components/change-password/change-password.component';
 

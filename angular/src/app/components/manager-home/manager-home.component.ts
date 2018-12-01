@@ -7,7 +7,7 @@ import {Worker, WorkerService } from '../../shared/imports';
   templateUrl: './manager-home.component.html',
   styleUrls: ['./manager-home.component.css']
 })
-export class ManagerHomeComponent implements OnInit {
+export class ManagerHomeComponent {
   currentWorker:Worker;
   constructor(private workerService:WorkerService) { 
     this.workerService.currentWorkerSubject.subscribe(
@@ -16,8 +16,4 @@ export class ManagerHomeComponent implements OnInit {
       }
     );
   }
-
-  ngOnInit() {
-  }
-
 }

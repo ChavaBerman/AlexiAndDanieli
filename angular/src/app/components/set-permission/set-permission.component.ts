@@ -16,6 +16,7 @@ export class SetPermissionComponent implements OnInit {
   formGroup: FormGroup;
 
   constructor(private workerService: WorkerService, private projectService: ProjectService, private taskService: TaskService) {
+    //declare all controls in form:
     let formGroupConfig = {
       givenHours: new FormControl(""),
       idWorker: new FormControl(""),
@@ -25,13 +26,16 @@ export class SetPermissionComponent implements OnInit {
   }
 
   ngOnInit() {
+    //get all workers:
     this.workerService.getAllWorkers().subscribe((res) => {
       this.workers = res;
     });
+    //get all projects:
     this.projectService.getAllProjects().subscribe((res) => {
       this.projects = res;
     });
   }
+
   saveTask() {
     let newTask: Task = new Task();
     newTask = this.formGroup.value;
@@ -50,10 +54,8 @@ export class SetPermissionComponent implements OnInit {
         swal({
           type: 'error',
           title: 'Oops...',
-          text: 'This worker already exists in this project.' });
-
-
+          text: 'This worker already exists in this project.'
+        });
       })
   }
-
 }

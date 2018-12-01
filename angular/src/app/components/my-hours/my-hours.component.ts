@@ -7,6 +7,7 @@ import {  Worker, WorkerService, TaskService } from 'src/app/shared/imports';
   styleUrls: ['./my-hours.component.css']
 })
 export class MyHoursComponent implements OnInit {
+
   barChartOptions: any;
   barChartLabels: any;
   barChartType: any;
@@ -15,6 +16,7 @@ export class MyHoursComponent implements OnInit {
   reservingArray:any=[];
   givenArray:any=[];
   worker: Worker;
+
   constructor( private workerService: WorkerService,private taskService:TaskService) { }
 
   ngOnInit() {
@@ -30,18 +32,21 @@ export class MyHoursComponent implements OnInit {
       { data:[], label: 'reserving hours' },
       { data: [], label: 'given hours' }
     ];
+    //get current worker:
     this.worker = this.workerService.getCurrentWorker();
-    this.taskService.GetProectsDictionaryByWorkerId(this.worker.workerId).subscribe((res)=>{
+    //get projects dictionary (with reserving and givn hours):
+    this.taskService.getProectsDictionaryByWorkerId(this.worker.workerId).subscribe((res)=>{
+      //create the chart data:
       Object.keys(res).map(key => {
          this.barChartLabels.push(key);
          this.reservingArray.push(res[key]["reservingHours"]);
          this.givenArray.push(res[key]["givenHours"]);
-
         });
         this.barChartData[0]["data"]=this.reservingArray;
         this.barChartData[1]["data"]=this.givenArray;
     });
   }
+
   public chartClicked(e: any): void {
     console.log(e);
   }

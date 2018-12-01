@@ -225,3 +225,7 @@ S:\ChavyBerman\try105\webAPI-tasks\BLL\obj\Debug\BLL.pdb
 S:\ChavyBerman\try105\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
 S:\ChavyBerman\try105\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.ReportSource.dll
 S:\ChavyBerman\try105\webAPI-tasks\BLL\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\User\Documents\GitHub\TryNumber105\webAPI-tasks\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\User\Documents\GitHub\TryNumber105\webAPI-tasks\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\TryNumber105\webAPI-tasks\BLL\obj\Debug\BLL.dll
+C:\Users\User\Documents\GitHub\TryNumber105\webAPI-tasks\BLL\obj\Debug\BLL.pdb

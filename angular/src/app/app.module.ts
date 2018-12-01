@@ -19,7 +19,6 @@ import {
   AddProjectComponent,
   AddWorkerComponent,
   EditWorkerComponent,
-  ManageReportsComponent,
   ManageTeamComponent,
   SetPermissionComponent,
   ManagerHomeComponent,
@@ -43,8 +42,6 @@ import {
   PresentDayService,
   TaskDetailsForWorkerComponent,
   ClockComponent,
-  ProjectReportComponent,
-  ProjectWorkersReportComponent,
   ForgotPasswordComponent,
   ChangePasswordComponent
 } from './shared/imports';
@@ -66,7 +63,6 @@ import {
     SetPermissionComponent,
     EditWorkerComponent,
     ManageTeamComponent,
-    ManageReportsComponent,
     ManagerHomeComponent,
     TeamHeadComponent,
     TeamHeadHomeComponent,
@@ -84,8 +80,6 @@ import {
     BeginEndTaskComponent,
     TaskDetailsForWorkerComponent,
     ClockComponent,
-    ProjectReportComponent,
-    ProjectWorkersReportComponent,
     ForgotPasswordComponent,
     ChangePasswordComponent
     

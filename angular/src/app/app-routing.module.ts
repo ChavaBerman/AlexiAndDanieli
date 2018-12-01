@@ -5,7 +5,6 @@ import {
     ManagerComponent,
     AddWorkerComponent,
     ManageTeamComponent,
-    ManageReportsComponent,
     AddProjectComponent,
     EditWorkerComponent,
     SetPermissionComponent,

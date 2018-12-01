@@ -12,11 +12,13 @@ export class MyTasksComponent implements OnInit {
   worker:Worker;
 
   constructor(private taskService:TaskService,private workerService:WorkerService) { 
+    //get current worker
    this.worker= this.workerService.getCurrentWorker();
   }
 
   ngOnInit() {
-    this.taskService.GetTasksWithWorkerAndProjectByWorkerId(this.worker.workerId).subscribe((res)=>{
+    //get current worker's tasks:
+    this.taskService.getTasksWithWorkerAndProjectByWorkerId(this.worker.workerId).subscribe((res)=>{
       this.myTasks=res;
     })
   }

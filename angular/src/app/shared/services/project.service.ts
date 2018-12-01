@@ -8,35 +8,40 @@ import { Project } from '../imports';
 
 @Injectable()
 export class ProjectService {
- 
-    constructor(private http: HttpClient, private router: Router) {
-    }
 
-    projectIdSubject:Subject<number>=new Subject()
+    projectIdSubject: Subject<number> = new Subject()
     basicURL: string = Global.BASE_ENDPOINT;
 
-    addProject(project:Project): Observable<any> {
-        let url: string = `${this.basicURL}/Projects/AddProject`;
-        return this.http.post(url, project);
-    }
+    constructor(private http: HttpClient, private router: Router) { }
 
+    //GET
     getAllProjects(): Observable<any> {
         let url: string = `${this.basicURL}/Projects/GetAllProjects`;
         return this.http.get(url);
     }
-    getAllProjectsByTeamHead(teamHeadId:number): Observable<any> {
+
+    //GET
+    getAllProjectsByTeamHead(teamHeadId: number): Observable<any> {
         let url: string = `${this.basicURL}/Projects/GetAllProjectsByTeamHead/${teamHeadId}`;
         return this.http.get(url);
     }
-    
-    GetAllProjectsByWorker(workerId:number): Observable<any> {
+
+    //GET
+    getAllProjectsByWorker(workerId: number): Observable<any> {
         let url: string = `${this.basicURL}/Projects/GetAllProjectsByWorker/${workerId}`;
         return this.http.get(url);
     }
-    GetProjectState(projectId:number): Observable<any> {
+
+    //GET
+    getProjectState(projectId: number): Observable<any> {
         let url: string = `${this.basicURL}/Projects/GetProjectState/${projectId}`;
         return this.http.get(url);
     }
-    
+
+    //POST
+    addProject(project: Project): Observable<any> {
+        let url: string = `${this.basicURL}/Projects/AddProject`;
+        return this.http.post(url, project);
+    }
 
 }

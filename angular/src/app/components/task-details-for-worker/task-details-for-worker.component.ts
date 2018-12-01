@@ -6,12 +6,11 @@ import { Task } from 'src/app/shared/imports';
   templateUrl: './task-details-for-worker.component.html',
   styleUrls: ['./task-details-for-worker.component.css']
 })
-export class TaskDetailsForWorkerComponent implements OnInit {
+export class TaskDetailsForWorkerComponent  {
+
   @Input()
   task:Task;
+  
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }
